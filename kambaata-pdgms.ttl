@@ -1,151 +1,22 @@
-
 #TTL FROM INPUT FILE:
-# ../aama-data/data/kambaata//kambaata-pdgms.edn
+#../aama-data/data/kambaata/kambaata-pdgms.edn
+
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc:    <http://purl.org/dc/elements>.
+@prefix dcterms:    <http://purl.org/dc/terms>.
 @prefix aama:	 <http://id.oi.uchicago.edu/aama/2013/> .
 @prefix aamas:	 <http://id.oi.uchicago.edu/aama/2013/schema/> .
 @prefix kam:   <http://id.oi.uchicago.edu/aama/2013/kambaata/> .
 
-#SCHEMATA:
+#LANG INFO:
 
 aama:Kambaata a aamas:Language .
 aama:Kambaata rdfs:label "Kambaata" .
+aama:Kambaata aamas:dataSource "SimM1985" .
+aama:Kambaata aamas:geodemoURL "http://www.ethnologue.com/language/ktb" .
+aama:Kambaata aamas:geodemoTXT "Varieties and subdialects of Kambaata are spoken in " .
 
-#SCHEMATA: gender
-kam:gender aamas:lang aama:Kambaata .
-kam:Gender aamas:lang aama:Kambaata .
-kam:gender rdfs:domain aamas:Term .
-kam:Gender rdfs:label "gender exponents" .
-kam:gender rdfs:label "gender" .
-kam:gender rdfs:range kam:Gender .
-kam:Gender rdfs:subClassOf kam:MuExponent .
-kam:gender rdfs:subPropertyOf kam:muProperty .
-kam:Common aamas:lang aama:Kambaata .
-kam:Common rdf:type kam:Gender .
-kam:Common rdfs:label "Common".
-kam:Fem aamas:lang aama:Kambaata .
-kam:Fem rdf:type kam:Gender .
-kam:Fem rdfs:label "Fem".
-kam:Masc aamas:lang aama:Kambaata .
-kam:Masc rdf:type kam:Gender .
-kam:Masc rdfs:label "Masc".
-kam:Polite aamas:lang aama:Kambaata .
-kam:Polite rdf:type kam:Gender .
-kam:Polite rdfs:label "Polite".
-
-#SCHEMATA: interrogClass
-kam:interrogClass aamas:lang aama:Kambaata .
-kam:Interrogclass aamas:lang aama:Kambaata .
-kam:interrogClass rdfs:domain aamas:Term .
-kam:Interrogclass rdfs:label "interrogClass exponents" .
-kam:interrogClass rdfs:label "interrogClass" .
-kam:interrogClass rdfs:range kam:Interrogclass .
-kam:Interrogclass rdfs:subClassOf kam:MuExponent .
-kam:interrogClass rdfs:subPropertyOf kam:muProperty .
-kam:InterrogProHow aamas:lang aama:Kambaata .
-kam:InterrogProHow rdf:type kam:Interrogclass .
-kam:InterrogProHow rdfs:label "InterrogProHow".
-kam:InterrogProHowMany aamas:lang aama:Kambaata .
-kam:InterrogProHowMany rdf:type kam:Interrogclass .
-kam:InterrogProHowMany rdfs:label "InterrogProHowMany".
-kam:InterrogProWhat aamas:lang aama:Kambaata .
-kam:InterrogProWhat rdf:type kam:Interrogclass .
-kam:InterrogProWhat rdfs:label "InterrogProWhat".
-kam:InterrogProWhen aamas:lang aama:Kambaata .
-kam:InterrogProWhen rdf:type kam:Interrogclass .
-kam:InterrogProWhen rdfs:label "InterrogProWhen".
-kam:InterrogProWhere aamas:lang aama:Kambaata .
-kam:InterrogProWhere rdf:type kam:Interrogclass .
-kam:InterrogProWhere rdfs:label "InterrogProWhere".
-kam:InterrogProWho aamas:lang aama:Kambaata .
-kam:InterrogProWho rdf:type kam:Interrogclass .
-kam:InterrogProWho rdfs:label "InterrogProWho".
-
-#SCHEMATA: class
-kam:class aamas:lang aama:Kambaata .
-kam:Class aamas:lang aama:Kambaata .
-kam:class rdfs:domain aamas:Term .
-kam:Class rdfs:label "class exponents" .
-kam:class rdfs:label "class" .
-kam:class rdfs:range kam:Class .
-kam:Class rdfs:subClassOf kam:MuExponent .
-kam:class rdfs:subPropertyOf kam:muProperty .
-kam:Benefactive aamas:lang aama:Kambaata .
-kam:Benefactive rdf:type kam:Class .
-kam:Benefactive rdfs:label "Benefactive".
-kam:Causative1 aamas:lang aama:Kambaata .
-kam:Causative1 rdf:type kam:Class .
-kam:Causative1 rdfs:label "Causative1".
-kam:Causative2 aamas:lang aama:Kambaata .
-kam:Causative2 rdf:type kam:Class .
-kam:Causative2 rdfs:label "Causative2".
-kam:Combination aamas:lang aama:Kambaata .
-kam:Combination rdf:type kam:Class .
-kam:Combination rdfs:label "Combination".
-kam:Passive aamas:lang aama:Kambaata .
-kam:Passive rdf:type kam:Class .
-kam:Passive rdfs:label "Passive".
-kam:Reduplicated aamas:lang aama:Kambaata .
-kam:Reduplicated rdf:type kam:Class .
-kam:Reduplicated rdfs:label "Reduplicated".
-
-#SCHEMATA: polarity
-kam:polarity aamas:lang aama:Kambaata .
-kam:Polarity aamas:lang aama:Kambaata .
-kam:polarity rdfs:domain aamas:Term .
-kam:Polarity rdfs:label "polarity exponents" .
-kam:polarity rdfs:label "polarity" .
-kam:polarity rdfs:range kam:Polarity .
-kam:Polarity rdfs:subClassOf kam:MuExponent .
-kam:polarity rdfs:subPropertyOf kam:muProperty .
-kam:Aff aamas:lang aama:Kambaata .
-kam:Aff rdf:type kam:Polarity .
-kam:Aff rdfs:label "Aff".
-kam:Affirmative aamas:lang aama:Kambaata .
-kam:Affirmative rdf:type kam:Polarity .
-kam:Affirmative rdfs:label "Affirmative".
-kam:Neg aamas:lang aama:Kambaata .
-kam:Neg rdf:type kam:Polarity .
-kam:Neg rdfs:label "Neg".
-kam:Negative aamas:lang aama:Kambaata .
-kam:Negative rdf:type kam:Polarity .
-kam:Negative rdfs:label "Negative".
-
-#SCHEMATA: case
-kam:case aamas:lang aama:Kambaata .
-kam:Case aamas:lang aama:Kambaata .
-kam:case rdfs:domain aamas:Term .
-kam:Case rdfs:label "case exponents" .
-kam:case rdfs:label "case" .
-kam:case rdfs:range kam:Case .
-kam:Case rdfs:subClassOf kam:MuExponent .
-kam:case rdfs:subPropertyOf kam:muProperty .
-kam:Accusative aamas:lang aama:Kambaata .
-kam:Accusative rdf:type kam:Case .
-kam:Accusative rdfs:label "Accusative".
-kam:Nominative aamas:lang aama:Kambaata .
-kam:Nominative rdf:type kam:Case .
-kam:Nominative rdfs:label "Nominative".
-kam:Possessive aamas:lang aama:Kambaata .
-kam:Possessive rdf:type kam:Case .
-kam:Possessive rdfs:label "Possessive".
-
-#SCHEMATA: pos
-kam:pos aamas:lang aama:Kambaata .
-kam:Pos aamas:lang aama:Kambaata .
-kam:pos rdfs:domain aamas:Term .
-kam:Pos rdfs:label "pos exponents" .
-kam:pos rdfs:label "pos" .
-kam:pos rdfs:range kam:Pos .
-kam:Pos rdfs:subClassOf kam:MuExponent .
-kam:pos rdfs:subPropertyOf kam:muProperty .
-kam:Pronoun aamas:lang aama:Kambaata .
-kam:Pronoun rdf:type kam:Pos .
-kam:Pronoun rdfs:label "Pronoun".
-kam:Verb aamas:lang aama:Kambaata .
-kam:Verb rdf:type kam:Pos .
-kam:Verb rdfs:label "Verb".
 
 #SCHEMATA: person
 kam:person aamas:lang aama:Kambaata .
@@ -158,94 +29,13 @@ kam:Person rdfs:subClassOf kam:MuExponent .
 kam:person rdfs:subPropertyOf kam:muProperty .
 kam:Person1 aamas:lang aama:Kambaata .
 kam:Person1 rdf:type kam:Person .
-kam:Person1 rdfs:label "Person1".
+kam:Person1 rdfs:label "Person1" .
 kam:Person2 aamas:lang aama:Kambaata .
 kam:Person2 rdf:type kam:Person .
-kam:Person2 rdfs:label "Person2".
+kam:Person2 rdfs:label "Person2" .
 kam:Person3 aamas:lang aama:Kambaata .
 kam:Person3 rdf:type kam:Person .
-kam:Person3 rdfs:label "Person3".
-
-#SCHEMATA: morphClass
-kam:morphClass aamas:lang aama:Kambaata .
-kam:Morphclass aamas:lang aama:Kambaata .
-kam:morphClass rdfs:domain aamas:Term .
-kam:Morphclass rdfs:label "morphClass exponents" .
-kam:morphClass rdfs:label "morphClass" .
-kam:morphClass rdfs:range kam:Morphclass .
-kam:Morphclass rdfs:subClassOf kam:MuExponent .
-kam:morphClass rdfs:subPropertyOf kam:muProperty .
-kam:DervStem aamas:lang aama:Kambaata .
-kam:DervStem rdf:type kam:Morphclass .
-kam:DervStem rdfs:label "DervStem".
-kam:SubjMarkerTemplates aamas:lang aama:Kambaata .
-kam:SubjMarkerTemplates rdf:type kam:Morphclass .
-kam:SubjMarkerTemplates rdfs:label "SubjMarkerTemplates".
-
-#SCHEMATA: proClass
-kam:proClass aamas:lang aama:Kambaata .
-kam:Proclass aamas:lang aama:Kambaata .
-kam:proClass rdfs:domain aamas:Term .
-kam:Proclass rdfs:label "proClass exponents" .
-kam:proClass rdfs:label "proClass" .
-kam:proClass rdfs:range kam:Proclass .
-kam:Proclass rdfs:subClassOf kam:MuExponent .
-kam:proClass rdfs:subPropertyOf kam:muProperty .
-kam:Demonstrative aamas:lang aama:Kambaata .
-kam:Demonstrative rdf:type kam:Proclass .
-kam:Demonstrative rdfs:label "Demonstrative".
-kam:Independent aamas:lang aama:Kambaata .
-kam:Independent rdf:type kam:Proclass .
-kam:Independent rdfs:label "Independent".
-kam:Interrogative aamas:lang aama:Kambaata .
-kam:Interrogative rdf:type kam:Proclass .
-kam:Interrogative rdfs:label "Interrogative".
-kam:Suffix aamas:lang aama:Kambaata .
-kam:Suffix rdf:type kam:Proclass .
-kam:Suffix rdfs:label "Suffix".
-
-#SCHEMATA: tam
-kam:tam aamas:lang aama:Kambaata .
-kam:Tam aamas:lang aama:Kambaata .
-kam:tam rdfs:domain aamas:Term .
-kam:Tam rdfs:label "tam exponents" .
-kam:tam rdfs:label "tam" .
-kam:tam rdfs:range kam:Tam .
-kam:Tam rdfs:subClassOf kam:MuExponent .
-kam:tam rdfs:subPropertyOf kam:muProperty .
-kam:Imperfect aamas:lang aama:Kambaata .
-kam:Imperfect rdf:type kam:Tam .
-kam:Imperfect rdfs:label "Imperfect".
-kam:Imprtv aamas:lang aama:Kambaata .
-kam:Imprtv rdf:type kam:Tam .
-kam:Imprtv rdfs:label "Imprtv".
-kam:Jussive aamas:lang aama:Kambaata .
-kam:Jussive rdf:type kam:Tam .
-kam:Jussive rdfs:label "Jussive".
-kam:PastProg aamas:lang aama:Kambaata .
-kam:PastProg rdf:type kam:Tam .
-kam:PastProg rdfs:label "PastProg".
-kam:PastProgressive aamas:lang aama:Kambaata .
-kam:PastProgressive rdf:type kam:Tam .
-kam:PastProgressive rdfs:label "PastProgressive".
-kam:PresPerf aamas:lang aama:Kambaata .
-kam:PresPerf rdf:type kam:Tam .
-kam:PresPerf rdfs:label "PresPerf".
-kam:PresProg aamas:lang aama:Kambaata .
-kam:PresProg rdf:type kam:Tam .
-kam:PresProg rdfs:label "PresProg".
-kam:PresentPerfect aamas:lang aama:Kambaata .
-kam:PresentPerfect rdf:type kam:Tam .
-kam:PresentPerfect rdfs:label "PresentPerfect".
-kam:PresentProgressive aamas:lang aama:Kambaata .
-kam:PresentProgressive rdf:type kam:Tam .
-kam:PresentProgressive rdfs:label "PresentProgressive".
-kam:SimplePerf aamas:lang aama:Kambaata .
-kam:SimplePerf rdf:type kam:Tam .
-kam:SimplePerf rdfs:label "SimplePerf".
-kam:SimplePerfect aamas:lang aama:Kambaata .
-kam:SimplePerfect rdf:type kam:Tam .
-kam:SimplePerfect rdfs:label "SimplePerfect".
+kam:Person3 rdfs:label "Person3" .
 
 #SCHEMATA: number
 kam:number aamas:lang aama:Kambaata .
@@ -258,10 +48,226 @@ kam:Number rdfs:subClassOf kam:MuExponent .
 kam:number rdfs:subPropertyOf kam:muProperty .
 kam:Plural aamas:lang aama:Kambaata .
 kam:Plural rdf:type kam:Number .
-kam:Plural rdfs:label "Plural".
+kam:Plural rdfs:label "Plural" .
 kam:Singular aamas:lang aama:Kambaata .
 kam:Singular rdf:type kam:Number .
-kam:Singular rdfs:label "Singular".
+kam:Singular rdfs:label "Singular" .
+
+#SCHEMATA: interrogClass
+kam:interrogClass aamas:lang aama:Kambaata .
+kam:Interrogclass aamas:lang aama:Kambaata .
+kam:interrogClass rdfs:domain aamas:Term .
+kam:Interrogclass rdfs:label "interrogClass exponents" .
+kam:interrogClass rdfs:label "interrogClass" .
+kam:interrogClass rdfs:range kam:Interrogclass .
+kam:Interrogclass rdfs:subClassOf kam:MuExponent .
+kam:interrogClass rdfs:subPropertyOf kam:muProperty .
+kam:InterrogProHow aamas:lang aama:Kambaata .
+kam:InterrogProHow rdf:type kam:Interrogclass .
+kam:InterrogProHow rdfs:label "InterrogProHow" .
+kam:InterrogProHowMany aamas:lang aama:Kambaata .
+kam:InterrogProHowMany rdf:type kam:Interrogclass .
+kam:InterrogProHowMany rdfs:label "InterrogProHowMany" .
+kam:InterrogProWhat aamas:lang aama:Kambaata .
+kam:InterrogProWhat rdf:type kam:Interrogclass .
+kam:InterrogProWhat rdfs:label "InterrogProWhat" .
+kam:InterrogProWhen aamas:lang aama:Kambaata .
+kam:InterrogProWhen rdf:type kam:Interrogclass .
+kam:InterrogProWhen rdfs:label "InterrogProWhen" .
+kam:InterrogProWhere aamas:lang aama:Kambaata .
+kam:InterrogProWhere rdf:type kam:Interrogclass .
+kam:InterrogProWhere rdfs:label "InterrogProWhere" .
+kam:InterrogProWho aamas:lang aama:Kambaata .
+kam:InterrogProWho rdf:type kam:Interrogclass .
+kam:InterrogProWho rdfs:label "InterrogProWho" .
+
+#SCHEMATA: pos
+kam:pos aamas:lang aama:Kambaata .
+kam:Pos aamas:lang aama:Kambaata .
+kam:pos rdfs:domain aamas:Term .
+kam:Pos rdfs:label "pos exponents" .
+kam:pos rdfs:label "pos" .
+kam:pos rdfs:range kam:Pos .
+kam:Pos rdfs:subClassOf kam:MuExponent .
+kam:pos rdfs:subPropertyOf kam:muProperty .
+kam:Pronoun aamas:lang aama:Kambaata .
+kam:Pronoun rdf:type kam:Pos .
+kam:Pronoun rdfs:label "Pronoun" .
+kam:Verb aamas:lang aama:Kambaata .
+kam:Verb rdf:type kam:Pos .
+kam:Verb rdfs:label "Verb" .
+
+#SCHEMATA: proClass
+kam:proClass aamas:lang aama:Kambaata .
+kam:Proclass aamas:lang aama:Kambaata .
+kam:proClass rdfs:domain aamas:Term .
+kam:Proclass rdfs:label "proClass exponents" .
+kam:proClass rdfs:label "proClass" .
+kam:proClass rdfs:range kam:Proclass .
+kam:Proclass rdfs:subClassOf kam:MuExponent .
+kam:proClass rdfs:subPropertyOf kam:muProperty .
+kam:Demonstrative aamas:lang aama:Kambaata .
+kam:Demonstrative rdf:type kam:Proclass .
+kam:Demonstrative rdfs:label "Demonstrative" .
+kam:Independent aamas:lang aama:Kambaata .
+kam:Independent rdf:type kam:Proclass .
+kam:Independent rdfs:label "Independent" .
+kam:Interrogative aamas:lang aama:Kambaata .
+kam:Interrogative rdf:type kam:Proclass .
+kam:Interrogative rdfs:label "Interrogative" .
+kam:Suffix aamas:lang aama:Kambaata .
+kam:Suffix rdf:type kam:Proclass .
+kam:Suffix rdfs:label "Suffix" .
+
+#SCHEMATA: case
+kam:case aamas:lang aama:Kambaata .
+kam:Case aamas:lang aama:Kambaata .
+kam:case rdfs:domain aamas:Term .
+kam:Case rdfs:label "case exponents" .
+kam:case rdfs:label "case" .
+kam:case rdfs:range kam:Case .
+kam:Case rdfs:subClassOf kam:MuExponent .
+kam:case rdfs:subPropertyOf kam:muProperty .
+kam:Accusative aamas:lang aama:Kambaata .
+kam:Accusative rdf:type kam:Case .
+kam:Accusative rdfs:label "Accusative" .
+kam:Nominative aamas:lang aama:Kambaata .
+kam:Nominative rdf:type kam:Case .
+kam:Nominative rdfs:label "Nominative" .
+kam:Possessive aamas:lang aama:Kambaata .
+kam:Possessive rdf:type kam:Case .
+kam:Possessive rdfs:label "Possessive" .
+
+#SCHEMATA: class
+kam:class aamas:lang aama:Kambaata .
+kam:Class aamas:lang aama:Kambaata .
+kam:class rdfs:domain aamas:Term .
+kam:Class rdfs:label "class exponents" .
+kam:class rdfs:label "class" .
+kam:class rdfs:range kam:Class .
+kam:Class rdfs:subClassOf kam:MuExponent .
+kam:class rdfs:subPropertyOf kam:muProperty .
+kam:Benefactive aamas:lang aama:Kambaata .
+kam:Benefactive rdf:type kam:Class .
+kam:Benefactive rdfs:label "Benefactive" .
+kam:Causative1 aamas:lang aama:Kambaata .
+kam:Causative1 rdf:type kam:Class .
+kam:Causative1 rdfs:label "Causative1" .
+kam:Causative2 aamas:lang aama:Kambaata .
+kam:Causative2 rdf:type kam:Class .
+kam:Causative2 rdfs:label "Causative2" .
+kam:Combination aamas:lang aama:Kambaata .
+kam:Combination rdf:type kam:Class .
+kam:Combination rdfs:label "Combination" .
+kam:Passive aamas:lang aama:Kambaata .
+kam:Passive rdf:type kam:Class .
+kam:Passive rdfs:label "Passive" .
+kam:Reduplicated aamas:lang aama:Kambaata .
+kam:Reduplicated rdf:type kam:Class .
+kam:Reduplicated rdfs:label "Reduplicated" .
+
+#SCHEMATA: morphClass
+kam:morphClass aamas:lang aama:Kambaata .
+kam:Morphclass aamas:lang aama:Kambaata .
+kam:morphClass rdfs:domain aamas:Term .
+kam:Morphclass rdfs:label "morphClass exponents" .
+kam:morphClass rdfs:label "morphClass" .
+kam:morphClass rdfs:range kam:Morphclass .
+kam:Morphclass rdfs:subClassOf kam:MuExponent .
+kam:morphClass rdfs:subPropertyOf kam:muProperty .
+kam:DervStem aamas:lang aama:Kambaata .
+kam:DervStem rdf:type kam:Morphclass .
+kam:DervStem rdfs:label "DervStem" .
+kam:SubjMarkerTemplates aamas:lang aama:Kambaata .
+kam:SubjMarkerTemplates rdf:type kam:Morphclass .
+kam:SubjMarkerTemplates rdfs:label "SubjMarkerTemplates" .
+
+#SCHEMATA: polarity
+kam:polarity aamas:lang aama:Kambaata .
+kam:Polarity aamas:lang aama:Kambaata .
+kam:polarity rdfs:domain aamas:Term .
+kam:Polarity rdfs:label "polarity exponents" .
+kam:polarity rdfs:label "polarity" .
+kam:polarity rdfs:range kam:Polarity .
+kam:Polarity rdfs:subClassOf kam:MuExponent .
+kam:polarity rdfs:subPropertyOf kam:muProperty .
+kam:Aff aamas:lang aama:Kambaata .
+kam:Aff rdf:type kam:Polarity .
+kam:Aff rdfs:label "Aff" .
+kam:Affirmative aamas:lang aama:Kambaata .
+kam:Affirmative rdf:type kam:Polarity .
+kam:Affirmative rdfs:label "Affirmative" .
+kam:Neg aamas:lang aama:Kambaata .
+kam:Neg rdf:type kam:Polarity .
+kam:Neg rdfs:label "Neg" .
+kam:Negative aamas:lang aama:Kambaata .
+kam:Negative rdf:type kam:Polarity .
+kam:Negative rdfs:label "Negative" .
+
+#SCHEMATA: tam
+kam:tam aamas:lang aama:Kambaata .
+kam:Tam aamas:lang aama:Kambaata .
+kam:tam rdfs:domain aamas:Term .
+kam:Tam rdfs:label "tam exponents" .
+kam:tam rdfs:label "tam" .
+kam:tam rdfs:range kam:Tam .
+kam:Tam rdfs:subClassOf kam:MuExponent .
+kam:tam rdfs:subPropertyOf kam:muProperty .
+kam:Imperfect aamas:lang aama:Kambaata .
+kam:Imperfect rdf:type kam:Tam .
+kam:Imperfect rdfs:label "Imperfect" .
+kam:Imprtv aamas:lang aama:Kambaata .
+kam:Imprtv rdf:type kam:Tam .
+kam:Imprtv rdfs:label "Imprtv" .
+kam:Jussive aamas:lang aama:Kambaata .
+kam:Jussive rdf:type kam:Tam .
+kam:Jussive rdfs:label "Jussive" .
+kam:PastProg aamas:lang aama:Kambaata .
+kam:PastProg rdf:type kam:Tam .
+kam:PastProg rdfs:label "PastProg" .
+kam:PastProgressive aamas:lang aama:Kambaata .
+kam:PastProgressive rdf:type kam:Tam .
+kam:PastProgressive rdfs:label "PastProgressive" .
+kam:PresPerf aamas:lang aama:Kambaata .
+kam:PresPerf rdf:type kam:Tam .
+kam:PresPerf rdfs:label "PresPerf" .
+kam:PresProg aamas:lang aama:Kambaata .
+kam:PresProg rdf:type kam:Tam .
+kam:PresProg rdfs:label "PresProg" .
+kam:PresentPerfect aamas:lang aama:Kambaata .
+kam:PresentPerfect rdf:type kam:Tam .
+kam:PresentPerfect rdfs:label "PresentPerfect" .
+kam:PresentProgressive aamas:lang aama:Kambaata .
+kam:PresentProgressive rdf:type kam:Tam .
+kam:PresentProgressive rdfs:label "PresentProgressive" .
+kam:SimplePerf aamas:lang aama:Kambaata .
+kam:SimplePerf rdf:type kam:Tam .
+kam:SimplePerf rdfs:label "SimplePerf" .
+kam:SimplePerfect aamas:lang aama:Kambaata .
+kam:SimplePerfect rdf:type kam:Tam .
+kam:SimplePerfect rdfs:label "SimplePerfect" .
+
+#SCHEMATA: gender
+kam:gender aamas:lang aama:Kambaata .
+kam:Gender aamas:lang aama:Kambaata .
+kam:gender rdfs:domain aamas:Term .
+kam:Gender rdfs:label "gender exponents" .
+kam:gender rdfs:label "gender" .
+kam:gender rdfs:range kam:Gender .
+kam:Gender rdfs:subClassOf kam:MuExponent .
+kam:gender rdfs:subPropertyOf kam:muProperty .
+kam:Common aamas:lang aama:Kambaata .
+kam:Common rdf:type kam:Gender .
+kam:Common rdfs:label "Common" .
+kam:Fem aamas:lang aama:Kambaata .
+kam:Fem rdf:type kam:Gender .
+kam:Fem rdfs:label "Fem" .
+kam:Masc aamas:lang aama:Kambaata .
+kam:Masc rdf:type kam:Gender .
+kam:Masc rdfs:label "Masc" .
+kam:Polite aamas:lang aama:Kambaata .
+kam:Polite rdf:type kam:Gender .
+kam:Polite rdfs:label "Polite" .
 
 #SCHEMATA: deixis
 kam:deixis aamas:lang aama:Kambaata .
@@ -274,38 +280,41 @@ kam:Deixis rdfs:subClassOf kam:MuExponent .
 kam:deixis rdfs:subPropertyOf kam:muProperty .
 kam:Far aamas:lang aama:Kambaata .
 kam:Far rdf:type kam:Deixis .
-kam:Far rdfs:label "Far".
+kam:Far rdfs:label "Far" .
 kam:Near aamas:lang aama:Kambaata .
 kam:Near rdf:type kam:Deixis .
-kam:Near rdfs:label "Near".
+kam:Near rdfs:label "Near" .
+
+#PCLASSES:
+
 
 #MORPHEMES:
 
-aama:Kambaata-DERVSTEM a aamas:Morpheme ;
+aama:Kambaata-DERVSTEM a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	rdfs:label "DERVSTEM" ;
 	rdfs:comment "[x]" ;
 	rdfs:comment "[y]" ;
 	.
-aama:Kambaata-PRODEM a aamas:Morpheme ;
+aama:Kambaata-PRODEM a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	rdfs:label "PRODEM" ;
 	rdfs:comment "[x]" ;
 	rdfs:comment "[y]" ;
 	.
-aama:Kambaata-PROIND a aamas:Morpheme ;
+aama:Kambaata-PROIND a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	rdfs:label "PROIND" ;
 	rdfs:comment "[x]" ;
 	rdfs:comment "[y]" ;
 	.
-aama:Kambaata-PROINTERROG a aamas:Morpheme ;
+aama:Kambaata-PROINTERROG a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	rdfs:label "PROINTERROG" ;
 	rdfs:comment "[x]" ;
 	rdfs:comment "[y]" ;
 	.
-aama:Kambaata-SUBJMARKERTEMPLATES a aamas:Morpheme ;
+aama:Kambaata-SUBJMARKERTEMPLATES a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	rdfs:label "SUBJMARKERTEMPLATES" ;
 	rdfs:comment "[x]" ;
@@ -313,7 +322,6 @@ aama:Kambaata-SUBJMARKERTEMPLATES a aamas:Morpheme ;
 	.
 
 #LEXEMES:
-
 aama:Kambaata-mar a aamas:Lexeme ;
 	aamas:lang aama:Kambaata ;
 	rdfs:label "mar" ;
@@ -321,159 +329,49 @@ aama:Kambaata-mar a aamas:Lexeme ;
 	aamas:gloss "go" ;
 	.
 
-#TERMCLUSTER: kambaata-VAffPresProg-mar
+#TERMCLUSTER:  kambaata-VNegImprtv-mar
 
-aama:ID250626c1-c746-4228-9043-c8e4593828d0 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentProgressive ;
-	kam:token "marayommi" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
+kam:kambaata-VNegImprtv-mar a aamas:Termcluster ;
+	rdfs:label "kambaata-VNegImprtv-mar" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
 	.
-aama:ID9927cf0f-ddd9-48b5-b372-11ca570b0fc0 a aamas:Term ;
+
+aama:IDef727537-1fb5-4e25-9c25-203f7066c54b a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VNegImprtv-mar ;
+	kam:gender kam:Common ;
 	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentProgressive ;
-	kam:token "martayonti" ;
 	kam:person kam:Person2 ;
+	kam:polarity kam:Negative ;
+	kam:pos kam:Verb ;
+	kam:token "martota" ;
 	kam:number kam:Singular ;
+	.
+
+aama:IDeb7c75f8-c46c-4fd2-ade7-b83676c5f81e a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VNegImprtv-mar ;
 	kam:gender kam:Common ;
-	.
-aama:ID795457d7-fabd-4867-9ba7-a2ce820f17d6 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
 	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentProgressive ;
-	kam:token "marayo’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	.
-aama:IDddf43e5e-6513-418c-a21e-5873a0adf464 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentProgressive ;
-	kam:token "martayo’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	.
-aama:ID29c1ee8f-378b-4511-b056-bf2e0b00e303 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentProgressive ;
-	kam:token "mareenayomma" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Polite ;
-	.
-aama:IDf29f0351-9828-41bf-a27b-37c0fdd11e2f a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentProgressive ;
-	kam:token "mannayomini" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:ID1f33ae6b-d71b-44d9-b8cf-10124700f8b9 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentProgressive ;
-	kam:token "martenayonta" ;
 	kam:person kam:Person2 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:ID9d2989c5-5c73-4c43-8bc1-c267cb1e618d a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
+	kam:polarity kam:Negative ;
 	kam:pos kam:Verb ;
-	kam:tam kam:PresentProgressive ;
-	kam:token "martayo’i" ;
-	kam:person kam:Person3 ;
+	kam:token "marteenoc(iy)e" ;
 	kam:number kam:Plural ;
-	kam:gender kam:Common ;
 	.
 
-#TERMCLUSTER: kambaata-VAffJussiveMar-
+#TERMCLUSTER:  kambaata-VAffSimplePerfMar-
 
-aama:IDc5d05391-8e6b-4f9a-9665-c77c09f8e7d1 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Jussive ;
-	kam:token "maro" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:IDd4436429-5d69-4434-8c22-1f785bdfbe7b a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Jussive ;
-	kam:token "maroni" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	.
-aama:IDff4a7534-853b-4ca2-8405-7acf085ba2f1 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Jussive ;
-	kam:token "martuni" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	.
-aama:ID329f9023-a678-4bda-a42e-3a56f2d1924b a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Jussive ;
-	kam:token "mannun / manno" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:IDdec5c64e-cc3e-4119-a44f-397ecbc3c929 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Jussive ;
-	kam:token "martuni" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
+kam:kambaata-VAffSimplePerfMar- a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffSimplePerfMar-" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
 	.
 
-#TERMCLUSTER: kambaata-VAffSimplePerfMar-
-
-aama:ID5be3f710-6648-4b5d-ada5-a0972255fefe a aamas:Term ;
+aama:IDf309a017-8aca-4eef-a2e4-fff77ac235f4 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
 	kam:polarity kam:Aff ;
 	kam:pos kam:Verb ;
@@ -483,8 +381,10 @@ aama:ID5be3f710-6648-4b5d-ada5-a0972255fefe a aamas:Term ;
 	kam:number kam:Singular ;
 	kam:gender kam:Common ;
 	.
-aama:ID41aca597-4cce-4c6a-b786-bcc046198197 a aamas:Term ;
+
+aama:IDa97c4b7d-39f0-400e-9792-90af16760f5f a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
 	kam:polarity kam:Aff ;
 	kam:pos kam:Verb ;
@@ -494,8 +394,10 @@ aama:ID41aca597-4cce-4c6a-b786-bcc046198197 a aamas:Term ;
 	kam:number kam:Singular ;
 	kam:gender kam:Common ;
 	.
-aama:IDb0b8514c-e528-4f7e-9287-7cdad41adb8d a aamas:Term ;
+
+aama:IDe407cb1f-8cf9-4dd3-a54c-384fad4c7dc4 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
 	kam:polarity kam:Aff ;
 	kam:pos kam:Verb ;
@@ -505,8 +407,10 @@ aama:IDb0b8514c-e528-4f7e-9287-7cdad41adb8d a aamas:Term ;
 	kam:number kam:Singular ;
 	kam:gender kam:Masc ;
 	.
-aama:IDb10d59f4-3891-4ab6-ad6b-72e24dea52aa a aamas:Term ;
+
+aama:IDd0d2a008-a318-472d-b916-9800e18d7b12 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
 	kam:polarity kam:Aff ;
 	kam:pos kam:Verb ;
@@ -516,8 +420,10 @@ aama:IDb10d59f4-3891-4ab6-ad6b-72e24dea52aa a aamas:Term ;
 	kam:number kam:Singular ;
 	kam:gender kam:Fem ;
 	.
-aama:IDe25f5e8e-501d-4768-afaa-24fd1d719ce5 a aamas:Term ;
+
+aama:ID18eff90c-737d-4aa4-9fb7-ab78fa66f244 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
 	kam:polarity kam:Aff ;
 	kam:pos kam:Verb ;
@@ -527,8 +433,10 @@ aama:IDe25f5e8e-501d-4768-afaa-24fd1d719ce5 a aamas:Term ;
 	kam:number kam:Plural ;
 	kam:gender kam:Common ;
 	.
-aama:ID39201269-3df0-4bc1-9047-197983f0b780 a aamas:Term ;
+
+aama:ID9da29849-8757-4283-817a-567fe47bb412 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
 	kam:polarity kam:Aff ;
 	kam:pos kam:Verb ;
@@ -538,8 +446,10 @@ aama:ID39201269-3df0-4bc1-9047-197983f0b780 a aamas:Term ;
 	kam:number kam:Plural ;
 	kam:gender kam:Common ;
 	.
-aama:ID2171c332-9d31-426d-9546-4532c4d47628 a aamas:Term ;
+
+aama:IDa155efe5-bf56-4d5c-b27e-797d399f9015 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
 	kam:polarity kam:Aff ;
 	kam:pos kam:Verb ;
@@ -550,10 +460,1073 @@ aama:ID2171c332-9d31-426d-9546-4532c4d47628 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-#TERMCLUSTER: kambaata-VAffImprtvMar-
+#TERMCLUSTER:  kambaata-VAffImprtv-mar
 
-aama:ID5ca7d74b-851a-4a1f-9e9f-2099981ca6e9 a aamas:Term ;
+kam:kambaata-VAffImprtv-mar a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffImprtv-mar" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
+	.
+
+aama:ID8588de78-8bf6-4951-be9c-0dd354407c99 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImprtv-mar ;
+	kam:gender kam:Common ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:person kam:Person2 ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "mari" ;
+	kam:number kam:Singular ;
+	.
+
+aama:ID84543fce-bb01-424b-80e4-ba03ca1f3672 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImprtv-mar ;
+	kam:gender kam:Common ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:person kam:Person2 ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "marre" ;
+	kam:number kam:Plural ;
+	.
+
+#TERMCLUSTER:  kambaata-VAffJussive-mar
+
+kam:kambaata-VAffJussive-mar a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffJussive-mar" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
+	.
+
+aama:ID2966d196-56b8-4550-a52e-a5507e601165 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffJussive-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "maro" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID473bf493-20d3-4c4e-8a5a-0be2010cd0cc a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffJussive-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "maroni" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	.
+
+aama:IDb17e571c-a6a0-475d-8e91-a522db53f339 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffJussive-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "martuni" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	.
+
+aama:IDa6b49e25-bb73-47ef-8aba-44cc1e40444b a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffJussive-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "mannun / manno" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID27d748a4-43b4-48e3-9fbb-4913919f68dd a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffJussive-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "martuni" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+#TERMCLUSTER:  kambaata-VAffJussiveMar-
+
+kam:kambaata-VAffJussiveMar- a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffJussiveMar-" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
+	.
+
+aama:IDd03e0673-6e3b-43e6-a731-609cc73b2a99 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Jussive ;
+	kam:token "maro" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID7486efc8-889f-4196-9623-91260bbade77 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Jussive ;
+	kam:token "maroni" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	.
+
+aama:IDead5e185-f600-488f-91b9-df2120bdddaa a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Jussive ;
+	kam:token "martuni" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	.
+
+aama:ID30b12856-ebe9-43a1-9d5a-e96b0999960c a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Jussive ;
+	kam:token "mannun / manno" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID3b1f92be-24bd-48af-b8fd-6468585e50f7 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Jussive ;
+	kam:token "martuni" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+#TERMCLUSTER:  kambaata-VAffPresPerfMar-
+
+kam:kambaata-VAffPresPerfMar- a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffPresPerfMar-" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
+	.
+
+aama:ID6d4c93d5-f601-4e2f-b466-915b63e662ca a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresPerf ;
+	kam:token "marreemi" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:IDb3d8cb29-333b-4289-b7ae-043e44c36f79 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresPerf ;
+	kam:token "martenti" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:IDefd362cc-e9ae-43d0-9de9-710dba903e3d a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresPerf ;
+	kam:token "marre’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	.
+
+aama:IDb987f53f-93c4-4b8a-9d21-d93c9b4a94a2 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresPerf ;
+	kam:token "marte’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	.
+
+aama:ID9113d403-4af4-4a44-b841-82cafd95c235 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresPerf ;
+	kam:token "mareemma" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Polite ;
+	.
+
+aama:ID7953f3e5-2356-4acc-a2a9-7a1475c4a709 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresPerf ;
+	kam:token "mannemmi" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:IDcc35968d-471f-4cdf-bd32-20c1c6e81778 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresPerf ;
+	kam:token "marteenti" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID00a5444d-0c34-4e4d-973d-0cb1f195b3d3 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresPerf ;
+	kam:token "marte’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+#TERMCLUSTER:  kambaata-VAffPresPerf-mar
+
+kam:kambaata-VAffPresPerf-mar a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffPresPerf-mar" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
+	.
+
+aama:ID1334bb31-f7ab-420e-b803-248b2f21a2f4 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresentPerfect ;
+	kam:token "marreemi" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID3042cd50-8c58-4997-96cc-f2060a3a3d3b a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresentPerfect ;
+	kam:token "martenti" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID3b93325e-54ce-4421-9488-038cc8550f5a a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresentPerfect ;
+	kam:token "marre’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	.
+
+aama:ID0356d65d-bf5d-448c-9e1d-72331a5e28e2 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresentPerfect ;
+	kam:token "marte’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	.
+
+aama:ID722d8798-53ae-4f84-ac9b-b799f9708d5a a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresentPerfect ;
+	kam:token "mareemma" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Polite ;
+	.
+
+aama:ID13c7d708-d82b-41f0-acb1-4aa0ec277abb a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresentPerfect ;
+	kam:token "mannemmi" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID6c0edb5f-16ed-4279-935d-70caa987ee54 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresentPerfect ;
+	kam:token "marteenti" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:IDb8928353-f7f4-44ed-a3d5-613dbdd84191 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresentPerfect ;
+	kam:token "marte’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+#TERMCLUSTER:  kambaata-VAffImperfect-mar
+
+kam:kambaata-VAffImperfect-mar a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffImperfect-mar" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
+	.
+
+aama:IDfdb18947-25b7-44d3-b6b3-ec2f4472fe55 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "marammi" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:IDabf9a9ed-7d2d-43ac-a377-c2f1377e4496 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "martaanti" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID0b5fdab7-a655-416d-8198-2825b1d63498 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "marano" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	.
+
+aama:IDa58f5b32-d632-43ea-9991-f5ce865610b1 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "marta’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	.
+
+aama:IDe9ee9ab3-ef5e-4d5f-b038-91ef13d9638f a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "mareenno" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Polite ;
+	.
+
+aama:ID6eab0a31-72d3-4a66-bfb3-c13dc3bc5fb3 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "mannammi" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID45933724-2439-49dc-9524-43f5efd0fe97 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "marteenanta" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID08c60987-ccae-481b-b70b-1cd31b67dcc2 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:token "marta’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+#TERMCLUSTER:  kambaata-VAffPastProgMar-
+
+kam:kambaata-VAffPastProgMar- a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffPastProgMar-" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
+	.
+
+aama:ID100dcdf8-4795-442b-b2c9-bc216cc0feb3 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProg ;
+	kam:token "marayommi ‘ikke" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID353b000a-6fd6-4a77-b187-ce658c9eafa4 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProg ;
+	kam:token "martayonti ‘ikke" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID87236c05-74cd-45eb-8fef-73bbcdf1b9d0 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProg ;
+	kam:token "marayo(‘i) ‘ikke" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	.
+
+aama:ID6a3819cd-2cf8-4a08-beee-3fda89e2a13f a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProg ;
+	kam:token "martayo(‘i) ‘ikke" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	.
+
+aama:IDc746906a-2a5d-48cf-a08a-cb3fa2308f76 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProg ;
+	kam:token "mannayommi ‘ikke" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID733703dc-f765-4428-8f02-f406259bccb9 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProg ;
+	kam:token "marteenayonta ‘ikke" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID2308eff6-98a5-400c-ada2-883fdff50989 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProg ;
+	kam:token "martayo(‘i) ‘ikke" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+#TERMCLUSTER:  kambaata-VAffSimplePerf-mar
+
+kam:kambaata-VAffSimplePerf-mar a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffSimplePerf-mar" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
+	.
+
+aama:IDd04d667d-e09f-4f60-b556-75b6a68ad672 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:SimplePerfect ;
+	kam:token "marrommi" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:IDe13c74ad-6c72-4d70-94d1-f2b6f34c58d0 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:SimplePerfect ;
+	kam:token "martoonti" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:IDb17e1b30-cf57-4233-baf5-e7073e283f69 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:SimplePerfect ;
+	kam:token "marro" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	.
+
+aama:IDced2931c-bab1-47ee-9bcd-c61dbc97ddde a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:SimplePerfect ;
+	kam:token "marto’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	.
+
+aama:IDe47bc1e8-0274-4f95-89d5-b49d1d29eda7 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:SimplePerfect ;
+	kam:token "mannommi" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:IDea40fb0b-b3ba-49bd-aae2-e74cfd629d78 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:SimplePerfect ;
+	kam:token "marteenta" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:IDd41ec9d0-9729-4adf-b3a6-549124036488 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:SimplePerfect ;
+	kam:token "marto’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+#TERMCLUSTER:  kambaata-VAffPresProgMar-
+
+kam:kambaata-VAffPresProgMar- a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffPresProgMar-" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
+	.
+
+aama:ID43c058f5-62f1-4d68-ab27-f38d4bdb0b81 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresProg ;
+	kam:token "marayommi" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID11084f30-1575-4d65-bfbb-a0155d0065e3 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresProg ;
+	kam:token "martayonti" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID52fd177c-2c2d-4a1a-b96a-325b70122877 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresProg ;
+	kam:token "marayo’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	.
+
+aama:IDb23d58bc-e9ce-485b-ae13-2379f6d9bc3c a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresProg ;
+	kam:token "martayo’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	.
+
+aama:IDf737fcc2-d038-49f2-84f5-6daa9f5d4e38 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresProg ;
+	kam:token "mareenayomma" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Polite ;
+	.
+
+aama:IDe95482e4-1783-4b10-8e04-c14ef2965931 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresProg ;
+	kam:token "mannayomini" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:IDd23569ba-4f24-4885-bc78-52313b3fbf69 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresProg ;
+	kam:token "martenayonta" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:IDb12ed61f-5d80-4b8b-ad7f-2be8bf3fced6 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PresProg ;
+	kam:token "martayo’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+#TERMCLUSTER:  kambaata-VAffPastProg-mar
+
+kam:kambaata-VAffPastProg-mar a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffPastProg-mar" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
+	.
+
+aama:ID9be82f2b-4d2e-4466-909c-a4b3d8cade6a a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProgressive ;
+	kam:token "marayommi ‘ikke" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID5be2fe24-047a-434a-9c5e-64d43e83a725 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProgressive ;
+	kam:token "martayonti ‘ikke" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:IDddf353f2-4836-4114-affb-62aa05d1bf69 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProgressive ;
+	kam:token "marayo(‘i) ‘ikke" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	.
+
+aama:ID8f0df564-d9b7-4beb-8a40-e30777e4abde a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProgressive ;
+	kam:token "martayo(‘i) ‘ikke" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	.
+
+aama:IDc4922f8d-9f22-4e9e-9d89-34cf643bbb7c a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProgressive ;
+	kam:token "mannayommi ‘ikke" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID4a3db3d1-53b3-403c-923a-50392e583be5 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProgressive ;
+	kam:token "marteenayonta ‘ikke" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID52ff7883-dadf-425b-b4d8-635526ed0f58 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Affirmative ;
+	kam:pos kam:Verb ;
+	kam:tam kam:PastProgressive ;
+	kam:token "martayo(‘i) ‘ikke" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+#TERMCLUSTER:  kambaata-VNegImprtvMar-
+
+kam:kambaata-VNegImprtvMar- a aamas:Termcluster ;
+	rdfs:label "kambaata-VNegImprtvMar-" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
+	.
+
+aama:ID7cd1db2e-8a6a-4bb7-9d31-b3724ac055c9 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VNegImprtvMar- ;
+	kam:gender kam:Common ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:person kam:Person2 ;
+	kam:polarity kam:Neg ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Imprtv ;
+	kam:token "martota" ;
+	kam:number kam:Singular ;
+	.
+
+aama:ID26ea7b7e-b5f8-4a1d-9c7c-73c25166ed52 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VNegImprtvMar- ;
+	kam:gender kam:Common ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:person kam:Person2 ;
+	kam:polarity kam:Neg ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Imprtv ;
+	kam:token "marteenoc(iy)e" ;
+	kam:number kam:Plural ;
+	.
+
+#TERMCLUSTER:  kambaata-VAffImperfectMar-
+
+kam:kambaata-VAffImperfectMar- a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffImperfectMar-" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
+	.
+
+aama:ID5ef926be-35e8-47a5-a983-410ee28b8f89 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Imperfect ;
+	kam:token "marammi" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID23cde93a-935d-4522-ab09-a8188f4c4c85 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Imperfect ;
+	kam:token "martaanti" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID3544f828-2523-4c70-bcb4-61932e20f818 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Imperfect ;
+	kam:token "marano" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	.
+
+aama:IDb3b21c4a-d3a5-4a39-92c1-30bb3f6d2a70 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Imperfect ;
+	kam:token "marta’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	.
+
+aama:IDdb9bfaef-b61f-4f31-84c8-3ffd7a6336a7 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Imperfect ;
+	kam:token "mareenno" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Polite ;
+	.
+
+aama:ID19429eaf-159c-4080-bd7c-28777916c87a a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Imperfect ;
+	kam:token "mannammi" ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:IDbf1a9350-ba2d-45c9-a53f-c561bbc4bb91 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Imperfect ;
+	kam:token "marteenanta" ;
+	kam:person kam:Person2 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+aama:ID3e249fc0-47a7-4d31-91e5-7b507f5b15d5 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
+	aamas:lexeme aama:Kambaata-mar ;
+	kam:polarity kam:Aff ;
+	kam:pos kam:Verb ;
+	kam:tam kam:Imperfect ;
+	kam:token "marta’i" ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	.
+
+#TERMCLUSTER:  kambaata-VAffImprtvMar-
+
+kam:kambaata-VAffImprtvMar- a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffImprtvMar-" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
+	.
+
+aama:IDf9ec84a4-8c84-41f8-b9f8-772c1e2ece28 a aamas:Term ;
+	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImprtvMar- ;
 	kam:gender kam:Common ;
 	aamas:lexeme aama:Kambaata-mar ;
 	kam:person kam:Person2 ;
@@ -563,8 +1536,10 @@ aama:ID5ca7d74b-851a-4a1f-9e9f-2099981ca6e9 a aamas:Term ;
 	kam:token "mari" ;
 	kam:number kam:Singular ;
 	.
-aama:IDff7db90a-62f7-4d06-b386-5cd53e705ea8 a aamas:Term ;
+
+aama:IDd969cce0-d35c-4011-b7ee-2b20743e975f a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffImprtvMar- ;
 	kam:gender kam:Common ;
 	aamas:lexeme aama:Kambaata-mar ;
 	kam:person kam:Person2 ;
@@ -575,1365 +1550,121 @@ aama:IDff7db90a-62f7-4d06-b386-5cd53e705ea8 a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-#TERMCLUSTER: kambaata-VAffPastProgMar-
+#TERMCLUSTER:  kambaata-VAffPresProg-mar
 
-aama:ID301e2677-7af8-4cf4-910f-7a2287230aca a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProg ;
-	kam:token "marayommi ‘ikke" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:IDcaf0610a-6944-4aba-8ec8-9723e9ce0f3e a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProg ;
-	kam:token "martayonti ‘ikke" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:ID1fb16e80-b22f-4f31-87bb-3f19e9fc035a a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProg ;
-	kam:token "marayo(‘i) ‘ikke" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	.
-aama:ID6fe17d5f-0e7e-453c-9ee4-959bc8ea7808 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProg ;
-	kam:token "martayo(‘i) ‘ikke" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	.
-aama:ID39fb0211-5d1c-442a-849c-5d7316d40387 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProg ;
-	kam:token "mannayommi ‘ikke" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:IDc5e03d87-413d-4398-ac86-8debd47eb4d5 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProg ;
-	kam:token "marteenayonta ‘ikke" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:ID1492a237-5296-46b3-a979-90dd8e9d7835 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProg ;
-	kam:token "martayo(‘i) ‘ikke" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
+kam:kambaata-VAffPresProg-mar a aamas:Termcluster ;
+	rdfs:label "kambaata-VAffPresProg-mar" ;
+	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
+            section #4,pp. 52-54." 
 	.
 
-#TERMCLUSTER: kambaata-VAffPresPerfMar-
-
-aama:ID9976375e-4de7-408e-86ee-e0680b39b113 a aamas:Term ;
+aama:ID6d9c1e3d-1869-47fb-a96a-63902adf2b33 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresPerf ;
-	kam:token "marreemi" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:IDb1e3a676-2544-4cdc-a1e5-34bb5c96947d a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresPerf ;
-	kam:token "martenti" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:ID610ecf34-0165-4b71-8a0c-d4e80b6830eb a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresPerf ;
-	kam:token "marre’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	.
-aama:IDe7a9e111-b643-49b2-81f5-9ce7e5f1f72e a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresPerf ;
-	kam:token "marte’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	.
-aama:ID9c358cde-89fc-4736-b4bc-771076737c91 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresPerf ;
-	kam:token "mareemma" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Polite ;
-	.
-aama:ID91f9e1ee-86db-422d-8813-7737f6188019 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresPerf ;
-	kam:token "mannemmi" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:ID9a877928-8973-4b80-beee-1aee9128ecf1 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresPerf ;
-	kam:token "marteenti" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:ID7de6509a-343e-45e6-8f43-5b527eea9f08 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresPerf ;
-	kam:token "marte’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-
-#TERMCLUSTER: kambaata-VAffImperfect-mar
-
-aama:ID1249c226-4953-4fae-903f-55cd026dec2d a aamas:Term ;
-	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
 	kam:polarity kam:Affirmative ;
 	kam:pos kam:Verb ;
-	kam:token "marammi" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:ID0bb0fbee-3a01-447e-9e9b-90bf4c7bb94b a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "martaanti" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:ID85963af7-95ef-415a-8f2d-ed5bdc7055fa a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "marano" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	.
-aama:ID990819dd-a5ed-4414-bc27-13161131ecc9 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "marta’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	.
-aama:ID190cb251-5558-4560-a347-a850a4b49b70 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "mareenno" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Polite ;
-	.
-aama:ID9309195e-60e7-40b9-9629-78e993ed4583 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "mannammi" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:IDe66c648c-ac8b-464b-9bf6-92c28457d0f8 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "marteenanta" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:IDf9d15f05-aca5-4bab-8e1a-7012dc5e9665 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "marta’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-
-#TERMCLUSTER: kambaata-VAffSimplePerf-mar
-
-aama:IDcbe25a4e-9dfa-4bb2-8b17-b900ef4c01cd a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:SimplePerfect ;
-	kam:token "marrommi" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:IDde1cd4bf-1540-4e6d-89ea-d5c2c42ab921 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:SimplePerfect ;
-	kam:token "martoonti" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:IDc2e0f32d-6345-4152-afaf-6d860d07d8b2 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:SimplePerfect ;
-	kam:token "marro" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	.
-aama:IDef374fb8-514e-4521-ab24-71cf5fab677f a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:SimplePerfect ;
-	kam:token "marto’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	.
-aama:IDcb40be22-9a0c-4bf9-9b4f-26b6b67489a9 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:SimplePerfect ;
-	kam:token "mannommi" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:ID7b7b294f-9961-4125-815e-1f3628dc0d5a a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:SimplePerfect ;
-	kam:token "marteenta" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:ID318c55bc-8b6f-4fbf-b566-4bb5592cd052 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:SimplePerfect ;
-	kam:token "marto’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-
-#TERMCLUSTER: kambaata-VAffImperfectMar-
-
-aama:ID6f951f77-a063-45dc-b8f7-a4b5340e7091 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Imperfect ;
-	kam:token "marammi" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:ID4fd34341-30ce-4203-b74b-c59efc30d69b a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Imperfect ;
-	kam:token "martaanti" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:IDf27bd5b3-9b67-4e16-b5e9-3e1be23b31fb a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Imperfect ;
-	kam:token "marano" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	.
-aama:ID25cc4bf1-2c4b-4af2-a226-16979c318b5a a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Imperfect ;
-	kam:token "marta’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	.
-aama:ID8e207824-74ae-4248-9efb-50ae235163f5 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Imperfect ;
-	kam:token "mareenno" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Polite ;
-	.
-aama:ID898bd7a1-5ad5-4535-b253-1640fb16c61e a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Imperfect ;
-	kam:token "mannammi" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:ID361c20dc-2852-43b7-9e9d-339cf3b54a4e a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Imperfect ;
-	kam:token "marteenanta" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:ID20364730-dd04-44a9-b473-5a52d41ae0e9 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Imperfect ;
-	kam:token "marta’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-
-#TERMCLUSTER: kambaata-VAffPresPerf-mar
-
-aama:ID73ba60bc-738d-4ff8-8d0f-fb903a850faa a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentPerfect ;
-	kam:token "marreemi" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:IDde717356-621f-438a-bef5-f15daabfef79 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentPerfect ;
-	kam:token "martenti" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:ID8357566c-5e15-4015-a11f-dfa555566ce6 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentPerfect ;
-	kam:token "marre’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	.
-aama:ID131b1e7c-e35a-47be-8e79-b472b38e5ff8 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentPerfect ;
-	kam:token "marte’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	.
-aama:IDef48f62e-c7ac-4c22-838d-ebf3fe792e69 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentPerfect ;
-	kam:token "mareemma" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Polite ;
-	.
-aama:ID40b17c6e-832e-482b-986b-c01af607de54 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentPerfect ;
-	kam:token "mannemmi" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:ID4206547b-c241-459c-a572-c7cd66472d39 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentPerfect ;
-	kam:token "marteenti" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:IDb8a50cd8-6df5-4970-bdb7-c1f607481260 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresentPerfect ;
-	kam:token "marte’i" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-
-#TERMCLUSTER: kambaata-VNegImprtv-mar
-
-aama:IDec44d23a-16d2-4aca-a4ea-5b574a436428 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	kam:gender kam:Common ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:person kam:Person2 ;
-	kam:polarity kam:Negative ;
-	kam:pos kam:Verb ;
-	kam:token "martota" ;
-	kam:number kam:Singular ;
-	.
-aama:ID2578854e-fd73-4b05-acb5-859d0b1a4438 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	kam:gender kam:Common ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:person kam:Person2 ;
-	kam:polarity kam:Negative ;
-	kam:pos kam:Verb ;
-	kam:token "marteenoc(iy)e" ;
-	kam:number kam:Plural ;
-	.
-
-#TERMCLUSTER: kambaata-VAffPastProg-mar
-
-aama:ID627bb010-9132-402e-8491-81f13a3bb1e7 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProgressive ;
-	kam:token "marayommi ‘ikke" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:ID3e94c2f1-d340-412a-9e0c-64d058b28438 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProgressive ;
-	kam:token "martayonti ‘ikke" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:ID1764433e-1e85-4a07-b5c4-f43244433b3b a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProgressive ;
-	kam:token "marayo(‘i) ‘ikke" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	.
-aama:IDd6182b13-9460-42c1-a7bc-06f1d82e93b1 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProgressive ;
-	kam:token "martayo(‘i) ‘ikke" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	.
-aama:ID21435329-336d-45a9-b165-46b86f27b276 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProgressive ;
-	kam:token "mannayommi ‘ikke" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:ID008ad889-033f-464d-8f79-7e18af221d0c a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProgressive ;
-	kam:token "marteenayonta ‘ikke" ;
-	kam:person kam:Person2 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:ID993d2017-aa9d-4f6b-a7f2-4fb84c4d30bc a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PastProgressive ;
-	kam:token "martayo(‘i) ‘ikke" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-
-#TERMCLUSTER: kambaata-VAffJussive-mar
-
-aama:ID58aeac3d-94cb-4df1-8157-633cfcfd192e a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "maro" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	.
-aama:ID61a999ab-3e8a-406a-8d4e-3e1dcfdc5479 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "maroni" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	.
-aama:IDb4a3d71f-904d-4e01-bdb7-811281ffd951 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "martuni" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	.
-aama:ID17f18fae-9c75-4d00-8910-91206e6c07d8 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "mannun / manno" ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-aama:IDcb1a808f-1940-4e6d-8f44-51fa71987a7b a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "martuni" ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	.
-
-#TERMCLUSTER: kambaata-VAffImprtv-mar
-
-aama:ID468c7a7a-5a5c-4e06-a431-44e91f6cee26 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	kam:gender kam:Common ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:person kam:Person2 ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "mari" ;
-	kam:number kam:Singular ;
-	.
-aama:IDfe1b860a-23b3-458a-8efb-e2cb6486fe2d a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	kam:gender kam:Common ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:person kam:Person2 ;
-	kam:polarity kam:Affirmative ;
-	kam:pos kam:Verb ;
-	kam:token "marre" ;
-	kam:number kam:Plural ;
-	.
-
-#TERMCLUSTER: kambaata-VNegImprtvMar-
-
-aama:IDc62bc825-9c66-4ee6-8dd2-d4485a0a52bb a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	kam:gender kam:Common ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:person kam:Person2 ;
-	kam:polarity kam:Neg ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Imprtv ;
-	kam:token "martota" ;
-	kam:number kam:Singular ;
-	.
-aama:IDec3b0539-4c8e-4867-afe1-fdc65ae988e2 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	kam:gender kam:Common ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:person kam:Person2 ;
-	kam:polarity kam:Neg ;
-	kam:pos kam:Verb ;
-	kam:tam kam:Imprtv ;
-	kam:token "marteenoc(iy)e" ;
-	kam:number kam:Plural ;
-	.
-
-#TERMCLUSTER: kambaata-VAffPresProgMar-
-
-aama:IDd2f80a2e-b216-4431-98d9-37dde63fc829 a aamas:Term ;
-	aamas:lang aama:Kambaata ;
-	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
-	kam:pos kam:Verb ;
-	kam:tam kam:PresProg ;
+	kam:tam kam:PresentProgressive ;
 	kam:token "marayommi" ;
 	kam:person kam:Person1 ;
 	kam:number kam:Singular ;
 	kam:gender kam:Common ;
 	.
-aama:ID9eb0ac3a-70eb-4fb6-909c-680ee9a322a5 a aamas:Term ;
+
+aama:IDad8d3a86-d056-4281-a2f3-4be0211fc2e7 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
+	kam:polarity kam:Affirmative ;
 	kam:pos kam:Verb ;
-	kam:tam kam:PresProg ;
+	kam:tam kam:PresentProgressive ;
 	kam:token "martayonti" ;
 	kam:person kam:Person2 ;
 	kam:number kam:Singular ;
 	kam:gender kam:Common ;
 	.
-aama:ID2fd5a586-6bae-4d11-b53b-b86d44ff280a a aamas:Term ;
+
+aama:IDf0d9d71b-f29a-4e65-a1dd-22ca2adc31ee a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
+	kam:polarity kam:Affirmative ;
 	kam:pos kam:Verb ;
-	kam:tam kam:PresProg ;
+	kam:tam kam:PresentProgressive ;
 	kam:token "marayo’i" ;
 	kam:person kam:Person3 ;
 	kam:number kam:Singular ;
 	kam:gender kam:Masc ;
 	.
-aama:ID8ba905c9-8ea8-4ef4-9031-c6290129216a a aamas:Term ;
+
+aama:ID2ec005f4-d2d5-4131-a3dd-6755c4e84a8d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
+	kam:polarity kam:Affirmative ;
 	kam:pos kam:Verb ;
-	kam:tam kam:PresProg ;
+	kam:tam kam:PresentProgressive ;
 	kam:token "martayo’i" ;
 	kam:person kam:Person3 ;
 	kam:number kam:Singular ;
 	kam:gender kam:Fem ;
 	.
-aama:IDf0a03e00-ad07-48b4-99ea-ed06b66e95e7 a aamas:Term ;
+
+aama:ID6a8f435d-4a47-45fe-bed9-2bdba8cb50f7 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
+	kam:polarity kam:Affirmative ;
 	kam:pos kam:Verb ;
-	kam:tam kam:PresProg ;
+	kam:tam kam:PresentProgressive ;
 	kam:token "mareenayomma" ;
 	kam:person kam:Person3 ;
 	kam:number kam:Singular ;
 	kam:gender kam:Polite ;
 	.
-aama:ID2c0df03c-d2be-4829-9ff6-6ed317318724 a aamas:Term ;
+
+aama:ID18ddbd08-acb5-4fd5-8f23-8db7987d4818 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
+	kam:polarity kam:Affirmative ;
 	kam:pos kam:Verb ;
-	kam:tam kam:PresProg ;
+	kam:tam kam:PresentProgressive ;
 	kam:token "mannayomini" ;
 	kam:person kam:Person1 ;
 	kam:number kam:Plural ;
 	kam:gender kam:Common ;
 	.
-aama:ID0b95d9b0-44da-43b3-a531-9ae88f77abe0 a aamas:Term ;
+
+aama:IDbe463198-23ad-44a8-a2bf-3ba8de0ab2e5 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
+	kam:polarity kam:Affirmative ;
 	kam:pos kam:Verb ;
-	kam:tam kam:PresProg ;
+	kam:tam kam:PresentProgressive ;
 	kam:token "martenayonta" ;
 	kam:person kam:Person2 ;
 	kam:number kam:Plural ;
 	kam:gender kam:Common ;
 	.
-aama:ID990527a6-9569-4c31-8080-b78baa5cfcb1 a aamas:Term ;
+
+aama:ID5ced6d7d-d584-47c7-a6ee-185961917c36 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
+	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
-	kam:polarity kam:Aff ;
+	kam:polarity kam:Affirmative ;
 	kam:pos kam:Verb ;
-	kam:tam kam:PresProg ;
+	kam:tam kam:PresentProgressive ;
 	kam:token "martayo’i" ;
 	kam:person kam:Person3 ;
 	kam:number kam:Plural ;
 	kam:gender kam:Common ;
 	.
 
-#MUTERMCLUSTER: kambaata-PDemonstrative
+#MUTERMCLUSTER:  kambaata-VSubjMarkerTemplates
 
-aama:ID13651ace-fa0b-4bd5-9c1a-524466652447 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PRODEM ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Demonstrative ;
-	kam:token "ku" ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	kam:deixis kam:Near ;
-	kam:case kam:Nominative ;
-	.
-aama:ID96871193-e480-4c68-86f8-ff754eb41d21 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PRODEM ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Demonstrative ;
-	kam:token "ta" ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	kam:deixis kam:Near ;
-	kam:case kam:Nominative ;
-	.
-aama:IDe01abf65-37fb-4280-b55b-34b9a13fb00d a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PRODEM ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Demonstrative ;
-	kam:token "hikkuupi" ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	kam:deixis kam:Far ;
-	kam:case kam:Nominative ;
-	.
-aama:IDaf017717-b8c7-4ca8-9f4a-25594ae4c849 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PRODEM ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Demonstrative ;
-	kam:token "hittiipi" ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	kam:deixis kam:Far ;
-	kam:case kam:Nominative ;
-	.
-aama:ID9a350d1a-b208-46b3-8241-849850a061c1 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PRODEM ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Demonstrative ;
-	kam:token "ku" ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:deixis kam:Near ;
-	kam:case kam:Nominative ;
-	.
-aama:IDe809ba9a-7efe-40d1-baaa-9bf8199c1188 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PRODEM ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Demonstrative ;
-	kam:token "hikkuupi" ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:deixis kam:Far ;
-	kam:case kam:Nominative ;
-	.
-aama:ID90abb379-f663-47c4-8417-65d8a57927c4 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PRODEM ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Demonstrative ;
-	kam:token "ka" ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	kam:deixis kam:Near ;
-	kam:case kam:Accusative ;
-	.
-aama:IDd19bd4e6-b8ae-4e9c-a0c4-8c7d0e225605 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PRODEM ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Demonstrative ;
-	kam:token "ta" ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	kam:deixis kam:Near ;
-	kam:case kam:Accusative ;
-	.
-aama:ID5ba87a1b-cef0-441c-a14a-ca2874791914 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PRODEM ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Demonstrative ;
-	kam:token "hikkaapi" ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	kam:deixis kam:Far ;
-	kam:case kam:Accusative ;
-	.
-aama:IDb21bba7d-ab8d-463c-a985-df4ef7c27397 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PRODEM ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Demonstrative ;
-	kam:token "hittaapi" ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	kam:deixis kam:Far ;
-	kam:case kam:Accusative ;
-	.
-aama:ID40cf850a-6dd4-4c2f-ad89-7f3f08a105ec a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PRODEM ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Demonstrative ;
-	kam:token "ka" ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:deixis kam:Near ;
-	kam:case kam:Accusative ;
-	.
-aama:ID4d2c651b-bded-4c0c-835f-710ddce03b14 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PRODEM ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Demonstrative ;
-	kam:token "hikkaapi" ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:deixis kam:Far ;
-	kam:case kam:Accusative ;
-	.
-
-#MUTERMCLUSTER: kambaata-PPersonal
-
-aama:ID73f62b8e-61a0-46e0-9356-492fd4df6d16 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "ani" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	kam:case kam:Nominative ;
-	.
-aama:IDfff20a0e-80d5-49d6-8570-526bdbb61c3c a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "ati" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person2 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	kam:case kam:Nominative ;
-	.
-aama:ID5e1aa5f7-ebb8-461b-b131-4c211153264a a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "isi" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	kam:case kam:Nominative ;
-	.
-aama:ID72fcc2b4-f752-40f1-bcab-a51ebe8038ee a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "ise" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	kam:case kam:Nominative ;
-	.
-aama:IDb59fc10d-fef5-442c-867b-6dcd3b8a680d a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "issa" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Polite ;
-	kam:case kam:Nominative ;
-	.
-aama:IDe7616b8e-6b9c-4ec3-a551-b5ec70c67b41 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "naooti" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Nominative ;
-	.
-aama:IDad1023aa-ea9e-4026-839d-311bc0ff9c2d a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "anaooti" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person2 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Nominative ;
-	.
-aama:ID5187339c-3b0b-4f83-94e6-ecdf0a07ef6f a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "issooti" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Nominative ;
-	.
-aama:ID1e5cebec-61e3-4174-a121-7804db52ddf9 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "e(e)s" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	kam:case kam:Accusative ;
-	.
-aama:IDee92fc56-cd42-4525-a8c9-d73233fbfdba a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "ke(e)s" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person2 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	kam:case kam:Accusative ;
-	.
-aama:ID18445bdc-7908-4040-aa50-532b44b6dc24 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "isu" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	kam:case kam:Accusative ;
-	.
-aama:ID61e998b5-0549-41a0-bd3e-2657357c6936 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "is(e)t" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	kam:case kam:Accusative ;
-	.
-aama:IDeabe27dc-dd8f-4fe9-9684-224426c4965e a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "ne(e)s" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Accusative ;
-	.
-aama:ID9a97d724-abba-4884-b8ec-4d75f101a468 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "kinee(e)" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person2 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Accusative ;
-	.
-aama:IDc4e17f10-858b-47c9-a30a-b6f65f20a00a a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "issaot" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Accusative ;
-	.
-aama:ID772ae736-a63f-4f5f-b5f1-f0de369b86e4 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-e" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	kam:case kam:Accusative ;
-	.
-aama:IDac80be52-776c-4f0b-996b-74dd8678a532 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-ke ~ -kki" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person2 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	kam:case kam:Accusative ;
-	.
-aama:ID8f935988-8c6f-4c9b-a391-cffd2540513d a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-si" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	kam:case kam:Accusative ;
-	.
-aama:ID45027def-21bc-4969-9fa0-bf82a322aec4 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-se" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	kam:case kam:Accusative ;
-	.
-aama:ID2804ba9e-9789-4dff-8096-3acac192713c a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-nne" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Accusative ;
-	.
-aama:ID2702a9c9-79b5-432f-9cd1-47f7d8765c0f a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-ne" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person2 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Accusative ;
-	.
-aama:ID985df27a-dcd3-4da6-98f5-ca5473f9a92d a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-(s)sa" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Accusative ;
-	.
-aama:ID61c0ee2c-a766-4524-917e-8eb220670541 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "ii-ha/-ta" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	kam:case kam:Possessive ;
-	.
-aama:ID3dd24313-92ff-4d28-8edd-79742f40e559 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "kii-ha/-ta" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person2 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	kam:case kam:Possessive ;
-	.
-aama:ID55884cf2-6ff0-4a01-a5c8-2d99a3c5846e a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "isi-ha/-ta" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	kam:case kam:Possessive ;
-	.
-aama:ID8d558e6c-ef2e-497c-901e-44acaca80f34 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "ise-ha/-ta" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	kam:case kam:Possessive ;
-	.
-aama:IDe395a139-f5ca-40d3-965e-3050eb0566d5 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "nii-ha/-ta" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Possessive ;
-	.
-aama:ID8e395ddc-7891-4570-bbb3-a2efc69623b8 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "kiniee-ha/-ta" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person2 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Possessive ;
-	.
-aama:ID362c6160-8dee-4580-912b-363bcab9fe96 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "nii-ha/-ta" ;
-	kam:proClass kam:Independent ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Possessive ;
-	.
-aama:ID38bfb3aa-57a3-4488-9153-57bf63a6b639 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "kiniee-ha/-ta" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person1 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	kam:case kam:Possessive ;
-	.
-aama:ID8dadf6a3-00d0-4020-8cf3-15d346acc57c a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-e" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person2 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Common ;
-	kam:case kam:Possessive ;
-	.
-aama:IDb1b26619-22d9-4521-a6d8-d35fc38829de a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-kii" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Masc ;
-	kam:case kam:Possessive ;
-	.
-aama:ID14ec28d7-1efa-4869-8c12-6954e73d3b2a a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-si" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Fem ;
-	kam:case kam:Possessive ;
-	.
-aama:ID234e8383-aca3-4800-82b8-8b63ad9df56a a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-si" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person3 ;
-	kam:number kam:Singular ;
-	kam:gender kam:Polite ;
-	kam:case kam:Possessive ;
-	.
-aama:IDb23426b6-5c08-4854-a562-ef5a56e14799 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-nne" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person1 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Possessive ;
-	.
-aama:IDbbb74efa-7ef9-4e49-943f-c2ddb6979a91 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-ne" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person2 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Possessive ;
-	.
-aama:ID086f9043-ead4-4a92-8a19-add78ec7cd20 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROIND ;
-	kam:pos kam:Pronoun ;
-	kam:token "-ssa" ;
-	kam:proClass kam:Suffix ;
-	kam:person kam:Person3 ;
-	kam:number kam:Plural ;
-	kam:gender kam:Common ;
-	kam:case kam:Possessive ;
-	.
-
-#MUTERMCLUSTER: kambaata-VSubjMarkerTemplates
-
-aama:ID35895862-71d9-419c-bc3a-074ace1413f0 a aamas:Muterm ;
+aama:IDf30d4513-3749-4d5e-a5ea-96c6e7febe73 a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
@@ -1947,7 +1678,8 @@ aama:ID35895862-71d9-419c-bc3a-074ace1413f0 a aamas:Muterm ;
 	kam:number kam:Singular ;
 	kam:gender kam:Common ;
 	.
-aama:ID2b0aff12-a0c4-46e1-9421-b2f76da3fe56 a aamas:Muterm ;
+
+aama:ID561774db-0c8e-429c-a5ec-740b849f0751 a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
@@ -1961,7 +1693,8 @@ aama:ID2b0aff12-a0c4-46e1-9421-b2f76da3fe56 a aamas:Muterm ;
 	kam:number kam:Singular ;
 	kam:gender kam:Common ;
 	.
-aama:ID07a03d41-2841-440f-ae71-e9075fd1b3dc a aamas:Muterm ;
+
+aama:ID92ddfa2a-defe-49f0-80c6-c30826cd21a3 a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
@@ -1975,7 +1708,8 @@ aama:ID07a03d41-2841-440f-ae71-e9075fd1b3dc a aamas:Muterm ;
 	kam:number kam:Singular ;
 	kam:gender kam:Masc ;
 	.
-aama:ID52dc64e1-5f2f-4adc-8d2f-5d374211d3ac a aamas:Muterm ;
+
+aama:ID0039cd63-8b81-490a-9022-4bf4c8c94ce2 a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
@@ -1989,7 +1723,8 @@ aama:ID52dc64e1-5f2f-4adc-8d2f-5d374211d3ac a aamas:Muterm ;
 	kam:number kam:Singular ;
 	kam:gender kam:Fem ;
 	.
-aama:ID8404cb4f-c282-4a4c-8e44-685ecda89add a aamas:Muterm ;
+
+aama:IDfed47b49-93b8-487d-8bba-3ec1c9828b14 a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
@@ -2003,7 +1738,8 @@ aama:ID8404cb4f-c282-4a4c-8e44-685ecda89add a aamas:Muterm ;
 	kam:number kam:Plural ;
 	kam:gender kam:Common ;
 	.
-aama:IDbc622e79-569b-4fed-a750-3722c810863b a aamas:Muterm ;
+
+aama:ID07224ae3-ec1d-464d-9791-e910c420e7f3 a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
@@ -2017,7 +1753,8 @@ aama:IDbc622e79-569b-4fed-a750-3722c810863b a aamas:Muterm ;
 	kam:number kam:Plural ;
 	kam:gender kam:Common ;
 	.
-aama:ID27dc7e61-64ba-49ec-b617-5eb28abbb4a8 a aamas:Muterm ;
+
+aama:IDaf06b908-6abe-44b0-9f68-1e4af200ed4e a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
@@ -2032,60 +1769,9 @@ aama:ID27dc7e61-64ba-49ec-b617-5eb28abbb4a8 a aamas:Muterm ;
 	kam:gender kam:Common ;
 	.
 
-#MUTERMCLUSTER: kambaata-PInterr
+#MUTERMCLUSTER:  kambaata-VDervStem
 
-aama:IDef9ff6de-0612-4777-979a-bc6b0a527f7b a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROINTERROG ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Interrogative ;
-	kam:token "aye" ;
-	kam:interrogClass kam:InterrogProWho ;
-	.
-aama:IDbd7321b8-6721-4e93-afa6-dc5e15922fa1 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROINTERROG ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Interrogative ;
-	kam:token "ma" ;
-	kam:interrogClass kam:InterrogProWhat ;
-	.
-aama:IDf1722f48-983c-47df-a125-f0d768b4f7a3 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROINTERROG ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Interrogative ;
-	kam:token "hakka" ;
-	kam:interrogClass kam:InterrogProWhen ;
-	.
-aama:IDba4047a2-da0b-4c9e-bba0-48843fd38d16 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROINTERROG ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Interrogative ;
-	kam:token "hanno" ;
-	kam:interrogClass kam:InterrogProWhere ;
-	.
-aama:ID363fbdb4-f1d3-4049-a462-ec3c20f9fda2 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROINTERROG ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Interrogative ;
-	kam:token "hatti" ;
-	kam:interrogClass kam:InterrogProHow ;
-	.
-aama:IDf433d05d-f36c-4c05-b8b0-8a66298f5126 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
-	aamas:morpheme aama:Kambaata-PROINTERROG ;
-	kam:pos kam:Pronoun ;
-	kam:proClass kam:Interrogative ;
-	kam:token "mei" ;
-	kam:interrogClass kam:InterrogProHowMany ;
-	.
-
-#MUTERMCLUSTER: kambaata-VDervStem
-
-aama:IDa38fd8dc-57e2-4b4a-890d-5144539175ab a aamas:Muterm ;
+aama:IDf961bb59-36f3-44d9-99dc-9a1f676cb933 a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	aamas:morpheme aama:Kambaata-DERVSTEM ;
 	kam:pos kam:Verb ;
@@ -2094,7 +1780,8 @@ aama:IDa38fd8dc-57e2-4b4a-890d-5144539175ab a aamas:Muterm ;
 	kam:token "-(i)s-" ;
 	kam:class kam:Causative1 ;
 	.
-aama:ID8459d076-b10e-43b5-9574-e1f526594000 a aamas:Muterm ;
+
+aama:ID54b9e542-2cbc-45b9-8225-d066bbdf66d2 a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	aamas:morpheme aama:Kambaata-DERVSTEM ;
 	kam:pos kam:Verb ;
@@ -2103,16 +1790,18 @@ aama:ID8459d076-b10e-43b5-9574-e1f526594000 a aamas:Muterm ;
 	kam:token "-(i)siis-" ;
 	kam:class kam:Causative2 ;
 	.
-aama:ID69e5e101-9425-4ea0-b3b0-dbf5cebd9f9e a aamas:Muterm ;
+
+aama:ID4c013831-2b41-4162-94cd-f7c38b86df0b a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	aamas:morpheme aama:Kambaata-DERVSTEM ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:DervStem ;
-	aamas:gloss "(a) --:root-final l,r,m,n (>preglottalized); t,b,d,g,f,s,š,h,z (> ejective_;  (>c). (b) -ak-:root-final CC,and all other root-final consonants" ;
+	aamas:gloss "(a) --:root-final l,r,m,n (&gt;preglottalized); t,b,d,g,f,s,š,h,z (&gt; ejective_;  (&gt;c). (b) -ak-:root-final CC,and all other root-final consonants" ;
 	kam:token "-ak- ~ --" ;
 	kam:class kam:Benefactive ;
 	.
-aama:IDf5067463-823f-476a-8aef-cecfbcf67838 a aamas:Muterm ;
+
+aama:ID46af5995-fe38-46cf-849b-83d23eee55cd a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	aamas:morpheme aama:Kambaata-DERVSTEM ;
 	kam:pos kam:Verb ;
@@ -2120,7 +1809,8 @@ aama:IDf5067463-823f-476a-8aef-cecfbcf67838 a aamas:Muterm ;
 	kam:token "-am-" ;
 	kam:class kam:Passive ;
 	.
-aama:IDa0dd0eb5-1980-4d8a-9acf-6b9a24fb1219 a aamas:Muterm ;
+
+aama:ID0fa4628c-d064-4007-abe3-0685b7a4c44e a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	aamas:morpheme aama:Kambaata-DERVSTEM ;
 	kam:pos kam:Verb ;
@@ -2129,7 +1819,8 @@ aama:IDa0dd0eb5-1980-4d8a-9acf-6b9a24fb1219 a aamas:Muterm ;
 	kam:token "-aam-,--aam-,-am-aam-,--am-aam-,--isiis-aam-" ;
 	kam:class kam:Combination ;
 	.
-aama:IDf3322a61-8d77-4675-b355-0f679048fc8d a aamas:Muterm ;
+
+aama:IDa4625669-0f77-41e9-b41c-977e9362c615 a aamas:Muterm ;
 	aamas:lang aama:Kambaata ;
 	aamas:morpheme aama:Kambaata-DERVSTEM ;
 	kam:pos kam:Verb ;
@@ -2137,4 +1828,652 @@ aama:IDf3322a61-8d77-4675-b355-0f679048fc8d a aamas:Muterm ;
 	aamas:gloss "fossilized?; SimM1985 p. 45" ;
 	kam:token "Common" ;
 	kam:class kam:Reduplicated ;
+	.
+
+#MUTERMCLUSTER:  kambaata-PPersonal
+
+aama:IDf37b9730-4be7-40f8-8dcc-a7b9b174e713 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "ani" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	kam:case kam:Nominative ;
+	.
+
+aama:IDa1ae1f92-c866-49c4-849f-2a8e6ef8f418 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "ati" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person2 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	kam:case kam:Nominative ;
+	.
+
+aama:IDa91b6ad6-4e19-4460-8be6-5141358248a4 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "isi" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	kam:case kam:Nominative ;
+	.
+
+aama:ID6d5a0a51-b2f6-4b1a-89f1-477fe2909670 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "ise" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	kam:case kam:Nominative ;
+	.
+
+aama:IDe9681c02-8497-4f3c-9ffa-06fb1dd335d0 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "issa" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Polite ;
+	kam:case kam:Nominative ;
+	.
+
+aama:ID217b531e-9fa1-4e53-805c-1781cb159755 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "naooti" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Nominative ;
+	.
+
+aama:IDa0e61342-e617-4871-86b1-47f13082de9b a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "anaooti" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person2 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Nominative ;
+	.
+
+aama:IDa324769b-3806-43c7-8df1-74023583c50f a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "issooti" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Nominative ;
+	.
+
+aama:IDf7e49df8-61fc-4168-8c36-03f8cb6a1ad7 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "e(e)s" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	kam:case kam:Accusative ;
+	.
+
+aama:ID5d8da799-6d06-4e2f-aca8-a5283b812908 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "ke(e)s" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person2 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	kam:case kam:Accusative ;
+	.
+
+aama:ID03d496be-3855-4a5f-a468-c7d06722b2e0 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "isu" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	kam:case kam:Accusative ;
+	.
+
+aama:IDc794781c-4163-4191-a3ca-c0cc0fe1ca36 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "is(e)t" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	kam:case kam:Accusative ;
+	.
+
+aama:ID8c841c63-4f4d-4daa-af5f-f15c8a0bfdc2 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "ne(e)s" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Accusative ;
+	.
+
+aama:ID84fe27b6-2c91-4618-8e02-647d8c4360fb a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "kinee(e)" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person2 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Accusative ;
+	.
+
+aama:ID6d6f4f78-f3ad-4815-94d2-ddf0c520c03d a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "issaot" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Accusative ;
+	.
+
+aama:ID15d9fc6c-f6b4-45fc-b4cf-b3a0aac89739 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-e" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	kam:case kam:Accusative ;
+	.
+
+aama:IDd5cc0a57-fca3-4d21-b270-193be9a905ed a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-ke ~ -kki" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person2 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	kam:case kam:Accusative ;
+	.
+
+aama:ID93f1f22f-b2a8-41d8-8ac7-bd88fd85eb92 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-si" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	kam:case kam:Accusative ;
+	.
+
+aama:ID5e157f1f-b2ff-4aaa-8c9a-469763222d34 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-se" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	kam:case kam:Accusative ;
+	.
+
+aama:IDc5f7c31b-3924-4832-bca5-7a3027dd9257 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-nne" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Accusative ;
+	.
+
+aama:IDa21bd157-9f47-42d0-b7b7-c398141fc8aa a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-ne" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person2 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Accusative ;
+	.
+
+aama:IDf97b550b-9420-44df-a0c2-b2395c59f724 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-(s)sa" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Accusative ;
+	.
+
+aama:ID176b89e8-cfe0-43f3-852f-612840ee331e a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "ii-ha/-ta" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	kam:case kam:Possessive ;
+	.
+
+aama:ID7077d45b-4418-4dc8-8178-6d9a0cba8eca a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "kii-ha/-ta" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person2 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	kam:case kam:Possessive ;
+	.
+
+aama:IDd683860b-56f9-47ee-854e-d155848d8bc4 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "isi-ha/-ta" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	kam:case kam:Possessive ;
+	.
+
+aama:IDd2412d88-d599-4d2a-9948-86c9589e5bfb a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "ise-ha/-ta" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	kam:case kam:Possessive ;
+	.
+
+aama:IDe84ec519-9098-4fba-aca7-cf77eee42848 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "nii-ha/-ta" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Possessive ;
+	.
+
+aama:IDbaa18a03-0f21-41bf-ad0e-3472e18bbd49 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "kiniee-ha/-ta" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person2 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Possessive ;
+	.
+
+aama:ID45e1a9e2-17d4-4169-89bf-4702224714c0 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "nii-ha/-ta" ;
+	kam:proClass kam:Independent ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Possessive ;
+	.
+
+aama:ID8d02fac9-f408-42a1-981f-4325817064de a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "kiniee-ha/-ta" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person1 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	kam:case kam:Possessive ;
+	.
+
+aama:IDb2d0daf8-c054-4f8d-b2eb-688d1845fa63 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-e" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person2 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Common ;
+	kam:case kam:Possessive ;
+	.
+
+aama:IDb2d7897d-3331-4758-9413-a2c62ce2768a a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-kii" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	kam:case kam:Possessive ;
+	.
+
+aama:IDc676bd51-d1c8-4fc3-b4e2-2aa7c2260085 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-si" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	kam:case kam:Possessive ;
+	.
+
+aama:ID996725aa-8994-45bb-9801-068518290fc7 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-si" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person3 ;
+	kam:number kam:Singular ;
+	kam:gender kam:Polite ;
+	kam:case kam:Possessive ;
+	.
+
+aama:ID8fd390e8-1ba0-4f24-a23e-a4aa6a728e6c a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-nne" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person1 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Possessive ;
+	.
+
+aama:IDa0814bf8-396f-447f-9499-b6ee29f139b9 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-ne" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person2 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Possessive ;
+	.
+
+aama:IDb4d5f28b-e1e1-4d47-b3b7-2bc8b27c2e77 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROIND ;
+	kam:pos kam:Pronoun ;
+	kam:token "-ssa" ;
+	kam:proClass kam:Suffix ;
+	kam:person kam:Person3 ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:case kam:Possessive ;
+	.
+
+#MUTERMCLUSTER:  kambaata-PDemonstrative
+
+aama:ID2cf8a34d-a5d5-4948-9bf8-3050c3fb33c3 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PRODEM ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Demonstrative ;
+	kam:token "ku" ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	kam:deixis kam:Near ;
+	kam:case kam:Nominative ;
+	.
+
+aama:ID2a642640-6a35-40ef-976c-eafe80dbbb38 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PRODEM ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Demonstrative ;
+	kam:token "ta" ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	kam:deixis kam:Near ;
+	kam:case kam:Nominative ;
+	.
+
+aama:ID273ab8e7-abbb-4787-acee-1ec3c13b5d04 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PRODEM ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Demonstrative ;
+	kam:token "hikkuupi" ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	kam:deixis kam:Far ;
+	kam:case kam:Nominative ;
+	.
+
+aama:ID30d4eb9e-bfdc-4308-9061-8d9c4f1f1f32 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PRODEM ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Demonstrative ;
+	kam:token "hittiipi" ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	kam:deixis kam:Far ;
+	kam:case kam:Nominative ;
+	.
+
+aama:IDd260da27-4a74-4160-a907-331d99ea7780 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PRODEM ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Demonstrative ;
+	kam:token "ku" ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:deixis kam:Near ;
+	kam:case kam:Nominative ;
+	.
+
+aama:IDc2e0de5a-0744-45e2-9460-ed52c2dedf5e a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PRODEM ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Demonstrative ;
+	kam:token "hikkuupi" ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:deixis kam:Far ;
+	kam:case kam:Nominative ;
+	.
+
+aama:IDaed85a8e-5954-4968-b782-3f00dda40032 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PRODEM ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Demonstrative ;
+	kam:token "ka" ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	kam:deixis kam:Near ;
+	kam:case kam:Accusative ;
+	.
+
+aama:IDb4b13d50-3343-4064-890a-26fd9e865c9e a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PRODEM ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Demonstrative ;
+	kam:token "ta" ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	kam:deixis kam:Near ;
+	kam:case kam:Accusative ;
+	.
+
+aama:ID44234857-98e8-4536-bb2b-ae1bd41b2af9 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PRODEM ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Demonstrative ;
+	kam:token "hikkaapi" ;
+	kam:number kam:Singular ;
+	kam:gender kam:Masc ;
+	kam:deixis kam:Far ;
+	kam:case kam:Accusative ;
+	.
+
+aama:IDd3518bba-5724-42cb-8016-d412dc784579 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PRODEM ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Demonstrative ;
+	kam:token "hittaapi" ;
+	kam:number kam:Singular ;
+	kam:gender kam:Fem ;
+	kam:deixis kam:Far ;
+	kam:case kam:Accusative ;
+	.
+
+aama:ID88af17dd-93b6-4d67-a998-94bb3ce4a940 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PRODEM ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Demonstrative ;
+	kam:token "ka" ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:deixis kam:Near ;
+	kam:case kam:Accusative ;
+	.
+
+aama:ID46332e61-0dec-4e8e-9a2b-91b1b606c932 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PRODEM ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Demonstrative ;
+	kam:token "hikkaapi" ;
+	kam:number kam:Plural ;
+	kam:gender kam:Common ;
+	kam:deixis kam:Far ;
+	kam:case kam:Accusative ;
+	.
+
+#MUTERMCLUSTER:  kambaata-PInterr
+
+aama:ID916d5a57-8e1f-4e3d-b57b-6dd8fd89981e a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROINTERROG ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Interrogative ;
+	kam:token "aye" ;
+	kam:interrogClass kam:InterrogProWho ;
+	.
+
+aama:ID4bfe27f1-557b-4148-9893-ca96390aac5f a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROINTERROG ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Interrogative ;
+	kam:token "ma" ;
+	kam:interrogClass kam:InterrogProWhat ;
+	.
+
+aama:ID04aba599-a2df-4b7b-8cb4-4d7f19845b40 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROINTERROG ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Interrogative ;
+	kam:token "hakka" ;
+	kam:interrogClass kam:InterrogProWhen ;
+	.
+
+aama:ID29765c82-52f7-4381-bd74-96aa46d53a96 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROINTERROG ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Interrogative ;
+	kam:token "hanno" ;
+	kam:interrogClass kam:InterrogProWhere ;
+	.
+
+aama:IDbfb95321-debd-47a0-8bed-3da48b230a42 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROINTERROG ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Interrogative ;
+	kam:token "hatti" ;
+	kam:interrogClass kam:InterrogProHow ;
+	.
+
+aama:ID2b0d15d9-0f0d-4a66-99c6-031639b41dae a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;
+	aamas:morpheme aama:Kambaata-PROINTERROG ;
+	kam:pos kam:Pronoun ;
+	kam:proClass kam:Interrogative ;
+	kam:token "mei" ;
+	kam:interrogClass kam:InterrogProHowMany ;
 	.

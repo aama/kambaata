@@ -1,6 +1,9 @@
 {
 :lang :kambaata
 :sgpref "kam"
+:datasource "SimM1985"
+:geodemoURL "http://www.ethnologue.com/language/ktb"
+:geodemoTXT "Varieties and subdialects of Kambaata are spoken in "
 :schemata {
 :case [:Accusative, :Nominative, :Possessive]
 	  :class [:Benefactive, :Causative1, :Causative2, :Combination, :Passive, :Reduplicated]
