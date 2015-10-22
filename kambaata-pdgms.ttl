@@ -334,10 +334,10 @@ aama:Kambaata-mar a aamas:Lexeme ;
 kam:kambaata-VNegImprtv-mar a aamas:Termcluster ;
 	rdfs:label "kambaata-VNegImprtv-mar" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:IDef727537-1fb5-4e25-9c25-203f7066c54b a aamas:Term ;
+aama:IDa156d37c-1373-4c13-aea5-819f0db41169 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VNegImprtv-mar ;
 	kam:gender kam:Common ;
@@ -349,7 +349,7 @@ aama:IDef727537-1fb5-4e25-9c25-203f7066c54b a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDeb7c75f8-c46c-4fd2-ade7-b83676c5f81e a aamas:Term ;
+aama:ID2a16dcdb-bd33-438b-a366-de277ed691f9 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VNegImprtv-mar ;
 	kam:gender kam:Common ;
@@ -366,10 +366,10 @@ aama:IDeb7c75f8-c46c-4fd2-ade7-b83676c5f81e a aamas:Term ;
 kam:kambaata-VAffSimplePerfMar- a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffSimplePerfMar-" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:IDf309a017-8aca-4eef-a2e4-fff77ac235f4 a aamas:Term ;
+aama:IDd9db19ed-b783-454f-bd37-4ded99e07707 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -382,7 +382,7 @@ aama:IDf309a017-8aca-4eef-a2e4-fff77ac235f4 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDa97c4b7d-39f0-400e-9792-90af16760f5f a aamas:Term ;
+aama:ID5cb6549f-4bfd-4be7-883e-21279de61cf7 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -395,7 +395,7 @@ aama:IDa97c4b7d-39f0-400e-9792-90af16760f5f a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDe407cb1f-8cf9-4dd3-a54c-384fad4c7dc4 a aamas:Term ;
+aama:ID6134b0ea-eb32-4441-9973-4948a319c905 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -408,7 +408,7 @@ aama:IDe407cb1f-8cf9-4dd3-a54c-384fad4c7dc4 a aamas:Term ;
 	kam:gender kam:Masc ;
 	.
 
-aama:IDd0d2a008-a318-472d-b916-9800e18d7b12 a aamas:Term ;
+aama:IDa3fa5e37-2c2c-42fc-80b0-8e433286bf60 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -421,7 +421,7 @@ aama:IDd0d2a008-a318-472d-b916-9800e18d7b12 a aamas:Term ;
 	kam:gender kam:Fem ;
 	.
 
-aama:ID18eff90c-737d-4aa4-9fb7-ab78fa66f244 a aamas:Term ;
+aama:ID90187b3f-da74-4e32-b355-6494717f77f8 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -434,7 +434,7 @@ aama:ID18eff90c-737d-4aa4-9fb7-ab78fa66f244 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID9da29849-8757-4283-817a-567fe47bb412 a aamas:Term ;
+aama:ID0af9b7fd-20d2-40d3-9e7a-53c3e3a5731e a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -447,7 +447,7 @@ aama:ID9da29849-8757-4283-817a-567fe47bb412 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDa155efe5-bf56-4d5c-b27e-797d399f9015 a aamas:Term ;
+aama:ID4fc89006-ae67-40c4-a0f0-96eef56266e5 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -465,10 +465,10 @@ aama:IDa155efe5-bf56-4d5c-b27e-797d399f9015 a aamas:Term ;
 kam:kambaata-VAffImprtv-mar a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffImprtv-mar" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:ID8588de78-8bf6-4951-be9c-0dd354407c99 a aamas:Term ;
+aama:ID46127733-54eb-44b8-9889-7e44fa14955c a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImprtv-mar ;
 	kam:gender kam:Common ;
@@ -480,7 +480,7 @@ aama:ID8588de78-8bf6-4951-be9c-0dd354407c99 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID84543fce-bb01-424b-80e4-ba03ca1f3672 a aamas:Term ;
+aama:IDc80a097d-4803-4647-b8b1-f200da6e4763 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImprtv-mar ;
 	kam:gender kam:Common ;
@@ -497,10 +497,10 @@ aama:ID84543fce-bb01-424b-80e4-ba03ca1f3672 a aamas:Term ;
 kam:kambaata-VAffJussive-mar a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffJussive-mar" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:ID2966d196-56b8-4550-a52e-a5507e601165 a aamas:Term ;
+aama:ID5301e484-5537-49bb-b382-d445341345c9 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussive-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -512,7 +512,7 @@ aama:ID2966d196-56b8-4550-a52e-a5507e601165 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID473bf493-20d3-4c4e-8a5a-0be2010cd0cc a aamas:Term ;
+aama:IDbf1e7e5c-aaa9-4480-b71f-f72600b43407 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussive-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -524,7 +524,7 @@ aama:ID473bf493-20d3-4c4e-8a5a-0be2010cd0cc a aamas:Term ;
 	kam:gender kam:Masc ;
 	.
 
-aama:IDb17e571c-a6a0-475d-8e91-a522db53f339 a aamas:Term ;
+aama:ID42b97441-d0b3-404d-898f-48ead8c25a84 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussive-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -536,7 +536,7 @@ aama:IDb17e571c-a6a0-475d-8e91-a522db53f339 a aamas:Term ;
 	kam:gender kam:Fem ;
 	.
 
-aama:IDa6b49e25-bb73-47ef-8aba-44cc1e40444b a aamas:Term ;
+aama:ID9c5b2d8f-4b37-406e-8794-1afdc06fca5d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussive-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -548,7 +548,7 @@ aama:IDa6b49e25-bb73-47ef-8aba-44cc1e40444b a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID27d748a4-43b4-48e3-9fbb-4913919f68dd a aamas:Term ;
+aama:ID8af394c1-3210-4600-966c-02deea06ccd2 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussive-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -565,10 +565,10 @@ aama:ID27d748a4-43b4-48e3-9fbb-4913919f68dd a aamas:Term ;
 kam:kambaata-VAffJussiveMar- a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffJussiveMar-" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:IDd03e0673-6e3b-43e6-a731-609cc73b2a99 a aamas:Term ;
+aama:IDb82d4f2c-5bb0-4baa-bb64-0b7e5b176323 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -581,7 +581,7 @@ aama:IDd03e0673-6e3b-43e6-a731-609cc73b2a99 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID7486efc8-889f-4196-9623-91260bbade77 a aamas:Term ;
+aama:IDecbf5991-afff-4200-b81a-766348960018 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -594,7 +594,7 @@ aama:ID7486efc8-889f-4196-9623-91260bbade77 a aamas:Term ;
 	kam:gender kam:Masc ;
 	.
 
-aama:IDead5e185-f600-488f-91b9-df2120bdddaa a aamas:Term ;
+aama:ID1a3f9716-f1af-4b86-b7d6-66f39c96ee46 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -607,7 +607,7 @@ aama:IDead5e185-f600-488f-91b9-df2120bdddaa a aamas:Term ;
 	kam:gender kam:Fem ;
 	.
 
-aama:ID30b12856-ebe9-43a1-9d5a-e96b0999960c a aamas:Term ;
+aama:ID8d85aff6-136a-425a-ad09-641299d9f227 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -620,7 +620,7 @@ aama:ID30b12856-ebe9-43a1-9d5a-e96b0999960c a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID3b1f92be-24bd-48af-b8fd-6468585e50f7 a aamas:Term ;
+aama:ID666d10a3-da8d-4718-a2eb-1297bcf00692 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -638,10 +638,10 @@ aama:ID3b1f92be-24bd-48af-b8fd-6468585e50f7 a aamas:Term ;
 kam:kambaata-VAffPresPerfMar- a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffPresPerfMar-" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:ID6d4c93d5-f601-4e2f-b466-915b63e662ca a aamas:Term ;
+aama:ID69817d78-5281-41ff-b300-6c5585c7b456 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -654,7 +654,7 @@ aama:ID6d4c93d5-f601-4e2f-b466-915b63e662ca a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDb3d8cb29-333b-4289-b7ae-043e44c36f79 a aamas:Term ;
+aama:ID17c60f13-35ba-4c28-91ca-bf81a350981f a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -667,7 +667,7 @@ aama:IDb3d8cb29-333b-4289-b7ae-043e44c36f79 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDefd362cc-e9ae-43d0-9de9-710dba903e3d a aamas:Term ;
+aama:ID8f2594cb-a27a-412b-bcc2-bb3786cc0a1e a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -680,7 +680,7 @@ aama:IDefd362cc-e9ae-43d0-9de9-710dba903e3d a aamas:Term ;
 	kam:gender kam:Masc ;
 	.
 
-aama:IDb987f53f-93c4-4b8a-9d21-d93c9b4a94a2 a aamas:Term ;
+aama:ID2d336f86-323e-4044-81cb-41b242eb54b5 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -693,7 +693,7 @@ aama:IDb987f53f-93c4-4b8a-9d21-d93c9b4a94a2 a aamas:Term ;
 	kam:gender kam:Fem ;
 	.
 
-aama:ID9113d403-4af4-4a44-b841-82cafd95c235 a aamas:Term ;
+aama:ID166d4249-3523-4eaf-b522-b7b88b3170cc a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -706,7 +706,7 @@ aama:ID9113d403-4af4-4a44-b841-82cafd95c235 a aamas:Term ;
 	kam:gender kam:Polite ;
 	.
 
-aama:ID7953f3e5-2356-4acc-a2a9-7a1475c4a709 a aamas:Term ;
+aama:ID97644cfc-b3c9-466b-b7ff-5fe60ee04f19 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -719,7 +719,7 @@ aama:ID7953f3e5-2356-4acc-a2a9-7a1475c4a709 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDcc35968d-471f-4cdf-bd32-20c1c6e81778 a aamas:Term ;
+aama:ID0c1e7270-d788-4c00-ae6c-2dec7760db7b a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -732,7 +732,7 @@ aama:IDcc35968d-471f-4cdf-bd32-20c1c6e81778 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID00a5444d-0c34-4e4d-973d-0cb1f195b3d3 a aamas:Term ;
+aama:IDdd1ad16a-6083-4a1d-926c-a941b90e46bd a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerfMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -750,10 +750,10 @@ aama:ID00a5444d-0c34-4e4d-973d-0cb1f195b3d3 a aamas:Term ;
 kam:kambaata-VAffPresPerf-mar a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffPresPerf-mar" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:ID1334bb31-f7ab-420e-b803-248b2f21a2f4 a aamas:Term ;
+aama:ID5da6fc84-6306-4cff-a190-31907aa3eed5 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -766,7 +766,7 @@ aama:ID1334bb31-f7ab-420e-b803-248b2f21a2f4 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID3042cd50-8c58-4997-96cc-f2060a3a3d3b a aamas:Term ;
+aama:ID769d215d-6cf3-4361-a084-b693439883fd a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -779,7 +779,7 @@ aama:ID3042cd50-8c58-4997-96cc-f2060a3a3d3b a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID3b93325e-54ce-4421-9488-038cc8550f5a a aamas:Term ;
+aama:IDb459e5f0-7eb3-490f-bb52-7777a3255591 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -792,7 +792,7 @@ aama:ID3b93325e-54ce-4421-9488-038cc8550f5a a aamas:Term ;
 	kam:gender kam:Masc ;
 	.
 
-aama:ID0356d65d-bf5d-448c-9e1d-72331a5e28e2 a aamas:Term ;
+aama:ID52576d97-ac6d-471f-9813-11cbef9e6e21 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -805,7 +805,7 @@ aama:ID0356d65d-bf5d-448c-9e1d-72331a5e28e2 a aamas:Term ;
 	kam:gender kam:Fem ;
 	.
 
-aama:ID722d8798-53ae-4f84-ac9b-b799f9708d5a a aamas:Term ;
+aama:IDbd203a6a-aec2-4baa-991b-524158d9ef70 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -818,7 +818,7 @@ aama:ID722d8798-53ae-4f84-ac9b-b799f9708d5a a aamas:Term ;
 	kam:gender kam:Polite ;
 	.
 
-aama:ID13c7d708-d82b-41f0-acb1-4aa0ec277abb a aamas:Term ;
+aama:ID1f0fcc22-0a13-4df4-a34e-2f7402f1dc83 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -831,7 +831,7 @@ aama:ID13c7d708-d82b-41f0-acb1-4aa0ec277abb a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID6c0edb5f-16ed-4279-935d-70caa987ee54 a aamas:Term ;
+aama:ID1f3b842b-90e0-4754-9e5d-c4aaa0294bb6 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -844,7 +844,7 @@ aama:ID6c0edb5f-16ed-4279-935d-70caa987ee54 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDb8928353-f7f4-44ed-a3d5-613dbdd84191 a aamas:Term ;
+aama:IDa109712e-8957-402d-acfe-2df67f277987 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -862,10 +862,10 @@ aama:IDb8928353-f7f4-44ed-a3d5-613dbdd84191 a aamas:Term ;
 kam:kambaata-VAffImperfect-mar a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffImperfect-mar" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:IDfdb18947-25b7-44d3-b6b3-ec2f4472fe55 a aamas:Term ;
+aama:IDc9f67ad2-a9de-4c76-9a6b-4c199d8a9e0c a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -877,7 +877,7 @@ aama:IDfdb18947-25b7-44d3-b6b3-ec2f4472fe55 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDabf9a9ed-7d2d-43ac-a377-c2f1377e4496 a aamas:Term ;
+aama:IDeaf2e174-dcdf-4904-bf1f-71550c72fb6e a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -889,7 +889,7 @@ aama:IDabf9a9ed-7d2d-43ac-a377-c2f1377e4496 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID0b5fdab7-a655-416d-8198-2825b1d63498 a aamas:Term ;
+aama:IDe179976d-d6fa-4f91-988a-86b3b2d7a4f2 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -901,7 +901,7 @@ aama:ID0b5fdab7-a655-416d-8198-2825b1d63498 a aamas:Term ;
 	kam:gender kam:Masc ;
 	.
 
-aama:IDa58f5b32-d632-43ea-9991-f5ce865610b1 a aamas:Term ;
+aama:ID07e05f42-1efb-4ae2-9ba6-ec6a0f581d7f a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -913,7 +913,7 @@ aama:IDa58f5b32-d632-43ea-9991-f5ce865610b1 a aamas:Term ;
 	kam:gender kam:Fem ;
 	.
 
-aama:IDe9ee9ab3-ef5e-4d5f-b038-91ef13d9638f a aamas:Term ;
+aama:IDc55d737e-8326-4ad1-a097-0c3ff0c2c65d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -925,7 +925,7 @@ aama:IDe9ee9ab3-ef5e-4d5f-b038-91ef13d9638f a aamas:Term ;
 	kam:gender kam:Polite ;
 	.
 
-aama:ID6eab0a31-72d3-4a66-bfb3-c13dc3bc5fb3 a aamas:Term ;
+aama:ID9ca7320f-1557-4023-bbe7-5f5daad95bfa a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -937,7 +937,7 @@ aama:ID6eab0a31-72d3-4a66-bfb3-c13dc3bc5fb3 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID45933724-2439-49dc-9524-43f5efd0fe97 a aamas:Term ;
+aama:ID9b94462a-93f2-4c15-9e7d-ea365e90d4d9 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -949,7 +949,7 @@ aama:ID45933724-2439-49dc-9524-43f5efd0fe97 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID08c60987-ccae-481b-b70b-1cd31b67dcc2 a aamas:Term ;
+aama:ID901280b4-03f8-44b6-a115-95dbbb0d9323 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfect-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -966,10 +966,10 @@ aama:ID08c60987-ccae-481b-b70b-1cd31b67dcc2 a aamas:Term ;
 kam:kambaata-VAffPastProgMar- a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffPastProgMar-" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:ID100dcdf8-4795-442b-b2c9-bc216cc0feb3 a aamas:Term ;
+aama:IDc64e4659-0279-406d-b698-27f7d39a4c7f a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -982,7 +982,7 @@ aama:ID100dcdf8-4795-442b-b2c9-bc216cc0feb3 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID353b000a-6fd6-4a77-b187-ce658c9eafa4 a aamas:Term ;
+aama:IDae37571c-1375-4cc7-81b4-1acf466fb4c5 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -995,7 +995,7 @@ aama:ID353b000a-6fd6-4a77-b187-ce658c9eafa4 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID87236c05-74cd-45eb-8fef-73bbcdf1b9d0 a aamas:Term ;
+aama:IDa63db739-2ea8-493e-8969-3f5513c2d9ca a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1008,7 +1008,7 @@ aama:ID87236c05-74cd-45eb-8fef-73bbcdf1b9d0 a aamas:Term ;
 	kam:gender kam:Masc ;
 	.
 
-aama:ID6a3819cd-2cf8-4a08-beee-3fda89e2a13f a aamas:Term ;
+aama:ID771d1622-2b55-4600-ae41-b1bec3aef76a a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1021,7 +1021,7 @@ aama:ID6a3819cd-2cf8-4a08-beee-3fda89e2a13f a aamas:Term ;
 	kam:gender kam:Fem ;
 	.
 
-aama:IDc746906a-2a5d-48cf-a08a-cb3fa2308f76 a aamas:Term ;
+aama:ID0a44f06b-4f4f-4cfc-b90e-b56d19221d95 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1034,7 +1034,7 @@ aama:IDc746906a-2a5d-48cf-a08a-cb3fa2308f76 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID733703dc-f765-4428-8f02-f406259bccb9 a aamas:Term ;
+aama:IDb3b472f0-4263-4e98-a7d4-81ecc49db125 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1047,7 +1047,7 @@ aama:ID733703dc-f765-4428-8f02-f406259bccb9 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID2308eff6-98a5-400c-ada2-883fdff50989 a aamas:Term ;
+aama:ID5c6cefd4-c021-446a-9b29-e5b8d2bb599b a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1065,10 +1065,10 @@ aama:ID2308eff6-98a5-400c-ada2-883fdff50989 a aamas:Term ;
 kam:kambaata-VAffSimplePerf-mar a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffSimplePerf-mar" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:IDd04d667d-e09f-4f60-b556-75b6a68ad672 a aamas:Term ;
+aama:ID40d85f49-9970-4911-b8ee-675e9b8afc7e a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1081,7 +1081,7 @@ aama:IDd04d667d-e09f-4f60-b556-75b6a68ad672 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDe13c74ad-6c72-4d70-94d1-f2b6f34c58d0 a aamas:Term ;
+aama:ID3cb84b69-6a4c-4561-a774-5d8667d5bd63 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1094,7 +1094,7 @@ aama:IDe13c74ad-6c72-4d70-94d1-f2b6f34c58d0 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDb17e1b30-cf57-4233-baf5-e7073e283f69 a aamas:Term ;
+aama:ID8a99609e-4f3a-4307-bd3c-ec1a75956665 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1107,7 +1107,7 @@ aama:IDb17e1b30-cf57-4233-baf5-e7073e283f69 a aamas:Term ;
 	kam:gender kam:Masc ;
 	.
 
-aama:IDced2931c-bab1-47ee-9bcd-c61dbc97ddde a aamas:Term ;
+aama:IDd240d063-8edc-46a3-a470-9ec44e57948e a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1120,7 +1120,7 @@ aama:IDced2931c-bab1-47ee-9bcd-c61dbc97ddde a aamas:Term ;
 	kam:gender kam:Fem ;
 	.
 
-aama:IDe47bc1e8-0274-4f95-89d5-b49d1d29eda7 a aamas:Term ;
+aama:ID71a1a5b5-934f-4ad6-945b-cedf6933d6c6 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1133,7 +1133,7 @@ aama:IDe47bc1e8-0274-4f95-89d5-b49d1d29eda7 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDea40fb0b-b3ba-49bd-aae2-e74cfd629d78 a aamas:Term ;
+aama:ID20f166dc-bae3-4f74-8eb2-ae33221a3f71 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1146,7 +1146,7 @@ aama:IDea40fb0b-b3ba-49bd-aae2-e74cfd629d78 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDd41ec9d0-9729-4adf-b3a6-549124036488 a aamas:Term ;
+aama:IDebd666c6-53f1-4dfd-8a0a-cc4382f0bd46 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1164,10 +1164,10 @@ aama:IDd41ec9d0-9729-4adf-b3a6-549124036488 a aamas:Term ;
 kam:kambaata-VAffPresProgMar- a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffPresProgMar-" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:ID43c058f5-62f1-4d68-ab27-f38d4bdb0b81 a aamas:Term ;
+aama:ID1037e159-5fce-4cc9-a145-2ff2e41f269a a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1180,7 +1180,7 @@ aama:ID43c058f5-62f1-4d68-ab27-f38d4bdb0b81 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID11084f30-1575-4d65-bfbb-a0155d0065e3 a aamas:Term ;
+aama:IDaab05f96-5af7-4024-b1ae-4af3b153ee45 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1193,7 +1193,7 @@ aama:ID11084f30-1575-4d65-bfbb-a0155d0065e3 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID52fd177c-2c2d-4a1a-b96a-325b70122877 a aamas:Term ;
+aama:IDcfa51240-567b-4e9a-9c08-aa55d983f677 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1206,7 +1206,7 @@ aama:ID52fd177c-2c2d-4a1a-b96a-325b70122877 a aamas:Term ;
 	kam:gender kam:Masc ;
 	.
 
-aama:IDb23d58bc-e9ce-485b-ae13-2379f6d9bc3c a aamas:Term ;
+aama:IDa50bc092-96f9-44a3-b122-6b91d5aa2b58 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1219,7 +1219,7 @@ aama:IDb23d58bc-e9ce-485b-ae13-2379f6d9bc3c a aamas:Term ;
 	kam:gender kam:Fem ;
 	.
 
-aama:IDf737fcc2-d038-49f2-84f5-6daa9f5d4e38 a aamas:Term ;
+aama:ID39f7192f-9a07-4649-8354-2b79211cdddd a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1232,7 +1232,7 @@ aama:IDf737fcc2-d038-49f2-84f5-6daa9f5d4e38 a aamas:Term ;
 	kam:gender kam:Polite ;
 	.
 
-aama:IDe95482e4-1783-4b10-8e04-c14ef2965931 a aamas:Term ;
+aama:IDe4ead0cf-4caf-4ba5-b874-e7ba04c38543 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1245,7 +1245,7 @@ aama:IDe95482e4-1783-4b10-8e04-c14ef2965931 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDd23569ba-4f24-4885-bc78-52313b3fbf69 a aamas:Term ;
+aama:ID762027fc-fe89-402d-befd-f6d3d260e092 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1258,7 +1258,7 @@ aama:IDd23569ba-4f24-4885-bc78-52313b3fbf69 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDb12ed61f-5d80-4b8b-ad7f-2be8bf3fced6 a aamas:Term ;
+aama:ID2b9e8207-0b5d-4a37-b068-b0ab44497f90 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1276,10 +1276,10 @@ aama:IDb12ed61f-5d80-4b8b-ad7f-2be8bf3fced6 a aamas:Term ;
 kam:kambaata-VAffPastProg-mar a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffPastProg-mar" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:ID9be82f2b-4d2e-4466-909c-a4b3d8cade6a a aamas:Term ;
+aama:ID49b2b3ae-b930-4dd5-8153-bb771aa2e3b5 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1292,7 +1292,7 @@ aama:ID9be82f2b-4d2e-4466-909c-a4b3d8cade6a a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID5be2fe24-047a-434a-9c5e-64d43e83a725 a aamas:Term ;
+aama:ID4011a454-c969-45a0-befb-ea25cb825e96 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1305,7 +1305,7 @@ aama:ID5be2fe24-047a-434a-9c5e-64d43e83a725 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDddf353f2-4836-4114-affb-62aa05d1bf69 a aamas:Term ;
+aama:ID306e512e-8e7b-47ac-bd36-91ca364150f8 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1318,7 +1318,7 @@ aama:IDddf353f2-4836-4114-affb-62aa05d1bf69 a aamas:Term ;
 	kam:gender kam:Masc ;
 	.
 
-aama:ID8f0df564-d9b7-4beb-8a40-e30777e4abde a aamas:Term ;
+aama:ID86078b9c-f9d8-4098-a6f0-90ff9b0f2128 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1331,7 +1331,7 @@ aama:ID8f0df564-d9b7-4beb-8a40-e30777e4abde a aamas:Term ;
 	kam:gender kam:Fem ;
 	.
 
-aama:IDc4922f8d-9f22-4e9e-9d89-34cf643bbb7c a aamas:Term ;
+aama:IDa3ba6461-df37-4c4f-bbcc-95ed15e9e823 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1344,7 +1344,7 @@ aama:IDc4922f8d-9f22-4e9e-9d89-34cf643bbb7c a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID4a3db3d1-53b3-403c-923a-50392e583be5 a aamas:Term ;
+aama:ID203dcaeb-5513-4f54-b777-d494ff3351b1 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1357,7 +1357,7 @@ aama:ID4a3db3d1-53b3-403c-923a-50392e583be5 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID52ff7883-dadf-425b-b4d8-635526ed0f58 a aamas:Term ;
+aama:ID68870845-dfec-4864-a0f4-4b1a48237203 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1375,10 +1375,10 @@ aama:ID52ff7883-dadf-425b-b4d8-635526ed0f58 a aamas:Term ;
 kam:kambaata-VNegImprtvMar- a aamas:Termcluster ;
 	rdfs:label "kambaata-VNegImprtvMar-" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:ID7cd1db2e-8a6a-4bb7-9d31-b3724ac055c9 a aamas:Term ;
+aama:ID714c4f27-41f2-412b-80bb-e6ad1155ed28 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VNegImprtvMar- ;
 	kam:gender kam:Common ;
@@ -1391,7 +1391,7 @@ aama:ID7cd1db2e-8a6a-4bb7-9d31-b3724ac055c9 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID26ea7b7e-b5f8-4a1d-9c7c-73c25166ed52 a aamas:Term ;
+aama:ID4f607d22-881d-4cd0-a0aa-7c45a4266fda a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VNegImprtvMar- ;
 	kam:gender kam:Common ;
@@ -1409,10 +1409,10 @@ aama:ID26ea7b7e-b5f8-4a1d-9c7c-73c25166ed52 a aamas:Term ;
 kam:kambaata-VAffImperfectMar- a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffImperfectMar-" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:ID5ef926be-35e8-47a5-a983-410ee28b8f89 a aamas:Term ;
+aama:ID7f9518da-6c1b-4396-bab3-f9f20b2cb59b a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1425,7 +1425,7 @@ aama:ID5ef926be-35e8-47a5-a983-410ee28b8f89 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID23cde93a-935d-4522-ab09-a8188f4c4c85 a aamas:Term ;
+aama:IDacce6f8a-93e9-48ea-b199-089587095506 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1438,7 +1438,7 @@ aama:ID23cde93a-935d-4522-ab09-a8188f4c4c85 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID3544f828-2523-4c70-bcb4-61932e20f818 a aamas:Term ;
+aama:IDaf688654-edf2-4f96-aca8-e0dd62c21407 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1451,7 +1451,7 @@ aama:ID3544f828-2523-4c70-bcb4-61932e20f818 a aamas:Term ;
 	kam:gender kam:Masc ;
 	.
 
-aama:IDb3b21c4a-d3a5-4a39-92c1-30bb3f6d2a70 a aamas:Term ;
+aama:ID93e496aa-0111-49ba-8de2-9fc31c136e82 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1464,7 +1464,7 @@ aama:IDb3b21c4a-d3a5-4a39-92c1-30bb3f6d2a70 a aamas:Term ;
 	kam:gender kam:Fem ;
 	.
 
-aama:IDdb9bfaef-b61f-4f31-84c8-3ffd7a6336a7 a aamas:Term ;
+aama:ID27056cae-7655-47b5-a7a7-ca7c04e55b10 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1477,7 +1477,7 @@ aama:IDdb9bfaef-b61f-4f31-84c8-3ffd7a6336a7 a aamas:Term ;
 	kam:gender kam:Polite ;
 	.
 
-aama:ID19429eaf-159c-4080-bd7c-28777916c87a a aamas:Term ;
+aama:ID9c393969-dff0-4744-9614-848e83a3ea9a a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1490,7 +1490,7 @@ aama:ID19429eaf-159c-4080-bd7c-28777916c87a a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDbf1a9350-ba2d-45c9-a53f-c561bbc4bb91 a aamas:Term ;
+aama:ID988f7d08-01d7-416a-90e2-2c937881789d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1503,7 +1503,7 @@ aama:IDbf1a9350-ba2d-45c9-a53f-c561bbc4bb91 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID3e249fc0-47a7-4d31-91e5-7b507f5b15d5 a aamas:Term ;
+aama:ID57fcae71-c71d-4055-9f60-f6915e750a3d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1521,10 +1521,10 @@ aama:ID3e249fc0-47a7-4d31-91e5-7b507f5b15d5 a aamas:Term ;
 kam:kambaata-VAffImprtvMar- a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffImprtvMar-" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:IDf9ec84a4-8c84-41f8-b9f8-772c1e2ece28 a aamas:Term ;
+aama:IDef4f3134-22e0-4d56-af02-1fe272da5350 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImprtvMar- ;
 	kam:gender kam:Common ;
@@ -1537,7 +1537,7 @@ aama:IDf9ec84a4-8c84-41f8-b9f8-772c1e2ece28 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDd969cce0-d35c-4011-b7ee-2b20743e975f a aamas:Term ;
+aama:IDf85f9736-63ea-4dad-967f-0652dc88c8c2 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImprtvMar- ;
 	kam:gender kam:Common ;
@@ -1555,10 +1555,10 @@ aama:IDd969cce0-d35c-4011-b7ee-2b20743e975f a aamas:Term ;
 kam:kambaata-VAffPresProg-mar a aamas:Termcluster ;
 	rdfs:label "kambaata-VAffPresProg-mar" ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54." 
+            section #4%%pp. 52-54." 
 	.
 
-aama:ID6d9c1e3d-1869-47fb-a96a-63902adf2b33 a aamas:Term ;
+aama:IDc97ec2e0-0722-4c37-97ad-79f1ba6f7804 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1571,7 +1571,7 @@ aama:ID6d9c1e3d-1869-47fb-a96a-63902adf2b33 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDad8d3a86-d056-4281-a2f3-4be0211fc2e7 a aamas:Term ;
+aama:ID59409af1-44d4-463e-922e-ee3683deca77 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1584,7 +1584,7 @@ aama:IDad8d3a86-d056-4281-a2f3-4be0211fc2e7 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDf0d9d71b-f29a-4e65-a1dd-22ca2adc31ee a aamas:Term ;
+aama:IDc07ac256-c7b3-4e50-a1bd-83ae8b258d23 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1597,7 +1597,7 @@ aama:IDf0d9d71b-f29a-4e65-a1dd-22ca2adc31ee a aamas:Term ;
 	kam:gender kam:Masc ;
 	.
 
-aama:ID2ec005f4-d2d5-4131-a3dd-6755c4e84a8d a aamas:Term ;
+aama:ID92991c24-a9ae-47b7-b122-1c65048f5421 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1610,7 +1610,7 @@ aama:ID2ec005f4-d2d5-4131-a3dd-6755c4e84a8d a aamas:Term ;
 	kam:gender kam:Fem ;
 	.
 
-aama:ID6a8f435d-4a47-45fe-bed9-2bdba8cb50f7 a aamas:Term ;
+aama:ID7c9a053d-9391-4aba-8ead-bc08ea6bfa24 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1623,7 +1623,7 @@ aama:ID6a8f435d-4a47-45fe-bed9-2bdba8cb50f7 a aamas:Term ;
 	kam:gender kam:Polite ;
 	.
 
-aama:ID18ddbd08-acb5-4fd5-8f23-8db7987d4818 a aamas:Term ;
+aama:IDabfb258b-fd17-4182-acdb-6c844245ea5e a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1636,7 +1636,7 @@ aama:ID18ddbd08-acb5-4fd5-8f23-8db7987d4818 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDbe463198-23ad-44a8-a2bf-3ba8de0ab2e5 a aamas:Term ;
+aama:IDddeccf1e-c797-4b96-96a0-c76845c725fe a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1649,7 +1649,7 @@ aama:IDbe463198-23ad-44a8-a2bf-3ba8de0ab2e5 a aamas:Term ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID5ced6d7d-d584-47c7-a6ee-185961917c36 a aamas:Term ;
+aama:ID0c75e442-7515-46ca-ae72-2ffd82534cb0 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProg-mar ;
 	aamas:lexeme aama:Kambaata-mar ;
@@ -1664,8 +1664,15 @@ aama:ID5ced6d7d-d584-47c7-a6ee-185961917c36 a aamas:Term ;
 
 #MUTERMCLUSTER:  kambaata-VSubjMarkerTemplates
 
-aama:IDf30d4513-3749-4d5e-a5ea-96c6e7febe73 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+kam:kambaata-VSubjMarkerTemplates a aamas:MuTermcluster ;
+	rdfs:label "kambaata-VSubjMarkerTemplates" ;
+	rdfs:comment "SimM1985 pp. 48-51. The following template applies to the simple perfect and the
+            imperfect tenses. The medial vowel –V is:–o simplePerf%%-e- presPerf%%-a- imperfect%%-ayo-
+            progressive. PastProg adds –ikke (past tense of bo be." 
+	.
+
+aama:ID24b2e029-7f06-4ab2-bda7-0dc3f77a5666 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:SubjMarkerTemplates ;
@@ -1679,8 +1686,8 @@ aama:IDf30d4513-3749-4d5e-a5ea-96c6e7febe73 a aamas:Muterm ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID561774db-0c8e-429c-a5ec-740b849f0751 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID52e2c049-17b2-48b8-8935-4fec3b199c56 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:SubjMarkerTemplates ;
@@ -1694,8 +1701,8 @@ aama:ID561774db-0c8e-429c-a5ec-740b849f0751 a aamas:Muterm ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID92ddfa2a-defe-49f0-80c6-c30826cd21a3 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID5b1fdf01-c420-4e2e-a5f1-b49bea3c3b51 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:SubjMarkerTemplates ;
@@ -1709,8 +1716,8 @@ aama:ID92ddfa2a-defe-49f0-80c6-c30826cd21a3 a aamas:Muterm ;
 	kam:gender kam:Masc ;
 	.
 
-aama:ID0039cd63-8b81-490a-9022-4bf4c8c94ce2 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDd7859b55-db85-4119-8736-a87f74128b3b a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:SubjMarkerTemplates ;
@@ -1724,8 +1731,8 @@ aama:ID0039cd63-8b81-490a-9022-4bf4c8c94ce2 a aamas:Muterm ;
 	kam:gender kam:Fem ;
 	.
 
-aama:IDfed47b49-93b8-487d-8bba-3ec1c9828b14 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDec63d517-c6a7-4195-9279-91440c3cf378 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:SubjMarkerTemplates ;
@@ -1739,8 +1746,8 @@ aama:IDfed47b49-93b8-487d-8bba-3ec1c9828b14 a aamas:Muterm ;
 	kam:gender kam:Common ;
 	.
 
-aama:ID07224ae3-ec1d-464d-9791-e910c420e7f3 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDba58e29b-ca59-4c02-9922-2778ffc7ed74 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:SubjMarkerTemplates ;
@@ -1754,8 +1761,8 @@ aama:ID07224ae3-ec1d-464d-9791-e910c420e7f3 a aamas:Muterm ;
 	kam:gender kam:Common ;
 	.
 
-aama:IDaf06b908-6abe-44b0-9f68-1e4af200ed4e a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID069a4612-9e13-40d6-9b06-49f5874f2d34 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Kambaata-SUBJMARKERTEMPLATES ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:SubjMarkerTemplates ;
@@ -1771,8 +1778,14 @@ aama:IDaf06b908-6abe-44b0-9f68-1e4af200ed4e a aamas:Muterm ;
 
 #MUTERMCLUSTER:  kambaata-VDervStem
 
-aama:IDf961bb59-36f3-44d9-99dc-9a1f676cb933 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+kam:kambaata-VDervStem a aamas:MuTermcluster ;
+	rdfs:label "kambaata-VDervStem" ;
+	rdfs:comment "SimM1985 pp. 56-63. Note discussions of consonant assimilations for causative –s-
+            pp. 56-59%%for benefactive pp. 59-62." 
+	.
+
+aama:ID4b71a1d8-1bbc-4101-b8ff-55007db11e93 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-VDervStem ;
 	aamas:morpheme aama:Kambaata-DERVSTEM ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:DervStem ;
@@ -1781,8 +1794,8 @@ aama:IDf961bb59-36f3-44d9-99dc-9a1f676cb933 a aamas:Muterm ;
 	kam:class kam:Causative1 ;
 	.
 
-aama:ID54b9e542-2cbc-45b9-8225-d066bbdf66d2 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDf77b322f-c5f8-4008-95fa-0c4960123323 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-VDervStem ;
 	aamas:morpheme aama:Kambaata-DERVSTEM ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:DervStem ;
@@ -1791,8 +1804,8 @@ aama:ID54b9e542-2cbc-45b9-8225-d066bbdf66d2 a aamas:Muterm ;
 	kam:class kam:Causative2 ;
 	.
 
-aama:ID4c013831-2b41-4162-94cd-f7c38b86df0b a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDb7bd909f-b2f9-4219-837d-b36df82cc7b8 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-VDervStem ;
 	aamas:morpheme aama:Kambaata-DERVSTEM ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:DervStem ;
@@ -1801,8 +1814,8 @@ aama:ID4c013831-2b41-4162-94cd-f7c38b86df0b a aamas:Muterm ;
 	kam:class kam:Benefactive ;
 	.
 
-aama:ID46af5995-fe38-46cf-849b-83d23eee55cd a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID740e55df-c4ec-478e-9d8d-4572c49c3f06 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-VDervStem ;
 	aamas:morpheme aama:Kambaata-DERVSTEM ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:DervStem ;
@@ -1810,8 +1823,8 @@ aama:ID46af5995-fe38-46cf-849b-83d23eee55cd a aamas:Muterm ;
 	kam:class kam:Passive ;
 	.
 
-aama:ID0fa4628c-d064-4007-abe3-0685b7a4c44e a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID26555259-048d-4d4f-b64b-218ff9838a56 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-VDervStem ;
 	aamas:morpheme aama:Kambaata-DERVSTEM ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:DervStem ;
@@ -1820,8 +1833,8 @@ aama:ID0fa4628c-d064-4007-abe3-0685b7a4c44e a aamas:Muterm ;
 	kam:class kam:Combination ;
 	.
 
-aama:IDa4625669-0f77-41e9-b41c-977e9362c615 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDc00f6ce9-a6ad-437a-b8f3-0c2b1c045b19 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-VDervStem ;
 	aamas:morpheme aama:Kambaata-DERVSTEM ;
 	kam:pos kam:Verb ;
 	kam:morphClass kam:DervStem ;
@@ -1832,8 +1845,13 @@ aama:IDa4625669-0f77-41e9-b41c-977e9362c615 a aamas:Muterm ;
 
 #MUTERMCLUSTER:  kambaata-PPersonal
 
-aama:IDf37b9730-4be7-40f8-8dcc-a7b9b174e713 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+kam:kambaata-PPersonal a aamas:MuTermcluster ;
+	rdfs:label "kambaata-PPersonal" ;
+	rdfs:comment "HudsonG1976 pp. 256-259. Cf. Korhonen-etal1986 p. 105%%107." 
+	.
+
+aama:IDc5f980da-fae0-49a4-98d8-c382f36af46f a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "ani" ;
@@ -1844,8 +1862,8 @@ aama:IDf37b9730-4be7-40f8-8dcc-a7b9b174e713 a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:IDa1ae1f92-c866-49c4-849f-2a8e6ef8f418 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID45e56806-e392-4aa6-ad10-c6dc94a8c476 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "ati" ;
@@ -1856,8 +1874,8 @@ aama:IDa1ae1f92-c866-49c4-849f-2a8e6ef8f418 a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:IDa91b6ad6-4e19-4460-8be6-5141358248a4 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDf6771b00-dd35-4523-8ba1-ec9991050187 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "isi" ;
@@ -1868,8 +1886,8 @@ aama:IDa91b6ad6-4e19-4460-8be6-5141358248a4 a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID6d5a0a51-b2f6-4b1a-89f1-477fe2909670 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID33c8470c-9327-4c4c-b650-4c71b375de0c a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "ise" ;
@@ -1880,8 +1898,8 @@ aama:ID6d5a0a51-b2f6-4b1a-89f1-477fe2909670 a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:IDe9681c02-8497-4f3c-9ffa-06fb1dd335d0 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDf1b804cc-bc51-46fb-9b1f-442aa58539e2 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "issa" ;
@@ -1892,8 +1910,8 @@ aama:IDe9681c02-8497-4f3c-9ffa-06fb1dd335d0 a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID217b531e-9fa1-4e53-805c-1781cb159755 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDd1d6d954-130b-4410-aab8-cc7a44ac69db a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "naooti" ;
@@ -1904,8 +1922,8 @@ aama:ID217b531e-9fa1-4e53-805c-1781cb159755 a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:IDa0e61342-e617-4871-86b1-47f13082de9b a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID899f91f7-eb3b-4f0d-97de-439ea5e2d795 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "anaooti" ;
@@ -1916,8 +1934,8 @@ aama:IDa0e61342-e617-4871-86b1-47f13082de9b a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:IDa324769b-3806-43c7-8df1-74023583c50f a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDc3c57c01-5df9-4fcc-a2ad-1006767deb3c a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "issooti" ;
@@ -1928,8 +1946,8 @@ aama:IDa324769b-3806-43c7-8df1-74023583c50f a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:IDf7e49df8-61fc-4168-8c36-03f8cb6a1ad7 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID36a456f1-aef4-4471-a999-606cce98ac46 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "e(e)s" ;
@@ -1940,8 +1958,8 @@ aama:IDf7e49df8-61fc-4168-8c36-03f8cb6a1ad7 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID5d8da799-6d06-4e2f-aca8-a5283b812908 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID692998f1-1deb-4b66-ad20-8cc180a39f44 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "ke(e)s" ;
@@ -1952,8 +1970,8 @@ aama:ID5d8da799-6d06-4e2f-aca8-a5283b812908 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID03d496be-3855-4a5f-a468-c7d06722b2e0 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID1a1f1a47-1db6-4297-89d2-1c4251c2a767 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "isu" ;
@@ -1964,8 +1982,8 @@ aama:ID03d496be-3855-4a5f-a468-c7d06722b2e0 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDc794781c-4163-4191-a3ca-c0cc0fe1ca36 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID53598e5c-d5d2-4329-80ce-af84e62e9d9b a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "is(e)t" ;
@@ -1976,8 +1994,8 @@ aama:IDc794781c-4163-4191-a3ca-c0cc0fe1ca36 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID8c841c63-4f4d-4daa-af5f-f15c8a0bfdc2 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDc4edc1a3-10d0-4531-88d1-f5d684268abb a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "ne(e)s" ;
@@ -1988,8 +2006,8 @@ aama:ID8c841c63-4f4d-4daa-af5f-f15c8a0bfdc2 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID84fe27b6-2c91-4618-8e02-647d8c4360fb a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID39e143e6-66c6-47cc-9e9e-0c82246c681b a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "kinee(e)" ;
@@ -2000,8 +2018,8 @@ aama:ID84fe27b6-2c91-4618-8e02-647d8c4360fb a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID6d6f4f78-f3ad-4815-94d2-ddf0c520c03d a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID98559b40-4081-41e2-9813-8e4c6e12f355 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "issaot" ;
@@ -2012,8 +2030,8 @@ aama:ID6d6f4f78-f3ad-4815-94d2-ddf0c520c03d a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID15d9fc6c-f6b4-45fc-b4cf-b3a0aac89739 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID09d0d21e-a4a2-40ad-adde-efe69e5ae217 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-e" ;
@@ -2024,8 +2042,8 @@ aama:ID15d9fc6c-f6b4-45fc-b4cf-b3a0aac89739 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDd5cc0a57-fca3-4d21-b270-193be9a905ed a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID8ab6ec51-4eb9-4d42-a928-a36254a068e4 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-ke ~ -kki" ;
@@ -2036,8 +2054,8 @@ aama:IDd5cc0a57-fca3-4d21-b270-193be9a905ed a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID93f1f22f-b2a8-41d8-8ac7-bd88fd85eb92 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID90e5619d-fa92-4173-9b4d-88d448f36dae a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-si" ;
@@ -2048,8 +2066,8 @@ aama:ID93f1f22f-b2a8-41d8-8ac7-bd88fd85eb92 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID5e157f1f-b2ff-4aaa-8c9a-469763222d34 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID4c1e29a5-6439-4843-bcf5-208263d8f9be a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-se" ;
@@ -2060,8 +2078,8 @@ aama:ID5e157f1f-b2ff-4aaa-8c9a-469763222d34 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDc5f7c31b-3924-4832-bca5-7a3027dd9257 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDc7734361-b73d-4362-9fb3-32b22b57335f a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-nne" ;
@@ -2072,8 +2090,8 @@ aama:IDc5f7c31b-3924-4832-bca5-7a3027dd9257 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDa21bd157-9f47-42d0-b7b7-c398141fc8aa a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDb33e3837-8089-4be2-a817-3babb989ad3c a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-ne" ;
@@ -2084,8 +2102,8 @@ aama:IDa21bd157-9f47-42d0-b7b7-c398141fc8aa a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDf97b550b-9420-44df-a0c2-b2395c59f724 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID6c14e3c1-33b1-4f25-a006-350b331643a0 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-(s)sa" ;
@@ -2096,8 +2114,8 @@ aama:IDf97b550b-9420-44df-a0c2-b2395c59f724 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID176b89e8-cfe0-43f3-852f-612840ee331e a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID2d0a8d62-de7f-4ed8-a07f-fac99280e466 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "ii-ha/-ta" ;
@@ -2108,8 +2126,8 @@ aama:ID176b89e8-cfe0-43f3-852f-612840ee331e a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID7077d45b-4418-4dc8-8178-6d9a0cba8eca a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID6e4b824f-efa0-408d-ae0d-cdee17501a04 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "kii-ha/-ta" ;
@@ -2120,8 +2138,8 @@ aama:ID7077d45b-4418-4dc8-8178-6d9a0cba8eca a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:IDd683860b-56f9-47ee-854e-d155848d8bc4 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID14b3b8a6-9558-426b-ba3c-ee81726bb544 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "isi-ha/-ta" ;
@@ -2132,8 +2150,8 @@ aama:IDd683860b-56f9-47ee-854e-d155848d8bc4 a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:IDd2412d88-d599-4d2a-9948-86c9589e5bfb a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDdde4f86d-4cbf-418c-891a-52d15f92d741 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "ise-ha/-ta" ;
@@ -2144,8 +2162,8 @@ aama:IDd2412d88-d599-4d2a-9948-86c9589e5bfb a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:IDe84ec519-9098-4fba-aca7-cf77eee42848 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDba574d78-8d8a-41da-944f-fc9062dd04d2 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "nii-ha/-ta" ;
@@ -2156,8 +2174,8 @@ aama:IDe84ec519-9098-4fba-aca7-cf77eee42848 a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:IDbaa18a03-0f21-41bf-ad0e-3472e18bbd49 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID2efc2944-e935-434a-a598-376c38690c3b a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "kiniee-ha/-ta" ;
@@ -2168,8 +2186,8 @@ aama:IDbaa18a03-0f21-41bf-ad0e-3472e18bbd49 a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID45e1a9e2-17d4-4169-89bf-4702224714c0 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID6f88b123-470c-4567-9f9c-1d01dec73828 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "nii-ha/-ta" ;
@@ -2180,8 +2198,8 @@ aama:ID45e1a9e2-17d4-4169-89bf-4702224714c0 a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID8d02fac9-f408-42a1-981f-4325817064de a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID4bbe5c12-0e2a-4fc9-ba71-b766c9d5c9aa a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "kiniee-ha/-ta" ;
@@ -2192,8 +2210,8 @@ aama:ID8d02fac9-f408-42a1-981f-4325817064de a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:IDb2d0daf8-c054-4f8d-b2eb-688d1845fa63 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID91ff685b-c73b-4c94-b50e-10952e8ef741 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-e" ;
@@ -2204,8 +2222,8 @@ aama:IDb2d0daf8-c054-4f8d-b2eb-688d1845fa63 a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:IDb2d7897d-3331-4758-9413-a2c62ce2768a a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID36736c63-a5e7-40c4-8619-8bdb0f06b967 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-kii" ;
@@ -2216,8 +2234,8 @@ aama:IDb2d7897d-3331-4758-9413-a2c62ce2768a a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:IDc676bd51-d1c8-4fc3-b4e2-2aa7c2260085 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID207d569d-055b-4ab9-b08d-6447a326fe75 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-si" ;
@@ -2228,8 +2246,8 @@ aama:IDc676bd51-d1c8-4fc3-b4e2-2aa7c2260085 a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID996725aa-8994-45bb-9801-068518290fc7 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID95fed70b-b514-4ccf-a816-e9f746702877 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-si" ;
@@ -2240,8 +2258,8 @@ aama:ID996725aa-8994-45bb-9801-068518290fc7 a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID8fd390e8-1ba0-4f24-a23e-a4aa6a728e6c a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDd165ba72-e7f4-45f4-b6dd-da02c0c2bc26 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-nne" ;
@@ -2252,8 +2270,8 @@ aama:ID8fd390e8-1ba0-4f24-a23e-a4aa6a728e6c a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:IDa0814bf8-396f-447f-9499-b6ee29f139b9 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDc71587f1-ff78-42b0-8015-d19dd931da6c a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-ne" ;
@@ -2264,8 +2282,8 @@ aama:IDa0814bf8-396f-447f-9499-b6ee29f139b9 a aamas:Muterm ;
 	kam:case kam:Possessive ;
 	.
 
-aama:IDb4d5f28b-e1e1-4d47-b3b7-2bc8b27c2e77 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDd28534f0-198d-48ff-b31d-90ec0849818a a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PPersonal ;
 	aamas:morpheme aama:Kambaata-PROIND ;
 	kam:pos kam:Pronoun ;
 	kam:token "-ssa" ;
@@ -2278,8 +2296,13 @@ aama:IDb4d5f28b-e1e1-4d47-b3b7-2bc8b27c2e77 a aamas:Muterm ;
 
 #MUTERMCLUSTER:  kambaata-PDemonstrative
 
-aama:ID2cf8a34d-a5d5-4948-9bf8-3050c3fb33c3 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+kam:kambaata-PDemonstrative a aamas:MuTermcluster ;
+	rdfs:label "kambaata-PDemonstrative" ;
+	rdfs:comment "HudsonG1976 pp. 255-256. Cf. Korhonen-etal1986 p. 106." 
+	.
+
+aama:ID64a3862b-cf4d-4a00-b52f-01605f8c33fb a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PDemonstrative ;
 	aamas:morpheme aama:Kambaata-PRODEM ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Demonstrative ;
@@ -2290,8 +2313,8 @@ aama:ID2cf8a34d-a5d5-4948-9bf8-3050c3fb33c3 a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID2a642640-6a35-40ef-976c-eafe80dbbb38 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID1c89bf50-9c2e-4e7c-997b-92a32ff6595b a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PDemonstrative ;
 	aamas:morpheme aama:Kambaata-PRODEM ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Demonstrative ;
@@ -2302,8 +2325,8 @@ aama:ID2a642640-6a35-40ef-976c-eafe80dbbb38 a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID273ab8e7-abbb-4787-acee-1ec3c13b5d04 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID8173118b-fe3a-4c87-98f5-19e0f157cdac a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PDemonstrative ;
 	aamas:morpheme aama:Kambaata-PRODEM ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Demonstrative ;
@@ -2314,8 +2337,8 @@ aama:ID273ab8e7-abbb-4787-acee-1ec3c13b5d04 a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID30d4eb9e-bfdc-4308-9061-8d9c4f1f1f32 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID720afbf9-c2b2-4588-87b1-2c346a228e9a a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PDemonstrative ;
 	aamas:morpheme aama:Kambaata-PRODEM ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Demonstrative ;
@@ -2326,8 +2349,8 @@ aama:ID30d4eb9e-bfdc-4308-9061-8d9c4f1f1f32 a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:IDd260da27-4a74-4160-a907-331d99ea7780 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID42315b67-2093-4948-9458-cf07ae23fea7 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PDemonstrative ;
 	aamas:morpheme aama:Kambaata-PRODEM ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Demonstrative ;
@@ -2338,8 +2361,8 @@ aama:IDd260da27-4a74-4160-a907-331d99ea7780 a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:IDc2e0de5a-0744-45e2-9460-ed52c2dedf5e a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID7233e94b-c74b-4d68-8ba4-a01fcfbd60f6 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PDemonstrative ;
 	aamas:morpheme aama:Kambaata-PRODEM ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Demonstrative ;
@@ -2350,8 +2373,8 @@ aama:IDc2e0de5a-0744-45e2-9460-ed52c2dedf5e a aamas:Muterm ;
 	kam:case kam:Nominative ;
 	.
 
-aama:IDaed85a8e-5954-4968-b782-3f00dda40032 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID3c7a96b9-1297-42ce-bea2-290c7eb266e4 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PDemonstrative ;
 	aamas:morpheme aama:Kambaata-PRODEM ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Demonstrative ;
@@ -2362,8 +2385,8 @@ aama:IDaed85a8e-5954-4968-b782-3f00dda40032 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDb4b13d50-3343-4064-890a-26fd9e865c9e a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID48229c6b-e1f4-4b36-88ff-19aa868c80a7 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PDemonstrative ;
 	aamas:morpheme aama:Kambaata-PRODEM ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Demonstrative ;
@@ -2374,8 +2397,8 @@ aama:IDb4b13d50-3343-4064-890a-26fd9e865c9e a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID44234857-98e8-4536-bb2b-ae1bd41b2af9 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID7c739210-9abd-40e9-ad16-69d8609156f1 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PDemonstrative ;
 	aamas:morpheme aama:Kambaata-PRODEM ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Demonstrative ;
@@ -2386,8 +2409,8 @@ aama:ID44234857-98e8-4536-bb2b-ae1bd41b2af9 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDd3518bba-5724-42cb-8016-d412dc784579 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID3780658d-725b-4489-a65a-c0695af27332 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PDemonstrative ;
 	aamas:morpheme aama:Kambaata-PRODEM ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Demonstrative ;
@@ -2398,8 +2421,8 @@ aama:IDd3518bba-5724-42cb-8016-d412dc784579 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID88af17dd-93b6-4d67-a998-94bb3ce4a940 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID685e550f-1fff-4e8f-8cb6-53a0c356f92d a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PDemonstrative ;
 	aamas:morpheme aama:Kambaata-PRODEM ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Demonstrative ;
@@ -2410,8 +2433,8 @@ aama:ID88af17dd-93b6-4d67-a998-94bb3ce4a940 a aamas:Muterm ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID46332e61-0dec-4e8e-9a2b-91b1b606c932 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID404ef6c6-65c9-48c2-8400-b64696c75589 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PDemonstrative ;
 	aamas:morpheme aama:Kambaata-PRODEM ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Demonstrative ;
@@ -2424,8 +2447,13 @@ aama:ID46332e61-0dec-4e8e-9a2b-91b1b606c932 a aamas:Muterm ;
 
 #MUTERMCLUSTER:  kambaata-PInterr
 
-aama:ID916d5a57-8e1f-4e3d-b57b-6dd8fd89981e a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+kam:kambaata-PInterr a aamas:MuTermcluster ;
+	rdfs:label "kambaata-PInterr" ;
+	rdfs:comment "HudsonG1976 p. 259." 
+	.
+
+aama:ID76723602-5d49-48d1-b41a-3b10ea9be6b7 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PInterr ;
 	aamas:morpheme aama:Kambaata-PROINTERROG ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Interrogative ;
@@ -2433,8 +2461,8 @@ aama:ID916d5a57-8e1f-4e3d-b57b-6dd8fd89981e a aamas:Muterm ;
 	kam:interrogClass kam:InterrogProWho ;
 	.
 
-aama:ID4bfe27f1-557b-4148-9893-ca96390aac5f a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID80d50fbb-eff2-47df-af4c-daa2dd20b3bf a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PInterr ;
 	aamas:morpheme aama:Kambaata-PROINTERROG ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Interrogative ;
@@ -2442,8 +2470,8 @@ aama:ID4bfe27f1-557b-4148-9893-ca96390aac5f a aamas:Muterm ;
 	kam:interrogClass kam:InterrogProWhat ;
 	.
 
-aama:ID04aba599-a2df-4b7b-8cb4-4d7f19845b40 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDb2939adc-1004-4817-8b36-9c2d822d9830 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PInterr ;
 	aamas:morpheme aama:Kambaata-PROINTERROG ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Interrogative ;
@@ -2451,8 +2479,8 @@ aama:ID04aba599-a2df-4b7b-8cb4-4d7f19845b40 a aamas:Muterm ;
 	kam:interrogClass kam:InterrogProWhen ;
 	.
 
-aama:ID29765c82-52f7-4381-bd74-96aa46d53a96 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:ID97f18894-5f85-4896-95f4-bc520ffc1899 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PInterr ;
 	aamas:morpheme aama:Kambaata-PROINTERROG ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Interrogative ;
@@ -2460,8 +2488,8 @@ aama:ID29765c82-52f7-4381-bd74-96aa46d53a96 a aamas:Muterm ;
 	kam:interrogClass kam:InterrogProWhere ;
 	.
 
-aama:IDbfb95321-debd-47a0-8bed-3da48b230a42 a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDb4bd3a80-a911-449e-a3af-c8c8078e78f2 a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PInterr ;
 	aamas:morpheme aama:Kambaata-PROINTERROG ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Interrogative ;
@@ -2469,8 +2497,8 @@ aama:IDbfb95321-debd-47a0-8bed-3da48b230a42 a aamas:Muterm ;
 	kam:interrogClass kam:InterrogProHow ;
 	.
 
-aama:ID2b0d15d9-0f0d-4a66-99c6-031639b41dae a aamas:Muterm ;
-	aamas:lang aama:Kambaata ;
+aama:IDaeefa680-d4c4-41ac-9869-ebf2a14cc1bc a aamas:Muterm ;
+	aamas:lang aama:Kambaata ;	aamas:memberOf kam:kambaata-PInterr ;
 	aamas:morpheme aama:Kambaata-PROINTERROG ;
 	kam:pos kam:Pronoun ;
 	kam:proClass kam:Interrogative ;
