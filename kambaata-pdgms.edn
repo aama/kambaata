@@ -337,18 +337,18 @@
     {:label "kambaata-VSubjMarkerTemplates"
     :note "SimM1985 pp. 48-51. The following template applies to the simple perfect and the
             imperfect tenses. The medial vowel –V is:–o simplePerf,-e- presPerf,-a- imperfect,-ayo-
-            progressive. PastProg adds –ikke (past tense of bo be."
+            progressive. PastProg adds –ikke (past tense of bo be. The token template note is: medialVowel + person1 + person2 + CFinalGem."
     :common {:morpheme :SUBJMARKERTEMPLATES,
 	    :pos :Verb,
 	    :morphClass :SubjMarkerTemplates}
-    :terms [[:gender, :number, :person, :token-medialVow, :token-person1, :token-person2, :token-CFinalGem, :token]  ;; schema
-	    [:Common, :Singular, :Person1, "V", "_NULL", "–mmi", "+ (simplePerf, presPerf)", "V + _NULL + –mmi + + (simplePerf, presPerf)"],
-	    [:Common, :Singular, :Person2, "V", "-t", "–nti", "_NULL", "V + -t + –nti + _NULL"],
-	    [:Masc, :Singular, :Person3, "V", "_NULL", "–no", "+ (simplePerf, presPerf)", "V + _NULL + –no + + (simplePerf, presPerf)"],
-	    [:Fem, :Singular, :Person3, "V", "_NULL", "–‘i", "_NULL", "V + _NULL + –‘i + _NULL"],
-	    [:Common, :Plural, :Person1, "V", "-n", "–mmi", "_NULL", "V + -n + –mmi + _NULL"],
-	    [:Common, :Plural, :Person2, "V", "-teen", "–nta", "_NULL", "V + -teen + –nta + _NULL"],
-	    [:Common, :Plural, :Person3, "V", "-t", "–‘i", "_NULL", "V + -t + –‘i + _NULL"]]
+    :terms [[:gender, :number, :person, :token-note-template, :token]  ;; schema
+	    [:Common, :Singular, :Person1, "V + _NULL + –mmi + + (simplePerf, presPerf)", "V + _NULL + –mmi + + (simplePerf, presPerf)"],
+	    [:Common, :Singular, :Person2, "V + -t + –nti + _NULL", "V + -t + –nti + _NULL"],
+	    [:Masc, :Singular, :Person3, "V + _NULL + –no + + (simplePerf, presPerf)", "V + _NULL + –no + + (simplePerf, presPerf)"],
+	    [:Fem, :Singular, :Person3, "V + _NULL + –‘i + _NULL", "V + _NULL + –‘i + _NULL"],
+	    [:Common, :Plural, :Person1, "V + -n + –mmi + _NULL", "V + -n + –mmi + _NULL"],
+	    [:Common, :Plural, :Person2, "V + -teen + –nta + _NULL", "V + -teen + –nta + _NULL"],
+	    [:Common, :Plural, :Person3, "V + -t + –‘i + _NULL", "V + -t + –‘i + _NULL"]]
     }
     {:label "kambaata-VDervStem"
     :note "SimM1985 pp. 56-63. Note discussions of consonant assimilations for causative –s-
