@@ -49,19 +49,6 @@
             [:Nominative :Near :Singular :Fem "ta"],
             [:Nominative :Near :Plural :Common "ku"]]
     }
-    {:label "kambaata-VAffImprtvMar-"
-    :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
-    :pdgmType :Finite
-    :common {:gender :Common,
-             :lexeme :mar,
-             :person :Person2,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Imperative}
-    :terms [[:number :token],
-            [:Singular "mari"],
-            [:Plural "marre"]]
-    }
     {:label "kambaata-PPersonal"
     :note "HudsonG1976 pp. 256-259. Cf. Korhonen-etal1986 p. 105,107."
     :pdgmType :NA
@@ -106,7 +93,7 @@
             [:Possessive :Suffix :Plural :Person2 :Common "-ne"],
             [:Possessive :Suffix :Plural :Person3 :Common "-ssa"]]
     }
-    {:label "kambaata-VAffImperfectMar-"
+    {:label "kambaata-VAffImperfect-mar"
     :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
     :pdgmType :Finite
     :common {:lexeme :mar,
@@ -123,7 +110,7 @@
             [:Plural :Person2 :Common "marteenanta"],
             [:Plural :Person3 :Common "marta’i"]]
     }
-    {:label "kambaata-VAffJussiveMar-"
+    {:label "kambaata-VAffJussive-mar"
     :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
     :pdgmType :Finite
     :common {:lexeme :mar,
@@ -136,6 +123,19 @@
             [:Singular :Person3 :Fem "martuni"],
             [:Plural :Person1 :Common "mannun / manno"],
             [:Plural :Person3 :Common "martuni"]]
+    }
+    {:label "kambaata-VAffImprtv-mar"
+    :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
+    :pdgmType :Finite
+    :common {:gender :Common,
+             :lexeme :mar,
+             :person :Person2,
+             :polarity :Affirmative,
+             :pos :Verb,
+             :tam :Imperative}
+    :terms [[:number :token],
+            [:Singular "mari"],
+            [:Plural "marre"]]
     }
     {:label "kambaata-VNegImprtv-mar"
     :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
@@ -195,7 +195,7 @@
             [:Plural :Person2 :Common "marteenti"],
             [:Plural :Person3 :Common "marte’i"]]
     }
-    {:label "kambaata-VAffPresProgMar-"
+    {:label "kambaata-VAffPresProg-mar"
     :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
     :pdgmType :Finite
     :common {:lexeme :mar,
@@ -212,7 +212,7 @@
             [:Plural :Person2 :Common "martenayonta"],
             [:Plural :Person3 :Common "martayo’i"]]
     }
-    {:label "kambaata-VAffSimplePerfMar-"
+    {:label "kambaata-VAffSimplePerf-mar"
     :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
     :pdgmType :Finite
     :common {:lexeme :mar,
