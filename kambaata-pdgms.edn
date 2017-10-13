@@ -5,19 +5,18 @@
 :datasource "SimM1985"
 :geodemoURL "http://www.ethnologue.com/language/ktb"
 :geodemoTXT "Varieties and subdialects of Kambaata are spoken in the 'Southern Nations, Nationalities, and Peoples’ region: southwest Gurage, Kambaata, and Hadiyya zones; Durame is main town'."
-:schemata{:gender [:Common :Fem :Masc :Polite],
-          :interrogClass [:InterrogProHow :InterrogProHowMany :InterrogProWhat :InterrogProWhen :InterrogProWhere :InterrogProWho],
-          :polarity [:Affirmative :Negative],
-          :case [:Accusative :Nominative :Possessive],
-          :pdgmType [:DervStem :Finite :NA :SubjMarkerTemplates]
-          :pos [:Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :derivedStem [:Benefactive :Causative1 :Causative2 :Combination :Passive :Reduplicated],
-          :morphClass [:DervStem :SubjMarkerTemplates],
-          :proClass [:Demonstrative :Independent :Interrogative :Suffix],
-          :tam [:Imperfect :Imperative :Jussive :PastProgressive :PresentPerfect :PresentProgressive :SimplePerfect],
-          :number [:Plural :Singular],
-          :deixis [:Far :Near]}
+ :schemata {:case [:Accusative  :Nominative :Possessive],
+            :deixis [:Far :Near],
+            :derivedStem [:Benefactive :Causative1 :Causative2 :Combination :Passive :Reduplicated],
+            :gender [:Common :Fem :Masc :Polite],
+            :interrogClass [:InterrogProHow :InterrogProHowMany :InterrogProWhat :InterrogProWhen :InterrogProWhere :InterrogProWho],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Demonstrative :Independent :Interrogative :Suffix],
+            :tam [:Imperative :Imperfect :Jussive :PastProgressive :PresentPerfect :PresentProgressive :SimplePerfect]
+            :pdgmType [:DervStem :Finite :SubjMarkerTemplates :PRO]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :deixis :derivedStem :interrogClass :polarity :pos :proClass :tamb],
           :inflClass [],
@@ -31,7 +30,7 @@
 :lxterms [
     {:label "kambaata-PDemonstrative"
     :note "HudsonG1976 pp. 255-256. Cf. Korhonen-etal1986 p. 106."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PRODEM,
              :pos :Pronoun,
              :proClass :Demonstrative}
@@ -51,7 +50,7 @@
     }
     {:label "kambaata-PPersonal"
     :note "HudsonG1976 pp. 256-259. Cf. Korhonen-etal1986 p. 105,107."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PROIND,
              :pos :Pronoun}
     :terms [[:case :proClass :number :person :gender :token],
@@ -154,8 +153,7 @@
     :note "SimM1985 pp. 56-63. Note discussions of consonant assimilations for causative –s- pp. 56-59,for benefactive pp. 59-62."
     :pdgmType :DervStem
     :common {:lexeme :DERVSTEM,
-             :pos :Verb,
-             :morphClass :DervStem}
+             :pos :Verb}
     :terms [[:derivedStem :token :token-gloss],
             [:Benefactive "-ak- ~ --" "(a) --:root-final l,r,m,n (>preglottalized); t,b,d,g,f,s,š,h,z (> ejective_;  (>c). (b) -ak-:root-final CC,and all other root-final consonants"],
             [:Causative1 "-(i)s-" "transitivizing"],
@@ -166,7 +164,7 @@
     }
     {:label "kambaata-PInterr"
     :note "HudsonG1976 p. 259."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PROINTERROG,
              :pos :Pronoun,
              :proClass :Interrogative}
@@ -234,8 +232,7 @@
             progressive. PastProg adds –ikke (past tense of bo be. The token template note is: medialVowel + person1 + person2 + CFinalGem."
     :pdgmType :SubjMarkerTemplates
     :common {:lexeme :SUBJMARKERTEMPLATES,
-             :pos :Verb,
-             :morphClass :SubjMarkerTemplates}
+             :pos :Verb}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "V+_NULL+–mmi[simplePerf/presPerf]"],
             [:Singular :Person2 :Common "V+-t+–nti+_NULL"],
