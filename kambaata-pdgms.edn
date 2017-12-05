@@ -5,7 +5,8 @@
 :datasource "SimM1985"
 :geodemoURL "http://www.ethnologue.com/language/ktb"
 :geodemoTXT "Varieties and subdialects of Kambaata are spoken in the 'Southern Nations, Nationalities, and Peoples’ region: southwest Gurage, Kambaata, and Hadiyya zones; Durame is main town'."
- :schemata {:case [:Accusative  :Nominative :Possessive],
+ :schemata {:vmorphClass [:DervStem  :SubjMarkerTemplates],
+            :case [:Accusative :Nominative :Possessive],
             :deixis [:Far :Near],
             :derivedStem [:Benefactive :Causative1 :Causative2 :Combination :Passive :Reduplicated],
             :gender [:Common :Fem :Masc :Polite],
@@ -16,7 +17,7 @@
             :pos [:Pronoun :Verb],
             :proClass [:Demonstrative :Independent :Interrogative :Suffix],
             :tam [:Imperative :Imperfect :Jussive :PastProgressive :PresentPerfect :PresentProgressive :SimplePerfect]
-            :pdgmType [:DervStem :Finite :SubjMarkerTemplates :PRO]}
+            :pdgmType [:Finite :PRO :VOther]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :deixis :derivedStem :interrogClass :polarity :pos :proClass :tamb],
           :inflClass [],
@@ -151,8 +152,9 @@
     }
     {:label "kambaata-VDervStem"
     :note "SimM1985 pp. 56-63. Note discussions of consonant assimilations for causative –s- pp. 56-59,for benefactive pp. 59-62."
-    :pdgmType :DervStem
-    :common {:lexeme :DERVSTEM,
+    :pdgmType :VOther
+    :common {:vmorphClass :DervStem
+             :lexeme :DERVSTEM,
              :pos :Verb}
     :terms [[:derivedStem :token :token-gloss],
             [:Benefactive "-ak- ~ --" "(a) --:root-final l,r,m,n (>preglottalized); t,b,d,g,f,s,š,h,z (> ejective_;  (>c). (b) -ak-:root-final CC,and all other root-final consonants"],
@@ -230,8 +232,9 @@
     :note "SimM1985 pp. 48-51. The following template applies to the simple perfect and the
             imperfect tenses. The medial vowel –V is:–o simplePerf,-e- presPerf,-a- imperfect,-ayo-
             progressive. PastProg adds –ikke (past tense of bo be. The token template note is: medialVowel + person1 + person2 + CFinalGem."
-    :pdgmType :SubjMarkerTemplates
-    :common {:lexeme :SUBJMARKERTEMPLATES,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkerTemplates
+             :lexeme :SUBJMARKERTEMPLATES,
              :pos :Verb}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "V+_NULL+–mmi[simplePerf/presPerf]"],
