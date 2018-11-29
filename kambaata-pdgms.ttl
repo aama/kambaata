@@ -1,5 +1,5 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data//kambaata/kambaata-pdgms.edn
+#../aama-data/data/kambaata//kambaata-pdgms.edn
 
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
@@ -169,19 +169,6 @@ kam:Suffix aamas:lang aama:Kambaata .
 kam:Suffix rdf:type kam:Proclass .
 kam:Suffix rdfs:label "Suffix" .
 
-#SCHEMATA: lexeme
-kam:lexeme aamas:lang aama:Kambaata .
-kam:Lexeme aamas:lang aama:Kambaata .
-kam:lexeme rdfs:domain aamas:Term .
-kam:Lexeme rdfs:label "lexeme exponents" .
-kam:lexeme rdfs:label "lexeme" .
-kam:lexeme rdfs:range kam:Lexeme .
-kam:Lexeme rdfs:subClassOf kam:MuExponent .
-kam:lexeme rdfs:subPropertyOf kam:muProperty .
-kam:mar aamas:lang aama:Kambaata .
-kam:mar rdf:type kam:Lexeme .
-kam:mar rdfs:label "mar" .
-
 #SCHEMATA: pmorphClass
 kam:pmorphClass aamas:lang aama:Kambaata .
 kam:Pmorphclass aamas:lang aama:Kambaata .
@@ -325,9 +312,12 @@ kam:tamb aamas:pclass aamas:synsemClass .
 aamas:synsemClass rdfs:label "synsemClass" .
 
 #LEXEMES:
+
+##LexItems
 aama:Kambaata-mar a aamas:Lexeme ;
 	aamas:lang aama:Kambaata ;
 	rdfs:label "mar" ;
+	kam:pos kam:Verb ;
 	aamas:lemma "mar" ;
 	aamas:gloss "go" ;
 	.
@@ -340,7 +330,7 @@ kam:kambaata-PDemonstrative a aamas:Termcluster ;
 	rdfs:comment "HudsonG1976 pp. 255-256. Cf. Korhonen-etal1986 p. 106." 
 	.
 
-aama:ID04adda96-c026-4443-983d-7ad84a548f20 a aamas:Term ;
+aama:ID72ffb93a-6c52-4c2b-a967-9960235390b1 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PDemonstrative ;
 	kam:pos kam:Pronoun ;
@@ -353,7 +343,7 @@ aama:ID04adda96-c026-4443-983d-7ad84a548f20 a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDeb510f6e-cfad-48fb-9f1d-9a7c2f877542 a aamas:Term ;
+aama:ID872e0d6c-a655-4a7d-a421-61a9de79303e a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PDemonstrative ;
 	kam:pos kam:Pronoun ;
@@ -366,7 +356,7 @@ aama:IDeb510f6e-cfad-48fb-9f1d-9a7c2f877542 a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID1db79f0a-e7e1-4e5b-8c2f-a51e8a8bfe59 a aamas:Term ;
+aama:ID7d779817-b7de-41f8-a7b9-9d54e34775ce a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PDemonstrative ;
 	kam:pos kam:Pronoun ;
@@ -379,7 +369,7 @@ aama:ID1db79f0a-e7e1-4e5b-8c2f-a51e8a8bfe59 a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDe90d5340-2382-46d1-bc07-6e9f15c67c2a a aamas:Term ;
+aama:ID1f8c5333-b037-41cd-af68-accea465eac6 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PDemonstrative ;
 	kam:pos kam:Pronoun ;
@@ -392,7 +382,7 @@ aama:IDe90d5340-2382-46d1-bc07-6e9f15c67c2a a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID0d0cafa7-5c3f-44bf-a028-6c2413986c3c a aamas:Term ;
+aama:IDdb7c2bb0-b830-4126-8c0f-df3a57cc7eaa a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PDemonstrative ;
 	kam:pos kam:Pronoun ;
@@ -405,7 +395,7 @@ aama:ID0d0cafa7-5c3f-44bf-a028-6c2413986c3c a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID28d062de-165d-4010-beaa-e167ba322560 a aamas:Term ;
+aama:IDa897c17c-590d-4bc3-b057-9a65e6df591c a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PDemonstrative ;
 	kam:pos kam:Pronoun ;
@@ -418,7 +408,7 @@ aama:ID28d062de-165d-4010-beaa-e167ba322560 a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDf7f833f4-7d8a-4ab6-bb99-04531e7ab678 a aamas:Term ;
+aama:IDcbc10679-7f8d-466a-903d-74bdb5318e5f a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PDemonstrative ;
 	kam:pos kam:Pronoun ;
@@ -431,7 +421,7 @@ aama:IDf7f833f4-7d8a-4ab6-bb99-04531e7ab678 a aamas:Term ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID2b4b58af-0ba9-48c3-b775-4135ad18c2f8 a aamas:Term ;
+aama:IDc359dfa5-ff01-4436-a3e0-50064ad65256 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PDemonstrative ;
 	kam:pos kam:Pronoun ;
@@ -444,7 +434,7 @@ aama:ID2b4b58af-0ba9-48c3-b775-4135ad18c2f8 a aamas:Term ;
 	kam:case kam:Nominative ;
 	.
 
-aama:IDba46c654-7b05-434b-9621-8505ea8f032a a aamas:Term ;
+aama:ID828d95e5-e782-40de-a33a-1bfdbd63f47f a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PDemonstrative ;
 	kam:pos kam:Pronoun ;
@@ -457,7 +447,7 @@ aama:IDba46c654-7b05-434b-9621-8505ea8f032a a aamas:Term ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID73fc4af8-a8ff-4791-8255-a56be33f43d8 a aamas:Term ;
+aama:ID4b24690a-6f51-4c10-a117-1bcc701bb620 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PDemonstrative ;
 	kam:pos kam:Pronoun ;
@@ -470,7 +460,7 @@ aama:ID73fc4af8-a8ff-4791-8255-a56be33f43d8 a aamas:Term ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID450af73f-f897-4260-8723-46148b537ed8 a aamas:Term ;
+aama:ID552ee1af-6de5-4562-88d0-030ba8587c82 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PDemonstrative ;
 	kam:pos kam:Pronoun ;
@@ -483,7 +473,7 @@ aama:ID450af73f-f897-4260-8723-46148b537ed8 a aamas:Term ;
 	kam:case kam:Nominative ;
 	.
 
-aama:IDa7f519fb-39e5-42fb-915c-c9c18f4acc00 a aamas:Term ;
+aama:ID571f0573-8e74-4fa3-9e21-0112c470327a a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PDemonstrative ;
 	kam:pos kam:Pronoun ;
@@ -504,7 +494,7 @@ kam:kambaata-VAffImprtvMar- a aamas:Termcluster ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4%%pp. 52-54." 
 	.
 
-aama:ID5dbed4de-1b4c-4ca8-954b-7a13ab73bcfe a aamas:Term ;
+aama:IDa957042b-797d-478b-8b6f-b3b075be1fd6 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImprtvMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -518,7 +508,7 @@ aama:ID5dbed4de-1b4c-4ca8-954b-7a13ab73bcfe a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID1cc185f9-c5bb-4919-8f0a-40bc589c6ba3 a aamas:Term ;
+aama:IDf2b2c48e-0163-49fb-8adf-79c77254c6ff a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImprtvMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -540,7 +530,7 @@ kam:kambaata-PPersonal a aamas:Termcluster ;
 	rdfs:comment "HudsonG1976 pp. 256-259. Cf. Korhonen-etal1986 p. 105%%107." 
 	.
 
-aama:ID7bcd244e-bd1d-4ea0-85bf-2ef2ff087e64 a aamas:Term ;
+aama:IDb74895ef-c1ab-4fe1-b83f-f57a2f0161f6 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -554,7 +544,7 @@ aama:ID7bcd244e-bd1d-4ea0-85bf-2ef2ff087e64 a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDec9ad888-02db-42aa-97f7-81edae693e4e a aamas:Term ;
+aama:IDca528913-1f71-41fd-a519-38835370159d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -568,7 +558,7 @@ aama:IDec9ad888-02db-42aa-97f7-81edae693e4e a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID20f10c30-78db-4075-a882-c176899b3f0b a aamas:Term ;
+aama:ID8b18b141-d825-4251-9c79-675f7d55f40c a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -582,7 +572,7 @@ aama:ID20f10c30-78db-4075-a882-c176899b3f0b a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDa1189cf3-74e3-4acf-970d-328e60ce8c6f a aamas:Term ;
+aama:ID233f7e30-8421-4226-986e-673e672777a4 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -596,7 +586,7 @@ aama:IDa1189cf3-74e3-4acf-970d-328e60ce8c6f a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDbb01595b-d3f2-4e2a-b995-32d9463883ef a aamas:Term ;
+aama:IDf7ca2924-f345-40af-9907-d6a8ffc7c250 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -610,7 +600,7 @@ aama:IDbb01595b-d3f2-4e2a-b995-32d9463883ef a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDffd0cce3-8a3b-4842-b8b1-8c0477b6234f a aamas:Term ;
+aama:IDde66d0aa-803c-4bc3-8ace-5cd1a4f55752 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -624,7 +614,7 @@ aama:IDffd0cce3-8a3b-4842-b8b1-8c0477b6234f a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID162c5f2d-9fe5-4ed7-b482-21a533795ce6 a aamas:Term ;
+aama:ID45e44b7a-d176-4e3f-b03c-676cd1b720a7 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -638,7 +628,7 @@ aama:ID162c5f2d-9fe5-4ed7-b482-21a533795ce6 a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID29cfc1de-b966-4f33-8251-aa6441f21470 a aamas:Term ;
+aama:IDacc75813-7a0e-4024-abe0-0542f5ef4c22 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -652,7 +642,7 @@ aama:ID29cfc1de-b966-4f33-8251-aa6441f21470 a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID22674962-b155-4b13-9340-a6a431178e92 a aamas:Term ;
+aama:IDf6ebad3d-c0d6-400e-ab1f-b4b1bcf1dec9 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -666,7 +656,7 @@ aama:ID22674962-b155-4b13-9340-a6a431178e92 a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDb824e3b1-abf3-4ff0-a389-d772e118dad3 a aamas:Term ;
+aama:ID416d4daa-7ba8-407d-be20-7c255b137193 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -680,7 +670,7 @@ aama:IDb824e3b1-abf3-4ff0-a389-d772e118dad3 a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:IDed93146c-d319-4caa-8b01-dacd19275ba8 a aamas:Term ;
+aama:ID9d1ef6f5-2065-42d2-a65b-f62c43e568c1 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -694,7 +684,7 @@ aama:IDed93146c-d319-4caa-8b01-dacd19275ba8 a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID6079bb00-2bc5-4227-bba9-b19e38c4b210 a aamas:Term ;
+aama:IDc1e13eee-1828-4f5a-a3e0-c4b32b566abe a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -708,7 +698,7 @@ aama:ID6079bb00-2bc5-4227-bba9-b19e38c4b210 a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID3be55a13-f808-4cd3-9cd0-3761f4033cb1 a aamas:Term ;
+aama:IDb2ccd13f-c638-43ab-b94f-581e52ec5b79 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -722,7 +712,7 @@ aama:ID3be55a13-f808-4cd3-9cd0-3761f4033cb1 a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID1d25828a-851b-4575-8118-153405b96032 a aamas:Term ;
+aama:ID3e119b8f-9798-47f2-a9c7-8b7172ac0e8c a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -736,7 +726,7 @@ aama:ID1d25828a-851b-4575-8118-153405b96032 a aamas:Term ;
 	kam:case kam:Accusative ;
 	.
 
-aama:ID732b80fd-568d-439b-b12e-83fa6a99eb7f a aamas:Term ;
+aama:IDe97a1d3a-4e72-428e-9a97-078817522dcf a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -750,7 +740,7 @@ aama:ID732b80fd-568d-439b-b12e-83fa6a99eb7f a aamas:Term ;
 	kam:case kam:Nominative ;
 	.
 
-aama:IDcd4d97b1-2820-40a6-92f2-76ff74a598aa a aamas:Term ;
+aama:ID5964b88a-e676-4c62-839f-752be450f638 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -764,7 +754,7 @@ aama:IDcd4d97b1-2820-40a6-92f2-76ff74a598aa a aamas:Term ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID5fefe00c-691d-4925-be83-7c11b03127d8 a aamas:Term ;
+aama:ID76b6121b-7e06-4120-b680-9e52f265ba31 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -778,7 +768,7 @@ aama:ID5fefe00c-691d-4925-be83-7c11b03127d8 a aamas:Term ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID7b4032c5-2273-4075-85c9-8be9c1a32690 a aamas:Term ;
+aama:IDf75a97b2-39fa-4dba-a8eb-6dc567b234d2 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -792,7 +782,7 @@ aama:ID7b4032c5-2273-4075-85c9-8be9c1a32690 a aamas:Term ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID3b75253e-6cec-4ffb-8736-baa4041bf348 a aamas:Term ;
+aama:ID54bff8cc-7b9f-4600-9d31-564577335724 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -806,7 +796,7 @@ aama:ID3b75253e-6cec-4ffb-8736-baa4041bf348 a aamas:Term ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID55a36dfb-8dac-48b5-a67f-9312659a9636 a aamas:Term ;
+aama:ID88c9d152-0a67-4ed0-b746-af0dfe06bd96 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -820,7 +810,7 @@ aama:ID55a36dfb-8dac-48b5-a67f-9312659a9636 a aamas:Term ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID6cbd149c-b7a9-470b-ad60-1bbac6b89750 a aamas:Term ;
+aama:ID0a31e8cc-881a-4766-ab48-a82662161239 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -834,7 +824,7 @@ aama:ID6cbd149c-b7a9-470b-ad60-1bbac6b89750 a aamas:Term ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID09610b39-ea45-4023-af75-fac6b012636e a aamas:Term ;
+aama:ID6df53384-357c-45a4-b346-0e8d38d263c6 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -848,7 +838,7 @@ aama:ID09610b39-ea45-4023-af75-fac6b012636e a aamas:Term ;
 	kam:case kam:Nominative ;
 	.
 
-aama:ID8f9b67f8-cb58-499b-9015-bb11b03bc94c a aamas:Term ;
+aama:ID0c5e7d1a-cd56-4cd3-b060-55145567553a a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -862,7 +852,7 @@ aama:ID8f9b67f8-cb58-499b-9015-bb11b03bc94c a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID3dca283f-fd80-41bf-85d2-109943b03187 a aamas:Term ;
+aama:ID6cd2851c-6760-4e09-882e-de9196b0d406 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -876,7 +866,7 @@ aama:ID3dca283f-fd80-41bf-85d2-109943b03187 a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID9b0eb37b-6411-4703-b0c9-53cae6ba13cb a aamas:Term ;
+aama:IDd05872e9-6319-43e2-b0a2-5d52dd9f9949 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -890,7 +880,7 @@ aama:ID9b0eb37b-6411-4703-b0c9-53cae6ba13cb a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:IDf197c5f1-315c-49f4-8c23-1c18952ca018 a aamas:Term ;
+aama:ID72b9137b-28b0-4e5d-8dc0-fcf4beb48565 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -904,7 +894,7 @@ aama:IDf197c5f1-315c-49f4-8c23-1c18952ca018 a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID68b878bf-1f80-4ce1-8386-435dfa687ac1 a aamas:Term ;
+aama:IDdd29b115-219a-4665-b4d8-abd52c7823cd a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -918,7 +908,7 @@ aama:ID68b878bf-1f80-4ce1-8386-435dfa687ac1 a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID64b8e67d-8ed2-4b00-8b40-26870fc373af a aamas:Term ;
+aama:ID3bf6a26d-2263-44e1-a3a0-c2284ede2002 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -932,7 +922,7 @@ aama:ID64b8e67d-8ed2-4b00-8b40-26870fc373af a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID0da8b438-240e-43dd-907d-b44306e661de a aamas:Term ;
+aama:IDec22593e-c643-4b73-b3c1-6334b688b27e a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -946,7 +936,7 @@ aama:ID0da8b438-240e-43dd-907d-b44306e661de a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:IDd09f716a-4b4b-4792-b1bd-b318f7bb48c5 a aamas:Term ;
+aama:IDd3adb2cb-7fef-4b98-a39f-d5e4ac3eadd1 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -960,7 +950,7 @@ aama:IDd09f716a-4b4b-4792-b1bd-b318f7bb48c5 a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID2f6adbee-bec2-45b9-8f55-0f7b31989077 a aamas:Term ;
+aama:ID88a218f4-5402-4045-be43-3ad5a590b5d4 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -974,7 +964,7 @@ aama:ID2f6adbee-bec2-45b9-8f55-0f7b31989077 a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:IDb1e04df7-d120-48fe-abe4-404febad4d08 a aamas:Term ;
+aama:ID14c7149f-d586-4835-9453-18d23a909dde a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -988,7 +978,7 @@ aama:IDb1e04df7-d120-48fe-abe4-404febad4d08 a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:IDa565e234-de3f-4421-a97b-f817c0da6c9d a aamas:Term ;
+aama:IDd2ab2e28-2504-4c03-9772-2e4836e9f5dc a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -1002,7 +992,7 @@ aama:IDa565e234-de3f-4421-a97b-f817c0da6c9d a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID9ba49d67-adb1-4d9c-96d2-839e2c1f9ea8 a aamas:Term ;
+aama:IDceb59e8c-bb86-4246-b3df-b4add76f461d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -1016,7 +1006,7 @@ aama:ID9ba49d67-adb1-4d9c-96d2-839e2c1f9ea8 a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID870b3153-a573-480d-bcee-a157ec5aa9d7 a aamas:Term ;
+aama:IDf7542c6b-11fc-41f5-9a1b-d0654b1900fc a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -1030,7 +1020,7 @@ aama:ID870b3153-a573-480d-bcee-a157ec5aa9d7 a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID9cee40d6-96bd-4feb-887c-f6f27c51d441 a aamas:Term ;
+aama:ID5b77260e-7a5f-4f5d-b8bf-0ac8820a506f a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -1044,7 +1034,7 @@ aama:ID9cee40d6-96bd-4feb-887c-f6f27c51d441 a aamas:Term ;
 	kam:case kam:Possessive ;
 	.
 
-aama:ID3b1e6375-31df-4209-8fee-e60c4b63dca2 a aamas:Term ;
+aama:ID455e5ca8-3ea1-4c31-b346-885ce6e7976c a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PPersonal ;
 	kam:proClass kam:Independent ;
@@ -1066,7 +1056,7 @@ kam:kambaata-VAffImperfectMar- a aamas:Termcluster ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4%%pp. 52-54." 
 	.
 
-aama:ID48c36c6e-0cc3-458c-a120-6d84e6cc8460 a aamas:Term ;
+aama:ID9681b3ae-1591-4e9c-a7dc-182ca4c58e1e a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1080,7 +1070,7 @@ aama:ID48c36c6e-0cc3-458c-a120-6d84e6cc8460 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDc8ff332a-68e5-4ca1-a81f-40a2fa6cbbb8 a aamas:Term ;
+aama:ID4cbcd5ad-f822-4b77-b4c0-d5dd178fc9f7 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1094,7 +1084,7 @@ aama:IDc8ff332a-68e5-4ca1-a81f-40a2fa6cbbb8 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDc8ffe586-0050-4fc7-a2e9-b0d031b42329 a aamas:Term ;
+aama:ID12b7f7ae-1905-4a31-b464-6097c8cf5908 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1108,7 +1098,7 @@ aama:IDc8ffe586-0050-4fc7-a2e9-b0d031b42329 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDc32c0539-c3be-4880-91d5-40ead22623a8 a aamas:Term ;
+aama:IDa29b58de-b4d0-4e57-9e6e-66a37767843d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1122,7 +1112,7 @@ aama:IDc32c0539-c3be-4880-91d5-40ead22623a8 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID15b83bf9-2a48-417b-9bf7-c3d73d4b9508 a aamas:Term ;
+aama:IDe9410813-f67c-4395-8b2a-9b65beb9cc57 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1136,7 +1126,7 @@ aama:ID15b83bf9-2a48-417b-9bf7-c3d73d4b9508 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID1fc01edf-35cd-4fff-9b9a-978324751969 a aamas:Term ;
+aama:ID80ec947f-4957-4e30-bd7a-a16b25d8fbe9 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1150,7 +1140,7 @@ aama:ID1fc01edf-35cd-4fff-9b9a-978324751969 a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-aama:ID43d80dd4-60b5-42c9-9147-01d978d47e7a a aamas:Term ;
+aama:ID3cae9c54-f163-4a17-882d-caa57f7ad904 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1164,7 +1154,7 @@ aama:ID43d80dd4-60b5-42c9-9147-01d978d47e7a a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-aama:IDd32e1c6f-b0c7-428d-83db-c8940fe00aab a aamas:Term ;
+aama:IDa5bc297b-3208-4389-8b2e-a0696cff6f70 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffImperfectMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1186,7 +1176,7 @@ kam:kambaata-VAffJussiveMar- a aamas:Termcluster ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4%%pp. 52-54." 
 	.
 
-aama:ID03a86e42-ad10-4eda-8f74-8234659d98cc a aamas:Term ;
+aama:ID3e3de8f3-6026-4f98-bd80-ecd7ebb5a8be a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1200,7 +1190,7 @@ aama:ID03a86e42-ad10-4eda-8f74-8234659d98cc a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID0b1daddf-753e-469f-98f4-bae7ecb68fbe a aamas:Term ;
+aama:ID320d89e9-5c66-4a4b-b9c4-6c3bc498de2f a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1214,7 +1204,7 @@ aama:ID0b1daddf-753e-469f-98f4-bae7ecb68fbe a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID4e03dbaf-62b0-4402-be25-c0998ab9d6be a aamas:Term ;
+aama:IDec9eb849-07cf-4a1c-9741-cdbddc1244d7 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1228,7 +1218,7 @@ aama:ID4e03dbaf-62b0-4402-be25-c0998ab9d6be a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID5c2704f7-3ba0-4f30-8720-0ea04bb19bc2 a aamas:Term ;
+aama:ID8257fa6e-14c1-424b-9a2a-1add08562f46 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1242,7 +1232,7 @@ aama:ID5c2704f7-3ba0-4f30-8720-0ea04bb19bc2 a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-aama:ID5b84f5a5-797d-4be1-a8bf-5bdcf26d3557 a aamas:Term ;
+aama:ID4ac1e99b-aea1-4863-b9bc-f9754b0911a3 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffJussiveMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1264,7 +1254,7 @@ kam:kambaata-VNegImprtv-mar a aamas:Termcluster ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4%%pp. 52-54." 
 	.
 
-aama:IDd0f21b09-f875-4268-9e59-857e32815a40 a aamas:Term ;
+aama:ID316c1b75-56bf-4c4b-8d12-f1f9fef44c8c a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VNegImprtv-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1278,7 +1268,7 @@ aama:IDd0f21b09-f875-4268-9e59-857e32815a40 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID693e3a59-0a46-419f-8305-3619a2e06882 a aamas:Term ;
+aama:ID5e64d603-c670-41ee-bb4e-88fb5f8f9f60 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VNegImprtv-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1300,7 +1290,7 @@ kam:kambaata-VDervStem a aamas:Termcluster ;
 	rdfs:comment "SimM1985 pp. 56-63. Note discussions of consonant assimilations for causative –s- pp. 56-59%%for benefactive pp. 59-62." 
 	.
 
-aama:IDf451d019-b75c-4974-98f3-e75d919f85c2 a aamas:Term ;
+aama:ID99929372-1d54-4729-8a40-44b0e7ef2a2a a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VDervStem ;
 	kam:pos kam:Verb ;
@@ -1310,7 +1300,7 @@ aama:IDf451d019-b75c-4974-98f3-e75d919f85c2 a aamas:Term ;
 	kam:derivedStem kam:Benefactive ;
 	.
 
-aama:ID221d90ae-e616-41a2-95a3-8f662981b2f9 a aamas:Term ;
+aama:ID67dc4ae8-f182-448b-b235-75da00a1d5c6 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VDervStem ;
 	kam:pos kam:Verb ;
@@ -1320,7 +1310,7 @@ aama:ID221d90ae-e616-41a2-95a3-8f662981b2f9 a aamas:Term ;
 	kam:derivedStem kam:Causative1 ;
 	.
 
-aama:ID4838d6e4-c963-42fd-ba45-bd66d2f6bef0 a aamas:Term ;
+aama:ID43b35270-92f8-4998-aea0-1b781a768290 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VDervStem ;
 	kam:pos kam:Verb ;
@@ -1330,7 +1320,7 @@ aama:ID4838d6e4-c963-42fd-ba45-bd66d2f6bef0 a aamas:Term ;
 	kam:derivedStem kam:Causative2 ;
 	.
 
-aama:ID555abb26-fb51-4dc0-8296-0ca17ef12866 a aamas:Term ;
+aama:ID4f35715e-e50b-4fbf-b442-18d6f3277960 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VDervStem ;
 	kam:pos kam:Verb ;
@@ -1340,7 +1330,7 @@ aama:ID555abb26-fb51-4dc0-8296-0ca17ef12866 a aamas:Term ;
 	kam:derivedStem kam:Combination ;
 	.
 
-aama:IDa03fff79-420a-435f-b376-c1106fff3739 a aamas:Term ;
+aama:IDcd4039e3-4a99-4efc-b9e3-a6c011bcdbb9 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VDervStem ;
 	kam:pos kam:Verb ;
@@ -1350,7 +1340,7 @@ aama:IDa03fff79-420a-435f-b376-c1106fff3739 a aamas:Term ;
 	kam:derivedStem kam:Passive ;
 	.
 
-aama:IDe9efbb80-3633-45ba-a264-ca33cc30ec5d a aamas:Term ;
+aama:ID592fd874-a789-4e6c-932a-25c84b6d7314 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VDervStem ;
 	kam:pos kam:Verb ;
@@ -1368,7 +1358,7 @@ kam:kambaata-PInterr a aamas:Termcluster ;
 	rdfs:comment "HudsonG1976 p. 259." 
 	.
 
-aama:ID29ed5181-345f-4bb7-af40-06afa273b688 a aamas:Term ;
+aama:IDa51c752a-f34c-4697-849d-f8f472defb2f a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PInterr ;
 	kam:pos kam:Pronoun ;
@@ -1378,7 +1368,7 @@ aama:ID29ed5181-345f-4bb7-af40-06afa273b688 a aamas:Term ;
 	kam:interrogClass kam:InterrogProHow ;
 	.
 
-aama:IDa60a40fa-36f8-40f7-ae92-332b85afb7e9 a aamas:Term ;
+aama:ID0d88206b-3f13-4668-b820-108dee02c81d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PInterr ;
 	kam:pos kam:Pronoun ;
@@ -1388,7 +1378,7 @@ aama:IDa60a40fa-36f8-40f7-ae92-332b85afb7e9 a aamas:Term ;
 	kam:interrogClass kam:InterrogProHowMany ;
 	.
 
-aama:ID5840d2d7-d80e-4cc8-be08-53e88b099dc5 a aamas:Term ;
+aama:ID44275f6a-4ada-4327-9923-9a282e3a08a4 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PInterr ;
 	kam:pos kam:Pronoun ;
@@ -1398,7 +1388,7 @@ aama:ID5840d2d7-d80e-4cc8-be08-53e88b099dc5 a aamas:Term ;
 	kam:interrogClass kam:InterrogProWhat ;
 	.
 
-aama:IDa3698b81-f446-4261-8093-0b17a548821c a aamas:Term ;
+aama:ID78b4c388-5f06-40eb-9c23-bb82d130545e a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PInterr ;
 	kam:pos kam:Pronoun ;
@@ -1408,7 +1398,7 @@ aama:IDa3698b81-f446-4261-8093-0b17a548821c a aamas:Term ;
 	kam:interrogClass kam:InterrogProWhen ;
 	.
 
-aama:ID3e76d2ab-895a-4359-b83c-7f34fb0464c2 a aamas:Term ;
+aama:IDa3e2605c-89e8-4574-9347-31d405a8224d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PInterr ;
 	kam:pos kam:Pronoun ;
@@ -1418,7 +1408,7 @@ aama:ID3e76d2ab-895a-4359-b83c-7f34fb0464c2 a aamas:Term ;
 	kam:interrogClass kam:InterrogProWhere ;
 	.
 
-aama:ID4dc38329-c52c-4e87-9397-d0f47fe77ac6 a aamas:Term ;
+aama:IDc5f8611a-35e3-4058-a36d-564dc04dcc82 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-PInterr ;
 	kam:pos kam:Pronoun ;
@@ -1436,7 +1426,7 @@ kam:kambaata-VAffPresPerf-mar a aamas:Termcluster ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4%%pp. 52-54." 
 	.
 
-aama:ID582b0e5d-de2d-421c-b1a5-e28ab8e9c459 a aamas:Term ;
+aama:IDa793cbfc-02dc-48ac-8772-2cc2ada1788d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1450,7 +1440,7 @@ aama:ID582b0e5d-de2d-421c-b1a5-e28ab8e9c459 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID6a820565-dbbb-4215-891f-421fcafe83b4 a aamas:Term ;
+aama:IDb81abb51-31ec-408f-95b4-b5b46bc5171a a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1464,7 +1454,7 @@ aama:ID6a820565-dbbb-4215-891f-421fcafe83b4 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID915d5aff-d176-4974-b9cd-f6d4bc4ff1c3 a aamas:Term ;
+aama:ID7e4ac908-4666-4cae-84fd-6c2150f0a24f a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1478,7 +1468,7 @@ aama:ID915d5aff-d176-4974-b9cd-f6d4bc4ff1c3 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID7c5a397e-c8f4-43d5-ab3c-0f66d501eb35 a aamas:Term ;
+aama:IDbbc068e1-110a-4d97-89b2-bbc33c0676a0 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1492,7 +1482,7 @@ aama:ID7c5a397e-c8f4-43d5-ab3c-0f66d501eb35 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDea73158e-325c-4b8d-82ec-f66252a9d1a7 a aamas:Term ;
+aama:ID96dee994-d876-4a44-b3d0-c4058c6ba81c a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1506,7 +1496,7 @@ aama:IDea73158e-325c-4b8d-82ec-f66252a9d1a7 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID014487ba-c2be-4502-923f-858d9441422c a aamas:Term ;
+aama:ID0d38d140-99e5-4422-a4fc-c87449bea861 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1520,7 +1510,7 @@ aama:ID014487ba-c2be-4502-923f-858d9441422c a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-aama:ID1cd4ff70-b2f9-4888-80b8-4c916bf9d8a9 a aamas:Term ;
+aama:IDfae1b07d-d084-477c-b13c-8e73954ffbc9 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1534,7 +1524,7 @@ aama:ID1cd4ff70-b2f9-4888-80b8-4c916bf9d8a9 a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-aama:IDb84adcac-1571-4116-ac1e-36f0db9525a0 a aamas:Term ;
+aama:IDe68cb12f-fdb2-420a-9ade-4c64747352a5 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresPerf-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1556,7 +1546,7 @@ kam:kambaata-VAffPresProgMar- a aamas:Termcluster ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4%%pp. 52-54." 
 	.
 
-aama:IDfbf0631b-3f53-42ca-b179-163b38e5ec3d a aamas:Term ;
+aama:IDcad69c6b-5ff5-461e-ba24-9a358b5a5f90 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1570,7 +1560,7 @@ aama:IDfbf0631b-3f53-42ca-b179-163b38e5ec3d a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDfedfc096-82b1-46a7-a13d-d7174b563c91 a aamas:Term ;
+aama:ID89e1e947-a642-4ee2-8ef3-51337e301214 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1584,7 +1574,7 @@ aama:IDfedfc096-82b1-46a7-a13d-d7174b563c91 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID298c89de-6b68-4877-ae1e-759d8586122d a aamas:Term ;
+aama:IDf06cf695-e6cc-4930-87df-db714ce8f397 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1598,7 +1588,7 @@ aama:ID298c89de-6b68-4877-ae1e-759d8586122d a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDf4c8f66e-3a75-4f72-b2a0-c8ccecf004d4 a aamas:Term ;
+aama:ID4e183fd4-564c-40ba-838c-f8ff19628f7c a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1612,7 +1602,7 @@ aama:IDf4c8f66e-3a75-4f72-b2a0-c8ccecf004d4 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID319a0b76-0a2e-42e0-a619-a9cc495c55e2 a aamas:Term ;
+aama:IDa22eaadb-a4d4-4bd6-8ce0-ccbbf2b38838 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1626,7 +1616,7 @@ aama:ID319a0b76-0a2e-42e0-a619-a9cc495c55e2 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDb7dfef4b-9115-4d90-81a9-8c6d0957a9b1 a aamas:Term ;
+aama:IDf714c548-2036-4216-91d1-0959c6c7e7ad a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1640,7 +1630,7 @@ aama:IDb7dfef4b-9115-4d90-81a9-8c6d0957a9b1 a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-aama:IDe5e208c2-247f-4ad3-9c1b-dd009208f817 a aamas:Term ;
+aama:ID985a0c1b-9c2b-4b49-9cb4-0d44a44759cc a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1654,7 +1644,7 @@ aama:IDe5e208c2-247f-4ad3-9c1b-dd009208f817 a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-aama:ID124d2536-07e3-4960-8569-48c884df09fd a aamas:Term ;
+aama:ID1e477650-fc47-493d-8835-f4bc11554164 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPresProgMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1676,7 +1666,7 @@ kam:kambaata-VAffSimplePerfMar- a aamas:Termcluster ;
 	rdfs:comment "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4%%pp. 52-54." 
 	.
 
-aama:ID931a6667-c1d9-44f5-8d9a-ca6a5ee692be a aamas:Term ;
+aama:IDdcada306-4623-4000-a056-1197e2fdc739 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1690,7 +1680,7 @@ aama:ID931a6667-c1d9-44f5-8d9a-ca6a5ee692be a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID8131a6f8-268e-4b1a-b794-25a995609de5 a aamas:Term ;
+aama:ID7b196a77-454d-4ec4-aeff-691819dcabce a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1704,7 +1694,7 @@ aama:ID8131a6f8-268e-4b1a-b794-25a995609de5 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDd6bee072-d3b5-4d43-86bd-e9eae1168ecc a aamas:Term ;
+aama:IDb64eac37-32a6-43a2-95d7-c83e9173b04d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1718,7 +1708,7 @@ aama:IDd6bee072-d3b5-4d43-86bd-e9eae1168ecc a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID21813005-051b-4a9b-921e-18ebe7e8a4cc a aamas:Term ;
+aama:ID4e707519-32e1-497a-8656-5bb774761812 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1732,7 +1722,7 @@ aama:ID21813005-051b-4a9b-921e-18ebe7e8a4cc a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDaabf987b-6075-45e2-b2ed-786d5725a6b0 a aamas:Term ;
+aama:ID1776ce82-5673-4e97-8941-8541bc638457 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1746,7 +1736,7 @@ aama:IDaabf987b-6075-45e2-b2ed-786d5725a6b0 a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-aama:ID99c8fdac-48b8-4317-aea2-02250cd45472 a aamas:Term ;
+aama:IDa87b8cd3-2349-42ac-9f21-742936a021a3 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1760,7 +1750,7 @@ aama:ID99c8fdac-48b8-4317-aea2-02250cd45472 a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-aama:ID8271b89e-673d-4374-b050-daf18e454a5f a aamas:Term ;
+aama:ID0c85dbd2-fd28-41d4-a29a-2746a97e64c0 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffSimplePerfMar- ;
 	kam:vmorphClass kam:Finite ;
@@ -1784,7 +1774,7 @@ kam:kambaata-VSubjMarkerTemplates a aamas:Termcluster ;
             progressive. PastProg adds –ikke (past tense of bo be. The token template note is: medialVowel + person1 + person2 + CFinalGem." 
 	.
 
-aama:ID16697430-4206-400b-b213-172e5dbd3264 a aamas:Term ;
+aama:ID8872119b-b2de-4329-adb8-08b467907d3d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	kam:pos kam:Verb ;
@@ -1795,7 +1785,7 @@ aama:ID16697430-4206-400b-b213-172e5dbd3264 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID6f28296b-af16-49fa-b66d-1dccda00e41f a aamas:Term ;
+aama:ID72ec59eb-a0c4-4c2e-893d-410c01f43852 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	kam:pos kam:Verb ;
@@ -1806,7 +1796,7 @@ aama:ID6f28296b-af16-49fa-b66d-1dccda00e41f a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID8b7c83c5-6517-44d8-acdc-a71b30f83797 a aamas:Term ;
+aama:ID256450ee-26ec-48a5-b6d1-44ad8c64c35d a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	kam:pos kam:Verb ;
@@ -1817,7 +1807,7 @@ aama:ID8b7c83c5-6517-44d8-acdc-a71b30f83797 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID3edc610e-b401-4415-95d8-3fed6750f7cc a aamas:Term ;
+aama:ID7d2e2ced-0dc5-4d33-abbc-7f569dc714a1 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	kam:pos kam:Verb ;
@@ -1828,7 +1818,7 @@ aama:ID3edc610e-b401-4415-95d8-3fed6750f7cc a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDf60c57e9-e0d9-4241-8c1c-1181fd840cff a aamas:Term ;
+aama:IDc8e1bdfa-3051-4928-9dd7-c0663c2ed849 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	kam:pos kam:Verb ;
@@ -1839,7 +1829,7 @@ aama:IDf60c57e9-e0d9-4241-8c1c-1181fd840cff a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-aama:ID26ff940e-2c7c-4f73-9cff-70770fe23397 a aamas:Term ;
+aama:ID1b8fa79a-3a83-4a08-a17e-6703be930614 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	kam:pos kam:Verb ;
@@ -1850,7 +1840,7 @@ aama:ID26ff940e-2c7c-4f73-9cff-70770fe23397 a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-aama:ID28f8e552-0e4f-4079-9907-f2b27b3c35c5 a aamas:Term ;
+aama:ID20addd10-21b3-499f-acc3-f774524d2227 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VSubjMarkerTemplates ;
 	kam:pos kam:Verb ;
@@ -1870,7 +1860,7 @@ kam:kambaata-VAffPastProg-mar a aamas:Termcluster ;
             section #4%%pp. 52-54." 
 	.
 
-aama:ID9f377617-ef45-4eef-a74a-201c33e2c9cb a aamas:Term ;
+aama:IDb354ff3b-0362-494d-9e88-4546added12e a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1884,7 +1874,7 @@ aama:ID9f377617-ef45-4eef-a74a-201c33e2c9cb a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDc0592579-7bdc-4f1b-8036-959a919857ec a aamas:Term ;
+aama:IDbf718132-4a89-4a82-986e-fd98024f146b a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1898,7 +1888,7 @@ aama:IDc0592579-7bdc-4f1b-8036-959a919857ec a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:IDe51e5be6-2162-4bd1-9305-d23426cd05fb a aamas:Term ;
+aama:IDe132cdca-f49a-4c3c-aa0d-7c6923571214 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1912,7 +1902,7 @@ aama:IDe51e5be6-2162-4bd1-9305-d23426cd05fb a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID54545fbf-0420-40af-8174-72605ec977a2 a aamas:Term ;
+aama:ID052ebf7c-e6e3-42b8-a5b8-3c8e7d538d64 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1926,7 +1916,7 @@ aama:ID54545fbf-0420-40af-8174-72605ec977a2 a aamas:Term ;
 	kam:number kam:Singular ;
 	.
 
-aama:ID31a5c1b3-0d5e-4ba1-ae52-6f8ac1928d9a a aamas:Term ;
+aama:IDd292a72f-2a99-4902-b4ce-0a70e5cfd67f a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1940,7 +1930,7 @@ aama:ID31a5c1b3-0d5e-4ba1-ae52-6f8ac1928d9a a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-aama:IDffa14ee9-7ce6-4e1f-a3ce-d21b02d908de a aamas:Term ;
+aama:IDe5e8c397-a305-40db-a067-92a9d0999991 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	kam:vmorphClass kam:Finite ;
@@ -1954,7 +1944,7 @@ aama:IDffa14ee9-7ce6-4e1f-a3ce-d21b02d908de a aamas:Term ;
 	kam:number kam:Plural ;
 	.
 
-aama:IDf85bef0d-821a-4ed5-9e50-e7977b699421 a aamas:Term ;
+aama:ID6d05f6ea-5cca-4a7a-9cde-45e24b691ec5 a aamas:Term ;
 	aamas:lang aama:Kambaata ;
 	aamas:memberOf kam:kambaata-VAffPastProg-mar ;
 	kam:vmorphClass kam:Finite ;

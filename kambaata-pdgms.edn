@@ -5,8 +5,7 @@
  :datasource "SimM1985"
  :geodemoURL "http://www.ethnologue.com/language/ktb"
  :geodemoTXT "Varieties and subdialects of Kambaata are spoken in the 'Southern Nations, Nationalities, and Peoples’ region: southwest Gurage, Kambaata, and Hadiyya zones; Durame is main town'."
- :schemata {:lexeme [:mar ],
- :case [:Accusative :Nominative :Possessive],
+ :schemata { :case [:Accusative :Nominative :Possessive],
  :deixis [:Far :Near],
  :derivedStem [:Benefactive :Causative1 :Causative2 :Combination :Passive :Reduplicated],
  :gender [:Common :Fem :Masc :Polite],
@@ -24,7 +23,9 @@
           :synsemClass [:case :deixis :derivedStem :interrogClass :polarity :pos :proClass :tamb],
           :inflClass [],
           :otherClass []}
- :lexemes{:mar {:lemma "mar", :gloss "go"}}
+ :lexemes {
+:mar   {:pos :Verb, :lemma "mar", :gloss "go", },
+}
  :termclusters [
                 {:label "kambaata-PDemonstrative"
                  :note "HudsonG1976 pp. 255-256. Cf. Korhonen-etal1986 p. 106."
