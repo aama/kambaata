@@ -2,33 +2,33 @@
  :lang :kambaata
  :subfamily "Highland East Cushitic"
  :sgpref "kam"
- :datasource "SimM1985"
+ :datasource "SimM1985, HudsonG1946; abbrev SM85, HG76"
  :geodemoURL "http://www.ethnologue.com/language/ktb"
  :geodemoTXT "Varieties and subdialects of Kambaata are spoken in the 'Southern Nations, Nationalities, and Peoples’ region: southwest Gurage, Kambaata, and Hadiyya zones; Durame is main town'."
  :schemata { :case [:Accusative :Nominative :Possessive],
- :deixis [:Far :Near],
- :derivedStem [:Benefactive :Causative1 :Causative2 :Combination :Passive :Reduplicated],
- :gender [:Common :Fem :Masc :Polite],
- :interrogClass [:InterrogProHow :InterrogProHowMany :InterrogProWhat :InterrogProWhen :InterrogProWhere :InterrogProWho],
- :number [:Plural :Singular],
- :person [:Person1 :Person2 :Person3],
- :pmorphClass [:ProMorph],
- :polarity [:Affirmative :Negative],
- :pos [:Pronoun :Verb],
- :proClass [:Demonstrative :Independent :Interrogative :Suffix],
- :tam [:Imperative :Imperfect :Jussive :PastProgressive :PresentPerfect :PresentProgressive :SimplePerfect],
- :vmorphClass [:DervStem :Finite :SubjMarkerTemplates]
- }
+            :deixis [:Far :Near],
+            :derivedStem [:Benefactive :Causative1 :Causative2 :Combination :Passive :Reduplicated],
+            :gender [:Common :Fem :Masc :Polite],
+            :interrogClass [:InterrogProHow :InterrogProHowMany :InterrogProWhat :InterrogProWhen :InterrogProWhere :InterrogProWho],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pmorphClass [:ProMorph],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Demonstrative :Independent :Interrogative :Suffix],
+            :tam [:Imperative :Imperfect :Jussive :PastProgressive :PresentPerfect :PresentProgressive :SimplePerfect],
+            :vmorphClass [:DervStem :Finite :SubjMarkerTemplates]
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :deixis :derivedStem :interrogClass :polarity :pos :proClass :tamb],
           :inflClass [],
           :otherClass []}
  :lexemes {
-:mar   {:pos :Verb, :lemma "mar", :gloss "go", },
-}
+           :mar   {:pos :Verb, :lemma "mar", :gloss "go", },
+           }
  :termclusters [
                 {:label "kambaata-PDemonstrative"
-                 :note "HudsonG1976 pp. 255-256. Cf. Korhonen-etal1986 p. 106."
+                 :note "HG76pp.255-256 :: Cf. Korhonen-etal1986 p.106."
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Demonstrative}
                  :terms [[:case :deixis :number :gender :token],
@@ -46,7 +46,7 @@
                          [:Nominative :Near :Plural :Common "ku"]]
                  }
                 {:label "kambaata-VAffImprtvMar-"
-                 :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
+                 :note "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54."
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :lexeme :mar,
@@ -59,7 +59,7 @@
                          [:Plural "marre"]]
                  }
                 {:label "kambaata-PPersonal"
-                 :note "HudsonG1976 pp. 256-259. Cf. Korhonen-etal1986 p. 105,107."
+                 :note "HG76pp.256-259 :: Cf. Korhonen-etal1986 p.105,107."
                  :common {:proClass :Independent,
                           :pmorphClass :ProMorph
                           :pos :Pronoun}
@@ -103,7 +103,7 @@
                          [:Possessive :Suffix :Plural :Person3 :Common "-ssa"]]
                  }
                 {:label "kambaata-VAffImperfectMar-"
-                 :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
+                 :note "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54."
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -120,7 +120,7 @@
                          [:Plural :Person3 :Common "marta’i"]]
                  }
                 {:label "kambaata-VAffJussiveMar-"
-                 :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
+                 :note "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54."
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -134,7 +134,7 @@
                          [:Plural :Person3 :Common "martuni"]]
                  }
                 {:label "kambaata-VNegImprtv-mar"
-                 :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
+                 :note "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54."
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :lexeme :mar,
@@ -147,19 +147,19 @@
                          [:Plural "marteenoc(iy)e"]]
                  }
                 {:label "kambaata-VDervStem"
-                 :note "SimM1985 pp. 56-63. Note discussions of consonant assimilations for causative –s- pp. 56-59,for benefactive pp. 59-62."
+                 :note "SM85pp.56-63 :: Note discussions of consonant assimilations for causative –s- pp.56-59,for benefactive pp.59-62."
                  :common {:pos :Verb,
                           :vmorphClass :DervStem}
                  :terms [[:derivedStem :token :token-gloss],
                          [:Benefactive "-ak- ~ --" "(a) --:root-final l,r,m,n (>preglottalized); t,b,d,g,f,s,š,h,z (> ejective_;  (>c). (b) -ak-:root-final CC,and all other root-final consonants"],
                          [:Causative1 "-(i)s-" "transitivizing"],
                          [:Causative2 "-(i)siis-" "cause domeone to do something"],
-                         [:Combination "-aam-,--aam-,-am-aam-,--am-aam-,--isiis-aam-" "SimM1985 p,63"],
+                         [:Combination "-aam-,--aam-,-am-aam-,--am-aam-,--isiis-aam-" "SM85p,63"],
                          [:Passive "-am-" " "],
-                         [:Reduplicated "Common" "fossilized?; SimM1985 p. 45"]]
+                         [:Reduplicated "Common" "fossilized?; SM85p.45"]]
                  }
                 {:label "kambaata-PInterr"
-                 :note "HudsonG1976 p. 259."
+                 :note "HG76p.259"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Interrogative}
                  :terms [[:interrogClass :token],
@@ -171,7 +171,7 @@
                          [:InterrogProWho "aye"]]
                  }
                 {:label "kambaata-VAffPresPerf-mar"
-                 :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
+                 :note "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54."
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -188,7 +188,7 @@
                          [:Plural :Person3 :Common "marte’i"]]
                  }
                 {:label "kambaata-VAffPresProgMar-"
-                 :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
+                 :note "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54."
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -205,7 +205,7 @@
                          [:Plural :Person3 :Common "martayo’i"]]
                  }
                 {:label "kambaata-VAffSimplePerfMar-"
-                 :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in section #4,pp. 52-54."
+                 :note "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54."
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -221,9 +221,7 @@
                          [:Plural :Person3 :Common "marto’i"]]
                  }
                 {:label "kambaata-VSubjMarkerTemplates"
-                 :note "SimM1985 pp. 48-51. The following template applies to the simple perfect and the
-            imperfect tenses. The medial vowel –V is:–o simplePerf,-e- presPerf,-a- imperfect,-ayo-
-            progressive. PastProg adds –ikke (past tense of bo be. The token template note is: medialVowel + person1 + person2 + CFinalGem."
+                 :note "SM85pp.48-51 :: The following template applies to the simple perfect and the imperfect tenses. The medial vowel –V is:–o simplePerf,-e- presPerf,-a- imperfect,-ayo- progressive. PastProg adds –ikke (past tense of bo be. The token template note is: medialVowel + person1 + person2 + CFinalGem."
                  :common {:pos :Verb,
                           :vmorphClass :SubjMarkerTemplates}
                  :terms [[:number :person :gender :token],
@@ -236,8 +234,7 @@
                          [:Plural :Person3 :Common "V+-t+–‘i+_NULL"]]
                  }
                 {:label "kambaata-VAffPastProg-mar"
-                 :note "SimM1985 pp. 46-48. Discussions of stem-desinence consonant assimilations in
-            section #4,pp. 52-54."
+                 :note "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54."
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -252,6 +249,6 @@
                          [:Plural :Person2 :Common "marteenayonta ‘ikke"],
                          [:Plural :Person3 :Common "martayo(‘i) ‘ikke"]]
                  } ]
-                }
- 
- 
+ }
+
+
