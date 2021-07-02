@@ -1,0 +1,337 @@
+{
+  "lang": "kambaata",
+  "subfamily": "Highland East Cushitic",
+  "sgpref": "kam",
+  "datasource": "SimM1985, HudsonG1946; abbrev SM85, HG76",
+  "geodemoURL": "http://www.ethnologue.com/language/ktb",
+  "geodemoTXT": "Varieties and subdialects of Kambaata are spoken in the ZZSouthern Nations, Nationalities, and Peoples’ region: southwest Gurage, Kambaata, and Hadiyya zones; Durame is main townZZ.",
+  "schemata": {
+    "person": [
+      "Person1",
+      "Person2",
+      "Person3"
+    ],
+    "derivedStem": [
+      "Benefactive",
+      "Causative1",
+      "Causative2",
+      "Combination",
+      "Passive",
+      "Reduplicated"
+    ],
+    "number": [
+      "Plural",
+      "Singular"
+    ],
+    "vmorphClass": [
+      "DervStem",
+      "Finite",
+      "SubjMarkerTemplates"
+    ],
+    "interrogClass": [
+      "InterrogProHow",
+      "InterrogProHowMany",
+      "InterrogProWhat",
+      "InterrogProWhen",
+      "InterrogProWhere",
+      "InterrogProWho"
+    ],
+    "pos": [
+      "Pronoun",
+      "Verb"
+    ],
+    "proClass": [
+      "Demonstrative",
+      "Independent",
+      "Interrogative",
+      "Suffix"
+    ],
+    "pmorphClass": [
+      "ProMorph"
+    ],
+    "case": [
+      "Accusative",
+      "Nominative",
+      "Possessive"
+    ],
+    "polarity": [
+      "Affirmative",
+      "Negative"
+    ],
+    "tam": [
+      "Imperative",
+      "Imperfect",
+      "Jussive",
+      "PastProgressive",
+      "PresentPerfect",
+      "PresentProgressive",
+      "SimplePerfect"
+    ],
+    "gender": [
+      "Common",
+      "Fem",
+      "Masc",
+      "Polite"
+    ],
+    "deixis": [
+      "Far",
+      "Near"
+    ]
+  },
+  "lexemes": {
+    "mar": {
+      "pos": "Verb",
+      "lemma": "mar",
+      "gloss": "go"
+    }
+  },
+  "termclusters": [
+{
+"label": "kambaata-PDemonstrative",
+"note": "HG76pp.255-256 :: Cf. Korhonen-etal1986 p.106.",
+"common": {"pmorphClass": "ProMorph",
+ "pos": "Pronoun",
+ "proClass": "Demonstrative"},
+"terms":  
+[["case", "deixis", "number", "gender", "token"],
+ ["Accusative", "Far", "Singular", "Masc", "hikkaapi"],
+ ["Accusative", "Far", "Singular", "Fem", "hittaapi"],
+ ["Accusative", "Far", "Plural", "Common", "hikkaapi"],
+ ["Accusative", "Near", "Singular", "Masc", "ka"],
+ ["Accusative", "Near", "Singular", "Fem", "ta"],
+ ["Accusative", "Near", "Plural", "Common", "ka"],
+ ["Nominative", "Far", "Singular", "Masc", "hikkuupi"],
+ ["Nominative", "Far", "Singular", "Fem", "hittiipi"],
+ ["Nominative", "Far", "Plural", "Common", "hikkuupi"],
+ ["Nominative", "Near", "Singular", "Masc", "ku"],
+ ["Nominative", "Near", "Singular", "Fem", "ta"],
+ ["Nominative", "Near", "Plural", "Common", "ku"]]
+},
+{
+"label": "kambaata-VAffImprtvMar-",
+"note": "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54.",
+"common": {"gender": "Common",
+ "lexeme": "mar",
+ "person": "Person2",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "token"], ["Singular", "mari"], ["Plural", "marre"]]
+},
+{
+"label": "kambaata-PPersonal",
+"note": "HG76pp.256-259 :: Cf. Korhonen-etal1986 p.105,107.",
+"common": {"pmorphClass": "ProMorph",
+ "pos": "Pronoun",
+ "proClass": "Independent"},
+"terms":  
+[["case", "proClass", "number", "person", "gender", "token"],
+ ["Accusative", "Independent", "Singular", "Person1", "Common", "e(e)s"],
+ ["Accusative", "Independent", "Singular", "Person2", "Common", "ke(e)s"],
+ ["Accusative", "Independent", "Singular", "Person3", "Masc", "isu"],
+ ["Accusative", "Independent", "Singular", "Person3", "Fem", "is(e)t"],
+ ["Accusative", "Independent", "Plural", "Person1", "Common", "ne(e)s"],
+ ["Accusative", "Independent", "Plural", "Person2", "Common", "kinee(e)"],
+ ["Accusative", "Independent", "Plural", "Person3", "Common", "issaot"],
+ ["Accusative", "Suffix", "Singular", "Person1", "Common", "-e"],
+ ["Accusative", "Suffix", "Singular", "Person2", "Common", "-ke ~ -kki"],
+ ["Accusative", "Suffix", "Singular", "Person3", "Masc", "-si"],
+ ["Accusative", "Suffix", "Singular", "Person3", "Fem", "-se"],
+ ["Accusative", "Suffix", "Plural", "Person1", "Common", "-nne"],
+ ["Accusative", "Suffix", "Plural", "Person2", "Common", "-ne"],
+ ["Accusative", "Suffix", "Plural", "Person3", "Common", "-(s)sa"],
+ ["Nominative", "Independent", "Singular", "Person1", "Common", "ani"],
+ ["Nominative", "Independent", "Singular", "Person2", "Common", "ati"],
+ ["Nominative", "Independent", "Singular", "Person3", "Polite", "issa"],
+ ["Nominative", "Independent", "Singular", "Person3", "Masc", "isi"],
+ ["Nominative", "Independent", "Singular", "Person3", "Fem", "ise"],
+ ["Nominative", "Independent", "Plural", "Person1", "Common", "naooti"],
+ ["Nominative", "Independent", "Plural", "Person2", "Common", "anaooti"],
+ ["Nominative", "Independent", "Plural", "Person3", "Common", "issooti"],
+ ["Possessive", "Independent", "Singular", "Person1", "Common", "ii-ha/-ta"],
+ ["Possessive", "Independent", "Singular", "Person2", "Common", "kii-ha/-ta"],
+ ["Possessive", "Independent", "Singular", "Person3", "Masc", "isi-ha/-ta"],
+ ["Possessive", "Independent", "Singular", "Person3", "Fem", "ise-ha/-ta"],
+ ["Possessive", "Independent", "Plural", "Person1", "Common", "nii-ha/-ta"],
+ ["Possessive", "Independent", "Plural", "Person2", "Common", "kiniee-ha/-ta"],
+ ["Possessive", "Independent", "Plural", "Person3", "Common", "nii-ha/-ta"],
+ ["Possessive", "Suffix", "Singular", "Person1", "Common", "kiniee-ha/-ta"],
+ ["Possessive", "Suffix", "Singular", "Person2", "Common", "-e"],
+ ["Possessive", "Suffix", "Singular", "Person3", "Polite", "-si"],
+ ["Possessive", "Suffix", "Singular", "Person3", "Masc", "-kii"],
+ ["Possessive", "Suffix", "Singular", "Person3", "Fem", "-si"],
+ ["Possessive", "Suffix", "Plural", "Person1", "Common", "-nne"],
+ ["Possessive", "Suffix", "Plural", "Person2", "Common", "-ne"],
+ ["Possessive", "Suffix", "Plural", "Person3", "Common", "-ssa"]]
+},
+{
+"label": "kambaata-VAffImperfectMar-",
+"note": "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54.",
+"common": {"lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "marammi"],
+ ["Singular", "Person2", "Common", "martaanti"],
+ ["Singular", "Person3", "Polite", "mareenno"],
+ ["Singular", "Person3", "Masc", "marano"],
+ ["Singular", "Person3", "Fem", "marta’i"],
+ ["Plural", "Person1", "Common", "mannammi"],
+ ["Plural", "Person2", "Common", "marteenanta"],
+ ["Plural", "Person3", "Common", "marta’i"]]
+},
+{
+"label": "kambaata-VAffJussiveMar-",
+"note": "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54.",
+"common": {"lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Jussive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "maro"],
+ ["Singular", "Person3", "Masc", "maroni"],
+ ["Singular", "Person3", "Fem", "martuni"],
+ ["Plural", "Person1", "Common", "mannun / manno"],
+ ["Plural", "Person3", "Common", "martuni"]]
+},
+{
+"label": "kambaata-VNegImprtv-mar",
+"note": "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54.",
+"common": {"gender": "Common",
+ "lexeme": "mar",
+ "person": "Person2",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Imperative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "token"], ["Singular", "martota"], ["Plural", "marteenoc(iy)e"]]
+},
+{
+"label": "kambaata-VDervStem",
+"note": "SM85pp.56-63 :: Note discussions of consonant assimilations for causative –s- pp.56-59,for benefactive pp.59-62.",
+"common": {"pos": "Verb",
+ "vmorphClass": "DervStem"},
+"terms":  
+[["derivedStem", "token", "token-gloss"],
+ ["Benefactive",
+  "-ak- ~ --",
+  "(a) --:root-final l,r,m,n (&gt;preglottalized); t,b,d,g,f,s,š,h,z (&gt; ejective_;  (&gt;c). (b) -ak-:root-final CC,and all other root-final consonants"],
+ ["Causative1", "-(i)s-", "transitivizing"],
+ ["Causative2", "-(i)siis-", "cause domeone to do something"],
+ ["Combination", "-aam-,--aam-,-am-aam-,--am-aam-,--isiis-aam-", "SM85p,63"],
+ ["Passive", "-am-", " "],
+ ["Reduplicated", "Common", "fossilized?; SM85p.45"]]
+},
+{
+"label": "kambaata-PInterr",
+"note": "HG76p.259",
+"common": {"pmorphClass": "ProMorph",
+ "pos": "Pronoun",
+ "proClass": "Interrogative"},
+"terms":  
+[["interrogClass", "token"],
+ ["InterrogProHow", "hatti"],
+ ["InterrogProHowMany", "mei"],
+ ["InterrogProWhat", "ma"],
+ ["InterrogProWhen", "hakka"],
+ ["InterrogProWhere", "hanno"],
+ ["InterrogProWho", "aye"]]
+},
+{
+"label": "kambaata-VAffPresPerf-mar",
+"note": "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54.",
+"common": {"lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "PresentPerfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "marreemi"],
+ ["Singular", "Person2", "Common", "martenti"],
+ ["Singular", "Person3", "Polite", "mareemma"],
+ ["Singular", "Person3", "Masc", "marre’i"],
+ ["Singular", "Person3", "Fem", "marte’i"],
+ ["Plural", "Person1", "Common", "mannemmi"],
+ ["Plural", "Person2", "Common", "marteenti"],
+ ["Plural", "Person3", "Common", "marte’i"]]
+},
+{
+"label": "kambaata-VAffPresProgMar-",
+"note": "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54.",
+"common": {"lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "PresentProgressive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "marayommi"],
+ ["Singular", "Person2", "Common", "martayonti"],
+ ["Singular", "Person3", "Polite", "mareenayomma"],
+ ["Singular", "Person3", "Masc", "marayo’i"],
+ ["Singular", "Person3", "Fem", "martayo’i"],
+ ["Plural", "Person1", "Common", "mannayomini"],
+ ["Plural", "Person2", "Common", "martenayonta"],
+ ["Plural", "Person3", "Common", "martayo’i"]]
+},
+{
+"label": "kambaata-VAffSimplePerfMar-",
+"note": "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54.",
+"common": {"lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "SimplePerfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "marrommi"],
+ ["Singular", "Person2", "Common", "martoonti"],
+ ["Singular", "Person3", "Masc", "marro"],
+ ["Singular", "Person3", "Fem", "marto’i"],
+ ["Plural", "Person1", "Common", "mannommi"],
+ ["Plural", "Person2", "Common", "marteenta"],
+ ["Plural", "Person3", "Common", "marto’i"]]
+},
+{
+"label": "kambaata-VSubjMarkerTemplates",
+"note": "SM85pp.48-51 :: The following template applies to the simple perfect and the imperfect tenses. The medial vowel –V is:–o simplePerf,-e- presPerf,-a- imperfect,-ayo- progressive. PastProg adds –ikke (past tense of bo be. The token template note is: medialVowel + person1 + person2 + CFinalGem.",
+"common": {"pos": "Verb",
+ "vmorphClass": "SubjMarkerTemplates"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "V+_NULL+–mmi[simplePerf/presPerf]"],
+ ["Singular", "Person2", "Common", "V+-t+–nti+_NULL"],
+ ["Singular", "Person3", "Masc", "V+_NULL+–no[simplePerf/presPerf]"],
+ ["Singular", "Person3", "Fem", "V+_NULL+–‘i+_NULL"],
+ ["Plural", "Person1", "Common", "V+-n+–mmi+_NULL"],
+ ["Plural", "Person2", "Common", "V+-teen+–nta+_NULL"],
+ ["Plural", "Person3", "Common", "V+-t+–‘i+_NULL"]]
+},
+{
+"label": "kambaata-VAffPastProg-mar",
+"note": "SM85pp.46-48 :: Discussions of stem-desinence consonant assimilations in section #4,pp.52-54.",
+"common": {"lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "PastProgressive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "marayommi ‘ikke"],
+ ["Singular", "Person2", "Common", "martayonti ‘ikke"],
+ ["Singular", "Person3", "Masc", "marayo(‘i) ‘ikke"],
+ ["Singular", "Person3", "Fem", "martayo(‘i) ‘ikke"],
+ ["Plural", "Person1", "Common", "mannayommi ‘ikke"],
+ ["Plural", "Person2", "Common", "marteenayonta ‘ikke"],
+ ["Plural", "Person3", "Common", "martayo(‘i) ‘ikke"]]
+}]
+}
